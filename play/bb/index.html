@@ -1,0 +1,508 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bash and Block!</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.7/phaser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.6/socket.io.min.js"></script>
+
+    <style>
+        #btnUp {
+            width: 60%;
+            height: 33%;
+            margin-left: 20%;
+        }
+        
+        #btnLeft {
+            width: 45%;
+            height: 33%;
+        }
+        
+        #btnRight {
+            width: 45%;
+            height: 33%;
+        }
+        
+        #btnDown {
+            width: 60%;
+            height: 33%;
+            margin-left: 20%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+    <script>
+        window.onload = function() {
+            
+            
+            // --------------------- SETUP GAME ------------------------------------------------------
+            //var backendAddress = "192.168.11.121:59191"; // local server
+            // var backendAddress = "hpy01.halfpastyellow.com:59191"; // hpy server
+            var backendAddress = "hpy-io.halfpastyellow.com:59191"; // google server
+            
+            var orientation = "";
+            var width = window.innerWidth-20;
+            var height = window.innerHeight-40;
+            if(height > width)
+            {
+                width = window.innerHeight+50;
+                height = window.innerWidth-100;
+            }
+            
+            var game = new Phaser.Game(width, height, Phaser.AUTO, '', { preload: preload, init: init, create: create, update: update, render: render });
+            var text = "";
+            var NotConnectedText = "";
+			var ServerFullText = "";
+			var ThankYouText = "";
+			
+            var pad = "";
+            var btnBump = "";
+			var lineImg = "";
+			var lineHeight = height* 0.35;
+            var padSize = width * 0.3;
+			var btnSize = width * 0.3;
+            var padPadding = height * 0.1;
+			var padPaddingX = width * 0.1;
+			var padPaddingY = height * 0.1;
+            var padCenter = 0;
+            
+            var timeElapsed = 0;
+            var pingInterval = 5000;
+            
+            var inputDown = false;
+            var lastCmdSent = -1;
+            
+			var mid = 'Red_mid.png';
+			var left = 'Red_left.png';
+			var right = 'Red_right.png';
+			
+			var oldTeamColor = "";
+			var teamColor = "";
+			
+			var midX = 0;
+			var leftX = 0;
+            var rightX = 0;
+			var aspect = 0;
+
+			var h = height;
+			var w = width;
+
+			
+			var ended = false;
+			var full = false;
+			
+			var end = "";
+			var connecting ="";
+			var connected = false;
+			
+            function onMoveDown()
+            {
+            }
+            
+            function init()
+            {
+                // TODO: look at scale manager
+                // game.scale.fullScreenScaleMode = Phaser.ScaleManager.RESIZE;
+                // game.scale.pageAlignVertically = true;
+                // game.scale.pageAlignHorizontally = true;
+				if(h > w)
+				{
+					w = height;
+					h = width;
+				}
+				var aspect1 = w/1920;
+				var aspect2 = h/1080;
+				aspect = 0;
+				if(aspect1 < aspect2)
+				{
+					aspect = aspect1;
+				}else
+				{
+					aspect = aspect2;
+				}				
+            }
+            
+            function preload ()
+            {
+				this.load.atlas('dpad', 'dpad.png', 'dpad.txt', Phaser.Loader.TEXTURE_ATLAS_JSON_ARRAY);
+				//this.load.image('bg', 'TitleScreen.png');
+				this.load.image('end', 'end.png');
+				this.load.image('connecting', 'connecting.png');
+            }
+            
+            function create ()
+            {             				
+				game.stage.backgroundColor = '0xffffff';                              
+				
+				connecting = game.add.image(0, 0, 'connecting');
+				connecting.width = connecting.width * aspect;
+				connecting.height = (connecting.height) * aspect;
+				connecting.x = w/2 - connecting.width/2;
+				connecting.y = h/2 - connecting.height/2;				
+				connecting.visible = true;					
+				
+				end = game.add.image(0, 0, 'end');
+				end.width = end.width * aspect;
+				end.height = (end.height) * aspect;
+				end.x = w/2 - end.width/2;
+				end.y = h/2 - end.height/2;
+				end.visible = false;
+				
+                text = game.add.text(10,10, 'Hold in landscape');
+				NotConnectedText = game.add.text(-1000, height/2, 'Connecting to server. Please wait...');
+				ServerFullText = game.add.text(10, -1000, 'Server is full! Please try again in a bit.');
+				ThankYouText = game.add.text(10, -1000, "Thanks for playing! Enjoy the rest of GoogleIO!");
+				
+				console.log("sanity Num: 9" );
+				
+                padCenter = new Phaser.Point(padPaddingX + padSize / 2, padPaddingY + padSize / 2);                
+				lineImg.visible = false;
+				pad.visible = false;
+				btnBump.visible = false;
+                
+                game.input.onDown.add(onGameDown, this);
+                game.input.onUp.add(onGameUp, this);
+                
+            }
+			
+			function changeGraphicColor(col)
+			{
+				if(col == "0")
+				{
+					mid = 'Red_mid.png';
+					left = 'Red_left.png';
+					right = 'Red_right.png';
+				}else if(col == "1")
+				{
+					mid = 'Blue_mid.png';
+					left = 'Blue_left.png';
+					right = 'Blue_right.png';
+				}else if(col == "2")
+				{
+					mid = 'Green_mid.png';
+					left = 'Green_left.png';
+					right = 'Green_right.png';				
+				}else
+				{
+					mid = 'Yellow_mid.png';				
+					left = 'Yellow_left.png';				
+					right = 'Yellow_right.png';				
+				}
+				
+				teamColor = col;
+			}
+            			
+			function updateTeamColor()
+			{
+				lineImg.visible = false;
+				pad.visible = false;
+				btnBump.visible = false;			
+			
+				var lineW = width-padPaddingX- btnSize/2 - padPaddingX - padSize/2;
+				var lineH = lineW/2;
+			
+				lineImg = game.add.image(padPaddingX + padSize/2, padPaddingY + padSize/2 - lineH/2, 'dpad', mid);
+				
+				lineImg.width = lineW;				
+				lineImg.height = lineH;
+                
+                pad = game.add.image(padPaddingX, padPaddingY,'dpad', left);
+				pad.width = padSize;
+				pad.height = padSize;
+								
+                btnBump = game.add.image(width - padPaddingX - padSize/2 - btnSize/2, padPaddingY + padSize/2 - (btnSize*0.5), 'dpad', right);
+				
+				btnBump.height = btnSize;
+				btnBump.width = btnSize;			
+				
+				lineImg.visible = true;
+				pad.visible = true;
+				btnBump.visible = true;
+				
+				midX = lineImg.position.x;
+				leftX = pad.position.x;
+				rightX = btnBump.position.x;
+				
+				oldTeamColor = teamColor;
+			}
+			
+            function updatePingTimer()
+            {
+                timeElapsed += game.time.elapsed;
+                if(timeElapsed > pingInterval)
+                {
+                    timeElapsed -= pingInterval;
+                    pingServer();
+                }
+            }
+            
+            function updateGraphics()
+            {
+                
+                width = window.innerWidth-20;
+                height = window.innerHeight-40;
+                
+                
+                // check if orientation was updated
+                var newOrientation = width > height ? "landscape" : "portrait";
+                orientation = newOrientation;
+                //console.log("orientation updated: " + orientation);
+                
+                game.stage.width = width;
+                
+                // landscape mode
+                if(orientation == "landscape")
+                {
+                    padCenter = new Phaser.Point(padPaddingX + padSize / 2, padPaddingY + padSize / 2);
+                                        
+				//init
+					if(connected == false)
+					{
+						if(ended == false)
+						{
+							if(id != recvID)
+							{
+								connected = true;
+								id = recvID;
+								NotConnectedText.y = -1000;
+								connecting.visible = false;
+								updateTeamColor();				
+							}else
+							{
+								connecting.visible = true;
+							}
+						}
+					}
+										
+                    text.x = -1000;
+					//NotConnectedText.x = 10;
+					//if(ended == false && NotConnectedText.y == -1000)
+					//{
+					//	updateTeamColor();
+					//}
+					if(ended == true)
+					{
+						end.visible = true;
+					}else
+					{
+						if(oldTeamColor != teamColor)
+						{
+							if(NotConnectedText.y == -1000 && text.x == -1000)
+							{
+								updateTeamColor();
+							}				
+						}												
+					
+						lineImg.visible = true;
+						pad.visible = true;
+						btnBump.visible = true;					
+					}
+                }
+                // portrait mode
+                else
+                {
+					text.x = 0;
+					end.visible = false;
+					connecting.visible = false;
+                    text.y = window.innerHeight * 0.25;
+					lineImg.visible = false;
+					pad.visible = false;
+					btnBump.visible = false;
+                }
+                
+            }
+            
+            function onGameDown()
+            {
+				if(ended == true && orientation == "landscape")
+				{
+					if(game.input.x < width * 0.5)
+					{
+						//refresh
+						location.reload();
+					}else
+					{
+						//go to hpy
+						window.location.href = 'http://www.halfpastyellow.com';
+					}
+					
+					return;
+				}
+			
+                inputDown = true;
+            }
+            
+            function onGameUp()
+            {
+                inputDown = false;
+                
+                // check for bounce button
+                if(orientation == "landscape" && game.input.x > width * 0.6) {
+                    onBump();
+                } 
+                
+                sendInputStop();
+            }
+            
+            function update()
+            {
+				if(full == true)
+				{
+					return;
+				}
+									
+                updateGraphics();
+				
+				if(ended == true)
+				{
+					return;
+				}
+				
+				
+                updatePingTimer();
+                
+                if(!inputDown) return;
+                
+                // left side
+                if(orientation == "landscape" && game.input.x < width * 0.6)
+                {
+                    var dir = new Phaser.Point(game.input.x - padCenter.x, game.input.y - padCenter.y);
+                    var angle = Math.atan2(dir.y,dir.x) * (180 / Math.PI) ;
+                    
+                    if(angle > -135 && angle < -45)
+                    {
+                        //console.log("up");
+                        onUp();
+                    }
+                    
+                    else if(angle > -45 && angle < 45)
+                    {
+                        //console.log("right");
+                        onRight();
+                    }
+                    
+                    else if(angle > 45 && angle < 135)
+                    {
+                        //console.log("down");
+                        onDown();
+                    }
+                    
+                    else if(angle < -135 || angle > 135)
+                    {
+                        //console.log("lefts");
+                        onLeft();
+                    }
+                }
+            }
+            
+            function render () 
+            {
+            }
+        
+          
+            // --------------------- SETUP SOCKETS ------------------------------------------------------
+            var connectionOptions =  {
+                "force new connection" : true,
+                "reconnectionAttempts": "Infinity", //avoid having user reconnect manually in order to prevent dead clients after a server restart
+                "timeout" : 10000, //before connect_error and connect_timeout are emitted.
+                "transports" : ["websocket"]
+            };
+            
+            var socket = io(backendAddress, connectionOptions);
+            var id = -1; // identify    
+			var recvID = -1;
+            
+            //  ----- request unique player id
+            console.log("requesting id...");
+            socket.emit("id");
+            socket.on("id", function(msg){
+        		console.log("recived id " + msg);
+        		recvID = msg;
+				socket.emit("getColor", recvID);
+            });
+            
+            socket.on("color", function(msg){
+
+<!-- 				NotConnectedText.y = -1000;-->
+				//connecting.visible = false; 
+                var color = '0xffffff';
+                if(msg=="0") color = '0xDC676A'; // red
+                if(msg=="1") color = '0x6BBBD2'; // blue
+                if(msg=="2") color = '0x94CA8F'; // green
+                if(msg=="3") color = '0xDACB6A'; // yellow
+				
+				changeGraphicColor(msg);
+				console.log("got Color");
+                game.stage.backgroundColor = '0xffffff';
+            });
+            
+            
+            socket.on("end", function(msg)
+            {
+                id = -1;
+                //game.stage.backgroundColor = '0x000000';
+				connecting.visible = false;
+				
+				NotConnectedText.y = -1000;
+				lineImg.visible = false;
+				pad.visible = false;
+				btnBump.visible = false;
+				ended = true;
+				<!-- ThankYouText.y = height/4; -->
+				socket.disconnect();
+            })
+			
+			socket.on("serverFull", function(msg)
+			{
+				ServerFullText.y = height/2;
+				full = true;
+				NotConnectedText.y = -1000;
+				connecting.visible = false;
+			})
+          
+              
+            
+            
+            // ------ INPUT SENDING API ---------------
+            
+            function onUp() { sendInput(0); }
+            function onDown() { sendInput(1); }
+            function onLeft() { sendInput(2); }
+            function onRight() { sendInput(3); }
+            function onBump() { sendInput(4); }
+            
+            function sendInput(input)
+            {
+                console.log("input: " + input);
+                if(id == -1) return;
+                
+                if(input == lastCmdSent) return;
+                lastCmdSent = input;
+                socket.emit("input", id.toString() + " " + input.toString());
+                //console.log("sent input: " + id.toString() + " " + input.toString());
+            }
+            
+            function sendInputStop()
+            {
+                //console.log("input: -1");
+                if(id == -1) return;
+                
+                lastCmdSent = -1;
+                socket.emit("input", id.toString() + " -1");
+                //console.log("input", id.toString() + " -1");
+            }
+            
+            function pingServer()
+            {
+                if(id == -1) return;
+                socket.emit("pingClient", id.toString());
+				console.log("ping sent");
+            }
+        }
+    </script>
+</body>
+
+</html>
