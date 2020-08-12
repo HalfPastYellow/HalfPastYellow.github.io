@@ -44,6 +44,7 @@ a:hover {
 	display: table;
 	height: 50vh;
 	width: 100%;
+	max-height: 512px;
 }
 #icon-footer > div {
 	vertical-align: middle;
@@ -58,6 +59,15 @@ a:hover {
 }
 .with-padding {
 	padding: 75px 75px 50px;
+}
+.img-footer {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	max-width: 256px;
+	min-width: 256px;
 }
 .member-portrait {
 	padding: 50px 25px 0px;
