@@ -150,16 +150,20 @@ a:hover {
 	filter: alpha(opacity=100);
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
+@media screen and (orientation: portrait) {
+.box {
+	width: 92%;
+	margin: 0px 4vw 50px;
+}
 }
 
-@media screen and (min-width:769px) {
+@media screen and (max-width: 1178px) {
+.box {
+	width: 92%;
+	margin: 0px 4vw 50px;
 }
-
-@media screen and (min-width : 1396.1000px ) {
-.box:after {
-	content: '';
-	display: table;
-	clear: both;
+.img-footer {
+	max-width: 192px;
+	min-width: 192px;
 }
 }
