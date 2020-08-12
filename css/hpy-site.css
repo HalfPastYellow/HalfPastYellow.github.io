@@ -15,6 +15,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
+	color: #fad016;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
@@ -50,10 +51,13 @@ a:hover {
 }
 .box {
 	margin-bottom: 100px;
-	padding: 75px 75px 50px;
 	background: black;
 	border: #fad016 solid 5px;
+	overflow: hidden;
 	border-radius: 25px;
+}
+.with-padding {
+	padding: 75px 75px 50px;
 }
 .member-portrait {
 	padding: 50px 25px 0px;
@@ -61,7 +65,7 @@ a:hover {
 .label-thick {
 	text-transform: uppercase;
 	font-size: 2.25em;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 1px;
 	color: #fad016;
 }
@@ -70,12 +74,6 @@ a:hover {
 	font-weight: 500;
 	letter-spacing: 1px;
 	color: #fad016;
-}
-.img-border {
-	margin-bottom: 100px;
-	border: #fad016 solid 5px;
-	overflow: hidden;
-	border-radius: 25px;
 }
 .hovereffect {
 	z-index: 1;
@@ -106,65 +104,40 @@ a:hover {
 	z-index: 0;
 	display: block;
 	position: relative;
-	-webkit-transition: all .4s linear;
-	transition: all .4s linear;
+	overflow: hidden;
 	border-radius: 10px;
 }
-.hovereffect h2 {
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	position: relative;
-	font-size: 1.25em;
-	background: rgba(0,0,0,0.6);
-	-webkit-transform: translatey(-100px);
-	-ms-transform: translatey(-100px);
-	transform: translatey(-100px);
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-	margin-top: 35%;
-	padding: 10px;
-}
-.hovereffect a.info {
+.hovereffect a.infoSquare {
 	text-decoration: none;
 	display: inline-block;
 	text-transform: uppercase;
-	color: #fff;
-	background-color: transparent;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-	margin: 10% 0 0;
-	padding: 7px 14px;
-}
-.hovereffect a.altinfo {
-	text-decoration: none;
-	display: inline-block;
-	text-transform: uppercase;
-	color: #fff;
+	color: #ffffff;
 	background-color: transparent;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	margin-top: 40%;
-	padding: 7px 14px;
+	padding: 0px 15px;
 }
-.hovereffect:hover .overlay {
+.hovereffect a.infoRect {
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: transparent;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin-top: 17%;
+	padding: 0px 15px;
+}
+.hovereffect:hover .overlay, .hovereffect:hover a.infoSquare, .hovereffect:hover a.infoRect {
 	opacity: 1;
 	filter: alpha(opacity=100);
-}
-.hovereffect:hover h2, .hovereffect:hover a.info, .hovereffect:hover a.altinfo, .hovereffect:hover a.clickable {
-	opacity: 1;
-	filter: alpha(opacity=100);
-	-ms-transform: translatey(0);
-	-webkit-transform: translatey(0);
-	transform: translatey(0);
-}
-.hovereffect:hover a.info {
-	-webkit-transition-delay: .2s;
-	transition-delay: .2s;
 }
 
 @media (min-width: 769px) and (max-width: 1000px) {
