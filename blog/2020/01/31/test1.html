@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Test post 1 - Half Past Yellow | Blog
+    Yet Another Stylised Water Shader - Half Past Yellow | Blog
     
   </title>
 
-  <meta name="description" content="Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth...">
+  <meta name="description" content="We&#39;re still hard at work on our as-yet unannounced project here at Half Past Yellow, but we&#39;ve already had some folks asking about how I put together the sty...">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -28,7 +28,7 @@
 </head>
 
 
-<body>
+<body style="background-color: #fff2000a">
 
   <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -56,23 +56,23 @@
 
 
   <!-- Page Header -->
-
-<header class="masthead" style="background-image: url('/blog/img/posts/06.jpg')">
+  
+  <header class="masthead" style="background-image: url('/blog/img/posts/1/header.png')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Test post 1</h1>
+            <h1>Yet Another Stylised Water Shader</h1>
             
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <h2 class="subheading">A semi-realistic reactive water shader breakdown</h2>
             
             <span class="meta">Posted by
-              <a href="#">Half Past Yellow</a>
+              <a href="https://twitter.com/R3mzo">Remy</a>
               on January 31, 2020 &middot; <span class="reading-time" title="Estimated read time">
   
-   4 mins  read </span>
+   9 mins  read </span>
 
             </span>
           </div>
@@ -81,56 +81,141 @@
     </div>
   </header>
 
-  <div class="container">
+  <div class="container" style="background-color: white">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-10 col-md-10 mx-auto" >
 
-        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+        <p>
+We're still hard at work on our as-yet unannounced project here at Half Past Yellow, but we've already had some folks asking about how I put together the stylised water shader shown in this here tweet:
+<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Yet another stylised water shader.<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/unity3d?src=hash&amp;ref_src=twsrc%5Etfw">#unity3d</a> <a href="https://t.co/WGkM2CRtIU">pic.twitter.com/WGkM2CRtIU</a></p>&mdash; Remy Stuurwold (@R3mzo) <a href="https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</P>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>
+We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar.
+</p>
+<p>
+The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
+</P>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>
+We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! 
+</p>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<h2 class="section-heading">Color and Light Absorption</h2>
+<p>
+Color seems like a good place to start. There are a bunch of tricks I'm doing here to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our <i>Surface Color</i>.
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/albedo.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">What a fantastic start.</span>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<p>
+Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly.
+</p>
 
-<h2 class="section-heading">The Final Frontier</h2>
+<p>
+If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this:
+</p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/simpleTint2.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">More watery, but we can do a lot better.</span>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>
+ To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is <i>dense</i>. Let's go through it.
+</p>
 
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+<p>
+First, I take the inverse of the water color, which I'll call the <i>Absorption Color</i>. Then, I calculate the <i>Absorption Value</i> which controls how much color absorption there is. The <i>Absorption Value</i> is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or squared to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call <i>Absorption Strength</i>. I then multiply the <i>Absorption Color</i> by this calculated <i>Absorption Value</i> to get what I call the <i>Subtractive Color</i>.
+</p>
+<figure class="highlight"><pre><code class="language-csharp" data-lang="csharp">	<span class="n">fixed3</span> <span class="n">absorptionColor</span> <span class="p">=</span> <span class="p">(</span><span class="nf">float3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">)-</span><span class="n">_Color</span><span class="p">);</span>
+	<span class="kt">float</span> <span class="n">absorptionVal</span> <span class="p">=</span> <span class="m">1.0</span> <span class="p">-</span> <span class="p">((</span><span class="nf">exp2</span><span class="p">(-</span><span class="n">_AbsorptionStrength</span> <span class="p">*</span> <span class="n">depthVal</span><span class="p">)));</span>
 
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+	<span class="n">float3</span> <span class="n">subtractiveColor</span> <span class="p">=</span> <span class="n">absorptionColor</span> <span class="p">*</span> <span class="n">absorptionVal</span><span class="p">;</span></code></pre></figure>
 
-<h2 class="section-heading">Reaching for the Stars</h2>
+<p>
+If we were to render the <i>Subtractive Color</i> now, this is what we get:
+</p>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/fantasea.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Is this the real life?</span>
 
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+<p>
+It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the <i>Subtractive Color</i> from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the <i>Absorption Strength</i> tweak value:
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/underwater.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Now we're getting somewhere!</span>
 
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+<p>
+Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest.
+</p>
 
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+<p>
+We're almost there now. It can look pretty dark at high <i>Absorption Strength</i> values so let's now add this underwater color to the <i>Surface Color</i> we already have. A little bit of tweaking and <b>BOOM</b> we finally get the look we want!
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/finalcolor.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Not too shabby.</span>
 
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
+<p>
+Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like!
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4" type ="video/mp4"></>
+</div> 
 
+<h2 class="section-heading">Surface Normals and Refraction</h2>
+<p>
+I followed these Catlike Coding tutorials pew pew
+</p>
+<h2 class="section-heading">Depth Foam</h2>
+<p>
+Depth foam is i) linear band and ii) scrolling noise textures.
+</p>
+<h2 class="section-heading">Caustics</h2>
+<p>
+Caustics are scrolling textures, modulated by underwater normal, projected straight down in world space, colored by light color.
+</p>
+<h2 class="section-heading">Dynamic Flow</h2>
+<p>
+Dynamic flow is 
+</p>
+<h2 class="section-heading">Possible Future Additions</h2>
+<p>
+A couple features we could consider adding at this point to fancy it up a bit more without deviating too much from the overall art style are:
+ <ul>
+	<li>Surface Displacement</li>
+	<li>Underwater Volumetric Shadows</li>
+ </ul>
+</p>
 
-        <hr>
+<p>
+As with all the other features, these would simply be added to the shader and be independently tweakable to complement what we have already. I could spend many more weeks tinkering and fiddling but we've reached a point where we're quite happy with the result for now - there's a lot more to be done on the game after all!
+</p>
+
+<p>I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this. There's a lot more to come so be sure to hit us up on our socials to stay connected!
+</p>
+
+        <hr style="margin-top: 2rem">
 
         <div class="clearfix">
 
           
           
-          <a class="btn btn-primary float-right" href="/blog/2020/03/02/test2.html" data-toggle="tooltip" data-placement="top" title="Test post 2">Next<span class="d-none d-md-inline">
+          <a class="btn btn-primary float-right" href="/blog/2020/07/01/test6.html" data-toggle="tooltip" data-placement="top" title="This is a title 6">Next<span class="d-none d-md-inline">
               Post</span> &rarr;</a>
           
-
         </div>
-
+		  
+		  <hr>
+		  
       </div>
     </div>
   </div>
@@ -138,22 +223,15 @@
 
   <!-- Footer -->
 
-<hr>
-
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+		<div class="container" style="max-width: 80px">
+			<img class="img-fluid" src="https://halfpastyellow.com/blog/img/hpycircle_white.png"></>
+		</div>
+		<h4 class="text-center">Stay in touch!</h2>
         <ul class="list-inline text-center">
-          
-          <li class="list-inline-item">
-            <a href="mailto:info@halfpastyellow.com">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
           
           
           <li class="list-inline-item">
@@ -178,6 +256,15 @@
           
           
           
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/GFJvqrR">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
           		  
         </ul>
         <p class="copyright text-muted">Copyright &copy; Half Past Yellow 2020</p>

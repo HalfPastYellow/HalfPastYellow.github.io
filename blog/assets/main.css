@@ -1,11 +1,13 @@
+@import url(monokai.css);
 body {
-  font-size: 20px;
+  font-size: 18px;
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif; }
 
 p {
   line-height: 1.5;
-  margin: 30px 0; }
+  margin-top: 10px;
+  margin-bottom: 20px; }
   p a {
     text-decoration: underline; }
 
@@ -33,7 +35,7 @@ blockquote {
 .section-heading {
   font-size: 36px;
   font-weight: 700;
-  margin-top: 60px; }
+  margin-top: 30px; }
 
 .caption {
   font-size: 14px;
@@ -134,7 +136,6 @@ img::-moz-selection {
         transform: translate3d(0, 100%, 0); } }
 
 header.masthead {
-  margin-bottom: 50px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -150,7 +151,7 @@ header.masthead {
     height: 100%;
     width: 100%;
     background-color: #212529;
-    opacity: 0.5; }
+    opacity: 0.15; }
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
@@ -280,7 +281,7 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6; }
 
 footer {
-  padding: 50px 0 65px; }
+  padding: 10px 0 65px; }
   footer .list-inline {
     margin: 0;
     padding: 0; }
@@ -309,3 +310,32 @@ footer {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px; }
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: auto;
+  max-height: 200px; }
+
+.video-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.bordered {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem; }
+
+pre code {
+  font-size: 87.5%; }
+
+code, body {
+  line-height: 1.0; }
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 960px; } }

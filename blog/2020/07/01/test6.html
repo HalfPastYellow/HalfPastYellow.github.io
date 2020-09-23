@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Test post 6 - Half Past Yellow | Blog
+    This is a title 6 - Half Past Yellow | Blog
     
   </title>
 
-  <meta name="description" content="This is test post 6.">
+  <meta name="description" content="Images This is how to post an image with optional caption below it: This is the image caption.">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -28,7 +28,7 @@
 </head>
 
 
-<body>
+<body style="background-color: #fff2000a">
 
   <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -56,23 +56,23 @@
 
 
   <!-- Page Header -->
-
-<header class="masthead" style="background-image: url('/blog/img/posts/06.jpg')">
+  
+  <header class="masthead" style="background-image: url('/blog/img/posts/1/header.png')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Test post 6</h1>
+            <h1>This is a title 6</h1>
             
-            <h2 class="subheading">The sixth post</h2>
+            <h2 class="subheading">The one where I test the thumbnail layout</h2>
             
             <span class="meta">Posted by
-              <a href="#">Half Past Yellow</a>
+              <a href="https://twitter.com/R3mzo">Remy</a>
               on July 01, 2020 &middot; <span class="reading-time" title="Estimated read time">
   
-   1 min  read </span>
+   2 mins  read </span>
 
             </span>
           </div>
@@ -81,24 +81,72 @@
     </div>
   </header>
 
-  <div class="container">
+  <div class="container" style="background-color: white">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-10 col-md-10 mx-auto" >
 
-        <p> This is test post 6. </p>
+        <h2 class="section-heading">Images</h2>
+<p>This is how to post an image with optional caption below it:
+<img class="img-fluid bordered" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
+<span class="caption text-muted">This is the image caption.</span>
+</p>
 
-        <hr>
+Gifs work
+<div class="text-center"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/test2.gif" alt="Demo Image"></></div>
+
+<p>Autoplay looping MP4 also works (and is preferred over gifs):</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/test2_23_1.mp4" type ="video/mp4"></>
+</div> 
+
+<h2 class="section-heading">Video</h2>
+Working for both Youtube and Vimeo:
+<div class="embed-responsive embed-responsive-16by9 rounded">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+</div>
+
+<h2 class="section-heading">Tweet Embed</h2>
+This is just the regular twitter embed code with "tw-align-center" added to the class variable to center it:
+<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Yet another stylised water shader.<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/unity3d?src=hash&amp;ref_src=twsrc%5Etfw">#unity3d</a> <a href="https://t.co/WGkM2CRtIU">pic.twitter.com/WGkM2CRtIU</a></p>&mdash; Remy Stuurwold (@R3mzo) <a href="https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 class="section-heading">Code</h2>
+This is how you make a code block:
+<figure class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UIOscillate</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="n">RectTransform</span> <span class="n">m_Transform</span><span class="p">;</span>
+    <span class="k">private</span> <span class="kt">float</span> <span class="n">m_Angle</span> <span class="p">=</span> <span class="m">0.0f</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">const</span> <span class="kt">float</span> <span class="n">c_Period</span> <span class="p">=</span> <span class="m">2.0f</span><span class="p">;</span>
+	
+    <span class="k">private</span> <span class="k">void</span> <span class="nf">Awake</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">m_Transform</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">RectTransform</span><span class="p">&gt;();</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Update is called once per frame</span>
+    <span class="k">void</span> <span class="nf">Update</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">m_Angle</span> <span class="p">+=</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">c_Period</span><span class="p">;</span>
+        <span class="n">m_Transform</span><span class="p">.</span><span class="n">rotation</span> <span class="p">=</span> <span class="n">Quaternion</span><span class="p">.</span><span class="nf">Euler</span><span class="p">(</span><span class="m">0.0f</span><span class="p">,</span> <span class="m">0.0f</span><span class="p">,</span> <span class="n">Mathf</span><span class="p">.</span><span class="nf">Sin</span><span class="p">(</span><span class="n">m_Angle</span><span class="p">)</span> <span class="p">*</span> <span class="m">10.0f</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+        <hr style="margin-top: 2rem">
 
         <div class="clearfix">
 
           
-          <a class="btn btn-primary float-left" href="/blog/2020/05/31/test5.html" data-toggle="tooltip" data-placement="top" title="Test post 5">&larr; Previous<span class="d-none d-md-inline">
+          <a class="btn btn-primary float-left" href="/blog/2020/01/31/test1.html" data-toggle="tooltip" data-placement="top" title="Yet Another Stylised Water Shader">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
           
           
-
         </div>
-
+		  
+		  <hr>
+		  
       </div>
     </div>
   </div>
@@ -106,22 +154,15 @@
 
   <!-- Footer -->
 
-<hr>
-
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+		<div class="container" style="max-width: 80px">
+			<img class="img-fluid" src="https://halfpastyellow.com/blog/img/hpycircle_white.png"></>
+		</div>
+		<h4 class="text-center">Stay in touch!</h2>
         <ul class="list-inline text-center">
-          
-          <li class="list-inline-item">
-            <a href="mailto:info@halfpastyellow.com">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
           
           
           <li class="list-inline-item">
@@ -146,6 +187,15 @@
           
           
           
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/GFJvqrR">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
           		  
         </ul>
         <p class="copyright text-muted">Copyright &copy; Half Past Yellow 2020</p>
