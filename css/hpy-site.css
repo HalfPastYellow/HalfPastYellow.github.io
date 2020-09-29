@@ -176,7 +176,7 @@ footer {
     padding: 0;
   }
   .copyright {
-    font-size: 14px;
+    font-size: 8px;
     margin-bottom: 0;
     text-align: center;
   }
@@ -714,7 +714,7 @@ footer {
       border-bottom: 1px solid transparent;
       background: transparent; }
       #mainNav .navbar-brand {
-        padding: 10px 100px;
+        padding: 10px 20px;
         color: #fed217; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: rgba(255, 255, 255, 0.8); }
