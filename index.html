@@ -19,6 +19,7 @@
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
+<link rel="stylesheet" href="blog/assets/vendor/fontawesome-free/css/all.min.css">
 <link href="css/hpy-site.css" rel="stylesheet">
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -51,7 +52,7 @@
 
 <body>
 <section id ="header">
-  <div class="container"><img src="img/header.png" class="img-responsive center-block" /> </div>
+  <div class="container"><img src="img/header_purple.png" class="img-responsive center-block" style="max-width: 40%"/> </div>
 </section>
 <div class="container">
   <div class="row box">
@@ -62,19 +63,19 @@
 </div>
 <div class="container">
   <div class="row box with-padding">
-    <div class="col-md-4 text-center">
+    <div class="col-xs-4 text-center">
       <div class="hovereffect"> <a href="https://komakogame.com/"><img src="img/Komako_Icon.png" alt="komakoicon" class="img-responsive img-rounded">
         <div class="overlay"> <a class="infoSquare">an adventure game about a girl exploring an abandoned theme park</a></div>
         </a></div>
       <p class="label-thick"><a href="https://komakogame.com/" target="_blank">Komako</a></p>
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-xs-4 text-center">
       <div class="hovereffect"> <a href="http://tinytomb.com/"><img src="img/TT_Icon.png" alt="tinytombicon" class="img-responsive img-rounded">
         <div class="overlay"> <a class="infoSquare">a roguelike dungeon crawler for mobile</a> </div>
         </a></div>
       <p class="label-thick"><a href="http://tinytomb.com/" target="_blank">Tiny Tomb</a></p>
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-xs-4 text-center">
       <div class="hovereffect" ><a href="https://halfpastyellow.itch.io/"><img src="img/jam.gif" alt="gamjamgif" class="img-responsive img-rounded">
         <div class="overlay"> <a class="infoSquare">check out our latest game jam games and download them for free</a> </div>
         </a></div>
@@ -90,43 +91,77 @@
 	  <p>We are now working hard on our next project that we are excited to share more about very soon. Stay tuned!</p>
     </div>
     <div class="col-md-6">
-      <div class="col-sm-6 text-center">
+      <div class="col-xs-6 text-center">
         <div class="member-portrait"><img src="img/casper.gif" alt="caspergif" class="img-responsive"></div>
         <p class="label-thin">Casper</p>
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-xs-6 text-center">
         <div class="member-portrait"><img src="img/gian.gif" alt="giangif" class="img-responsive"></div>
         <p class="label-thin">Gianfranco</p>
       </div>
     </div>
     <div class="col-md-6">
-      <div class="col-sm-6 text-center">
+      <div class="col-xs-6 text-center">
         <div class="member-portrait"><img src="img/max.gif" alt="maxgif" class="img-responsive"></div>
         <p class="label-thin">Max</p>
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-xs-6 text-center">
         <div class="member-portrait"><img src="img/remy.gif" alt="remygif" class="img-responsive"></div>
         <p class="label-thin">Remy</p>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row box with-padding">
-    <div class="col-sm-6"> <img src="img/crew.gif" alt="crewgif" class="img-responsive"/> </div>
-    <div class="col-sm-6 text-center" style="margin-top: 8%;">
-      <h1>contact us</h1>
-      <p>info@halfpastyellow.com</p>
-      <p><a href="http://twitter.com/halfpastyellow" target="_blank">@HalfPastYellow</a></p>
-      <p><a href="/press" target="_blank">presskit</a></p>
-    </div>
-  </div>
-</div>
-<section id ="icon-footer">
-  <div class="container">
-    <div class="row img-footer"> <img src="img/hpyIcon.png" alt="hpyicon" class="img-responsive"/> </div>
+
+<section id ="icon-footer" style="padding-bottom: 0px">
+  <div class="text-center">
+    <img class="img-fluid" src="img/hpyIcon.png" alt="hpyicon" class="img-responsive" style="max-width: 50px"/>
   </div>
 </section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div>
+		<h4 class="text-center">Stay woke.</h2>
+        <ul class="list-inline text-center">
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/halfpastyellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-black"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/HalfPastYellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-black"></i>
+              </span>
+            </a>
+          </li>          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/GFJvqrR">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-black"></i>
+              </span>
+            </a>
+          </li>
+          		  
+        </ul>
+		<div class="text-center" style="padding-top: 8px">
+			<button onclick="location.href='https://newsletter.halfpastyellow.com/signup'" class="button subscribe" href="https://newsletter.halfpastyellow.com/signup">Sign up to the Newsletter!</button>
+		</div>
+        <p class="copyright text-muted">Copyright &copy; Half Past Yellow 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <!-- jQuery --> 
 <script src="js/jquery.js"></script> 
