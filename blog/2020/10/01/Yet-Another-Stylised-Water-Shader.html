@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Yet Another Stylised Water Shader - Half Past Yellow | Blog
+    
+  </title>
+
+  <meta name="description" content="We&#39;ve had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it&#39;d be a good idea to give a general ...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/blog/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="canonical" href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">
+  <link rel="alternate" type="application/rss+xml" title="Half Past Yellow | Blog" href="/blog/feed.xml">
+
+</head>
+
+
+<body style="background-color: #fff2000a">
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <div>
+      <a class="navbar-brand" href="https://halfpastyellow.com" style="margin-right: 2px">Half Past Yellow </a><a class="navbar-brand" href="/blog/">| Blog</a></a>
+	</div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://halfpastyellow.com">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://halfpastyellow.com/press">Press</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+  
+  <header class="masthead" style="background-image: url('/blog/img/posts/1/header.png')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Yet Another Stylised Water Shader</h1>
+            
+            <h2 class="subheading">A semi-realistic water shader breakdown pt.1</h2>
+            
+            <span class="meta">Posted by
+              <a href="https://twitter.com/R3mzo">Remy</a>
+              on October 01, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   14 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="background-color: white">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 mx-auto" style="padding-top: 10px">
+
+        <p>
+We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
+</P>
+
+<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Yet another stylised water shader.<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/unity3d?src=hash&amp;ref_src=twsrc%5Etfw">#unity3d</a> <a href="https://t.co/WGkM2CRtIU">pic.twitter.com/WGkM2CRtIU</a></p>&mdash; Remy Stuurwold (@R3mzo) <a href="https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>
+We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing resources without which we could not have achieved this and I'll be linking to them below.
+</p>
+
+<p>
+The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
+</P>
+
+<p>
+We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! 
+</p>
+
+<h2 class="section-heading">Color and Light Absorption</h2>
+<p>
+Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our <i>Surface Color</i>.
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/albedo.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">What a fantastic start.</span>
+
+<p>
+Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly.
+</p>
+
+<p>
+If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this:
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/simpleTint2.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">More watery, but we can do a lot better.</span>
+
+<p>
+ To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is <i>dense</i>. Let's go through it.
+</p>
+
+<p>
+First, I take the inverse of the water color, which I'll call the <i>Absorption Color</i>. Then, I calculate the <i>Absorption Value</i> which controls how much color absorption there is. The <i>Absorption Value</i> is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call <i>Absorption Strength</i>. I then multiply the <i>Absorption Color</i> by this calculated <i>Absorption Value</i> to get what I call the <i>Subtractive Color</i>.
+</p>
+<figure class="highlight"><pre><code class="language-csharp" data-lang="csharp">	<span class="n">fixed3</span> <span class="n">absorptionColor</span> <span class="p">=</span> <span class="nf">float3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">)-</span><span class="n">_Color</span><span class="p">;</span>
+	<span class="kt">float</span> <span class="n">absorptionVal</span> <span class="p">=</span> <span class="m">1.0</span> <span class="p">-</span> <span class="nf">exp2</span><span class="p">(-</span><span class="n">_AbsorptionStrength</span> <span class="p">*</span> <span class="n">depthVal</span><span class="p">);</span>
+
+	<span class="n">float3</span> <span class="n">subtractiveColor</span> <span class="p">=</span> <span class="n">absorptionColor</span> <span class="p">*</span> <span class="n">absorptionVal</span><span class="p">;</span></code></pre></figure>
+
+<p>
+If we were to render the <i>Subtractive Color</i> now, this is what we get:
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/fantasea.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Is this the real life?</span>
+
+<p>
+It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the <i>Subtractive Color</i> from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the <i>Absorption Strength</i> tweak value:
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/underwater.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Now we're getting somewhere!</span>
+
+<p>
+Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest.
+</p>
+
+<p>
+We're almost there now. It can look pretty dark at high <i>Absorption Strength</i> values so let's now add this underwater color to the <i>Surface Color</i> we already have. A little bit of tweaking and <b>BOOM</b> we finally get the look we want!
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/finalcolor.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Refreshing.</span>
+
+<p>
+Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like!
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Disco Juice!</span>
+
+<h2 class="section-heading">Surface Normals and Refraction</h2>
+
+<p>
+Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water.
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/normals.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Smoothy/Bumpy</span>
+
+<p>
+For this entire section, I'm going to have to direct you to <a href="https://catlikecoding.com/unity/tutorials/flow/">this tutorial collection by Catlike Coding</a> that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
+</p>
+
+<p>
+Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the <i>Underwater Color</i>, we get a nicely convincing result.
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/refraction.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Sea legs.</span> 
+
+<p>
+As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly "realistic" to do so - just set it up with whatever looks best!
+</p>
+
+<h2 class="section-heading">Depth Foam</h2>
+<p>
+We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals.
+</p>
+
+<p>
+Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask.
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/foam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">The foaming ring of water!</span> 
+
+<p>
+For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that "true realism" is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all "just works!"
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/finalfoam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Beach please.</span> 
+
+<h2 class="section-heading">Caustics</h2>
+<p>
+Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. 
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">2spooky4me</span> 
+
+
+<p>
+Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the <i>Underwater Color</i>. That's it! We've essentially projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
+</p>
+
+<p>
+Turn back on the rest of the water and the look is complete!
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/caustics.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Nice.</span> 
+
+<br>
+<p>
+Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this.
+</p>
+
+<p> 
+There's quite a bit here already so in the next part we'll explore how we made the water interactive with:
+</p>
+<ul>
+  <li> Dynamic Flow
+  <li> Entry/Exit splashes
+</ul>
+
+<p>
+Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/final.mp4" type ="video/mp4"></>
+</div> 
+
+        <hr style="margin-top: 2rem">
+
+        <div class="clearfix">
+
+          
+          
+        </div>
+		  
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+		<div class="container" style="max-width: 80px">
+			<img class="img-fluid" src="https://halfpastyellow.com/blog/img/hpycircle_white.png"></>
+		</div>
+		<h4 class="text-center">Stay woke.</h2>
+        <ul class="list-inline text-center">
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/halfpastyellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/HalfPastYellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/GFJvqrR">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          		  
+        </ul>
+		<div class="text-center" style="padding-top: 8px">
+			<button onclick="location.href='https://newsletter.halfpastyellow.com/signup'" class="button subscribe" href="https://newsletter.halfpastyellow.com/signup">Sign up to the Newsletter!</button>
+		</div>
+        <p class="copyright text-muted">Copyright &copy; Half Past Yellow 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/blog/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/blog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/blog/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/blog/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76510863-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76510863-1');
+</script>
+
+
+
+</body>
+
+</html>

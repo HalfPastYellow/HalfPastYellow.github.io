@@ -1,58 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-09-23T17:33:48+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">This is a title 6</title><link href="https://halfpastyellow.com/blog/2020/07/01/test6.html" rel="alternate" type="text/html" title="This is a title 6" /><published>2020-07-01T16:45:13+02:00</published><updated>2020-07-01T16:45:13+02:00</updated><id>https://halfpastyellow.com/blog/2020/07/01/test6</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/07/01/test6.html">&lt;h2 class=&quot;section-heading&quot;&gt;Images&lt;/h2&gt;
-&lt;p&gt;This is how to post an image with optional caption below it:
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;This is the image caption.&lt;/span&gt;
-&lt;/p&gt;
-
-Gifs work
-&lt;div class=&quot;text-center&quot;&gt;&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/test2.gif&quot; alt=&quot;Demo Image&quot;&gt;&lt;/&gt;&lt;/div&gt;
-
-&lt;p&gt;Autoplay looping MP4 also works (and is preferred over gifs):&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/test2_23_1.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Video&lt;/h2&gt;
-Working for both Youtube and Vimeo:
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 rounded&quot;&gt;
-	&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/v64KOxKVLVg&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Tweet Embed&lt;/h2&gt;
-This is just the regular twitter embed code with &quot;tw-align-center&quot; added to the class variable to center it:
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yet another stylised water shader.&lt;a href=&quot;https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#screenshotsaturday&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gamedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gamedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/indiedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/unity3d?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#unity3d&lt;/a&gt; &lt;a href=&quot;https://t.co/WGkM2CRtIU&quot;&gt;pic.twitter.com/WGkM2CRtIU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remy Stuurwold (@R3mzo) &lt;a href=&quot;https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Code&lt;/h2&gt;
-This is how you make a code block:
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;System.Collections&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;System.Collections.Generic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UIOscillate&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RectTransform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m_Transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m_Angle&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c_Period&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	
-    &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;m_Transform&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gameObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetComponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RectTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Update is called once per frame&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;m_Angle&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deltaTime&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c_Period&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;m_Transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mathf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m_Angle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Remy</name></author><summary type="html">Images This is how to post an image with optional caption below it: This is the image caption.</summary></entry><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/01/31/test1.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-01-31T15:45:13+01:00</published><updated>2020-01-31T15:45:13+01:00</updated><id>https://halfpastyellow.com/blog/2020/01/31/test1</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/01/31/test1.html">&lt;p&gt;
-We're still hard at work on our as-yet unannounced project here at Half Past Yellow, but we've already had some folks asking about how I put together the stylised water shader shown in this here tweet:
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yet another stylised water shader.&lt;a href=&quot;https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#screenshotsaturday&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gamedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gamedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/indiedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/unity3d?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#unity3d&lt;/a&gt; &lt;a href=&quot;https://t.co/WGkM2CRtIU&quot;&gt;pic.twitter.com/WGkM2CRtIU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remy Stuurwold (@R3mzo) &lt;a href=&quot;https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-09-29T17:19:42+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;p&gt;
+We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
 &lt;/P&gt;
 
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yet another stylised water shader.&lt;a href=&quot;https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#screenshotsaturday&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gamedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gamedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/indiedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/unity3d?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#unity3d&lt;/a&gt; &lt;a href=&quot;https://t.co/WGkM2CRtIU&quot;&gt;pic.twitter.com/WGkM2CRtIU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remy Stuurwold (@R3mzo) &lt;a href=&quot;https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
 &lt;p&gt;
-We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar.
+We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing resources without which we could not have achieved this and I'll be linking to them below.
 &lt;/p&gt;
+
 &lt;p&gt;
 The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
 &lt;/P&gt;
@@ -63,7 +19,7 @@ We are using Unity as our engine of choice, and I personally prefer manually tin
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Color and Light Absorption&lt;/h2&gt;
 &lt;p&gt;
-Color seems like a good place to start. There are a bunch of tricks I'm doing here to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our &lt;i&gt;Surface Color&lt;/i&gt;.
+Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our &lt;i&gt;Surface Color&lt;/i&gt;.
 &lt;/p&gt;
 &lt;div class=&quot;text-center&quot;&gt;
 &lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/albedo.png&quot; alt=&quot;Demo Image&quot;&gt;
@@ -88,10 +44,10 @@ If we ignore the physically based shading and simply sample the pre-water textur
 &lt;/p&gt;
 
 &lt;p&gt;
-First, I take the inverse of the water color, which I'll call the &lt;i&gt;Absorption Color&lt;/i&gt;. Then, I calculate the &lt;i&gt;Absorption Value&lt;/i&gt; which controls how much color absorption there is. The &lt;i&gt;Absorption Value&lt;/i&gt; is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or squared to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call &lt;i&gt;Absorption Strength&lt;/i&gt;. I then multiply the &lt;i&gt;Absorption Color&lt;/i&gt; by this calculated &lt;i&gt;Absorption Value&lt;/i&gt; to get what I call the &lt;i&gt;Subtractive Color&lt;/i&gt;.
+First, I take the inverse of the water color, which I'll call the &lt;i&gt;Absorption Color&lt;/i&gt;. Then, I calculate the &lt;i&gt;Absorption Value&lt;/i&gt; which controls how much color absorption there is. The &lt;i&gt;Absorption Value&lt;/i&gt; is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call &lt;i&gt;Absorption Strength&lt;/i&gt;. I then multiply the &lt;i&gt;Absorption Color&lt;/i&gt; by this calculated &lt;i&gt;Absorption Value&lt;/i&gt; to get what I call the &lt;i&gt;Subtractive Color&lt;/i&gt;.
 &lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;	&lt;span class=&quot;n&quot;&gt;fixed3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;float3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionVal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;exp2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_AbsorptionStrength&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depthVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)));&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;	&lt;span class=&quot;n&quot;&gt;fixed3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;float3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionVal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;exp2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_AbsorptionStrength&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depthVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
 	&lt;span class=&quot;n&quot;&gt;float3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtractiveColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -122,7 +78,7 @@ We're almost there now. It can look pretty dark at high &lt;i&gt;Absorption Stre
 &lt;div class=&quot;text-center&quot;&gt;
 &lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/finalcolor.png&quot; alt=&quot;Demo Image&quot;&gt;
 &lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Not too shabby.&lt;/span&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;Refreshing.&lt;/span&gt;
 
 &lt;p&gt;
 Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like!
@@ -130,35 +86,96 @@ Now that we've got the base color done, this is a good foundation to add the nex
 &lt;div class=&quot;text-center&quot;&gt;
   &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Disco Juice!&lt;/span&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Surface Normals and Refraction&lt;/h2&gt;
+
 &lt;p&gt;
-I followed these Catlike Coding tutorials pew pew
+Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water.
 &lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/normals.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Smoothy/Bumpy&lt;/span&gt;
+
+&lt;p&gt;
+For this entire section, I'm going to have to direct you to &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot;&gt;this tutorial collection by Catlike Coding&lt;/a&gt; that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
+&lt;/p&gt;
+
+&lt;p&gt;
+Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the &lt;i&gt;Underwater Color&lt;/i&gt;, we get a nicely convincing result.
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/refraction.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Sea legs.&lt;/span&gt; 
+
+&lt;p&gt;
+As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly &quot;realistic&quot; to do so - just set it up with whatever looks best!
+&lt;/p&gt;
+
 &lt;h2 class=&quot;section-heading&quot;&gt;Depth Foam&lt;/h2&gt;
 &lt;p&gt;
-Depth foam is i) linear band and ii) scrolling noise textures.
+We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals.
 &lt;/p&gt;
+
+&lt;p&gt;
+Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask.
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/foam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;The foaming ring of water!&lt;/span&gt; 
+
+&lt;p&gt;
+For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that &quot;true realism&quot; is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all &quot;just works!&quot;
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/finalfoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Beach please.&lt;/span&gt; 
+
 &lt;h2 class=&quot;section-heading&quot;&gt;Caustics&lt;/h2&gt;
 &lt;p&gt;
-Caustics are scrolling textures, modulated by underwater normal, projected straight down in world space, colored by light color.
+Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. 
 &lt;/p&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Dynamic Flow&lt;/h2&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;2spooky4me&lt;/span&gt; 
+
+
 &lt;p&gt;
-Dynamic flow is 
-&lt;/p&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Possible Future Additions&lt;/h2&gt;
-&lt;p&gt;
-A couple features we could consider adding at this point to fancy it up a bit more without deviating too much from the overall art style are:
- &lt;ul&gt;
-	&lt;li&gt;Surface Displacement&lt;/li&gt;
-	&lt;li&gt;Underwater Volumetric Shadows&lt;/li&gt;
- &lt;/ul&gt;
+Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the &lt;i&gt;Underwater Color&lt;/i&gt;. That's it! We've essentially projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
 &lt;/p&gt;
 
 &lt;p&gt;
-As with all the other features, these would simply be added to the shader and be independently tweakable to complement what we have already. I could spend many more weeks tinkering and fiddling but we've reached a point where we're quite happy with the result for now - there's a lot more to be done on the game after all!
+Turn back on the rest of the water and the look is complete!
 &lt;/p&gt;
 
-&lt;p&gt;I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this. There's a lot more to come so be sure to hit us up on our socials to stay connected!
-&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html">We're still hard at work on our as-yet unannounced project here at Half Past Yellow, but we've already had some folks asking about how I put together the stylised water shader shown in this here tweet: Yet another stylised water shader.#screenshotsaturday #madewithunity #gamedev #indiedev #unity3d pic.twitter.com/WGkM2CRtIU&amp;mdash; Remy Stuurwold (@R3mzo) April 18, 2020</summary></entry></feed>
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/caustics.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Nice.&lt;/span&gt; 
+
+&lt;br&gt;
+&lt;p&gt;
+Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this.
+&lt;/p&gt;
+
+&lt;p&gt; 
+There's quite a bit here already so in the next part we'll explore how we made the water interactive with:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Dynamic Flow
+  &lt;li&gt; Entry/Exit splashes
+&lt;/ul&gt;
+
+&lt;p&gt;
+Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/final.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt;</content><author><name>Remy</name></author><summary type="html">We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!</summary></entry></feed>
