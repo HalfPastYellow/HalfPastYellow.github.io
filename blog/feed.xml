@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-01T17:34:23+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-02T15:03:23+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;p&gt;
 We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
 &lt;/P&gt;
 
@@ -6,8 +6,7 @@ We've had some folks asking about how I put together the stylised water shader s
 
 
 &lt;p&gt;
-We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing resources without which we could not have achieved this and I'll be linking to them below.
-&lt;/p&gt;
+We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too.&lt;/p&gt;
 
 &lt;p&gt;
 The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
@@ -99,7 +98,7 @@ Next up, we'll give the surface some definition with animated normals. Water is 
 &lt;span class=&quot;caption text-muted&quot;&gt;Smoothy/Bumpy&lt;/span&gt;
 
 &lt;p&gt;
-For this entire section, I'm going to have to direct you to &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot;&gt;this tutorial collection by Catlike Coding&lt;/a&gt; that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
+For this entire section, I'm going to have to direct you to &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot; target=&quot;_blank&quot;&gt;this tutorial collection by Catlike Coding&lt;/a&gt; that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -140,6 +139,10 @@ For such a simple effect, it really has quite an impact to the overall tone and 
 Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. 
 &lt;/p&gt;
 
+&lt;p&gt;
+A fantastic starting point to understanding caustics and how to go about implementing it is &lt;a href=&quot;https://www.alanzucconi.com/2019/09/13/believable-caustics-reflections/&quot; target=&quot;_blank&quot;&gt;this tutorial by Alan Zucconi&lt;/a&gt;. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too.
+&lt;/p&gt;
+
 &lt;div class=&quot;text-center&quot;&gt;
   &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
@@ -147,11 +150,11 @@ Caustics are the light patterns visible on the ground under the water due to the
 
 
 &lt;p&gt;
-Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the &lt;i&gt;Underwater Color&lt;/i&gt;. That's it! We've essentially projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
+Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the &lt;i&gt;Underwater Color&lt;/i&gt;. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
 &lt;/p&gt;
 
 &lt;p&gt;
-Turn back on the rest of the water and the look is complete!
+Let's now turn back on the rest of the water and our look is complete!
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
