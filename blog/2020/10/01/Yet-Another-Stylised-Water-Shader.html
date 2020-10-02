@@ -255,7 +255,7 @@ Caustics are the light patterns visible on the ground under the water due to the
 
 
 <p>
-Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the <i>Underwater Color</i>. That's it! We've essentially projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
+Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the <i>Underwater Color</i>. We've essentially projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
 </p>
 
 <p>
