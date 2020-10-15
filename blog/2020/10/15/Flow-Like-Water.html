@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Flow Like Water - Half Past Yellow | Blog
+    
+  </title>
+
+  <meta name="description" content="Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a l...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/blog/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="canonical" href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html">
+  <link rel="alternate" type="application/rss+xml" title="Half Past Yellow | Blog" href="/blog/feed.xml">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="//faviconsandroid-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+
+</head>
+
+
+<body style="background-color: #fff2000a">
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <div>
+      <a class="navbar-brand" href="https://halfpastyellow.com" style="margin-right: 2px">Half Past Yellow </a><a class="navbar-brand" href="/blog/">| Blog</a></a>
+	</div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://halfpastyellow.com">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://halfpastyellow.com/press">Press</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+  
+  <header class="masthead" style="background-image: url('/blog/img/posts/1/header.png')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Flow Like Water</h1>
+            
+            <h2 class="subheading">A semi-realistic water shader breakdown pt.2</h2>
+            
+            <span class="meta">Posted by
+              <a href="https://twitter.com/R3mzo">Remy</a>
+              on October 15, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   7 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="background-color: white">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 mx-auto" style="padding-top: 10px">
+
+        <p>
+Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right <a href="/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">here</a>.
+</P>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Splish splosh.</span> 
+
+<p>The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip.</p>
+
+<h2 class="section-heading">Dynamic Flow</h2>
+
+<p>
+The dynamic flow effect is created by sampling from a <i>Flow Map</i> and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in <a href="/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">part one</a>. I create and update the <i>Flow Map</i> through a combination of two methods I've found online. I've taken the method of flow UVs from the same <a href="https://catlikecoding.com/unity/tutorials/flow/" target="_blank">Catlike Coding tutorial</a> I pointed to previously and combined it with <a href="https://www.patreon.com/posts/24192529" target="_blank">this Minions Art tutorial</a> about using particles to simulate a wake as an object moves through the water.
+</P>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">The most questionable of liquids.</span> 
+
+<p>
+Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these <i>Flow Particles</i> to the <i>Flow Map</i> texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are <i>Flow Particles</i> being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting <i>Flow Particles</i> resulting in an ever-changing <i>Flow Map</i>.
+</P>
+
+<p>
+Since we aren't rendering the <i>Flow Particles</i> directly, I am storing some flow information in the <i>Flow Particle</i> texture, resulting in the strange purple-ish color you can see in the debug render above.
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/2/flowParticleComposite.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Weird.</span>
+
+<p>
+The <i>Flow Particle</i> texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more "intense" particles to the <i>Flow Map</i> allowing me to "overwrite" what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. 
+</P>
+
+<p>
+In addition to the <i>Flow Particles</i> that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations.
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Don't pee in the pool.</span>
+
+<p>
+Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look.
+</P>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/flowFoam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Neat.</span>
+
+<h2 class="section-heading">Entry Splashing</h2>
+<p>
+The water entry effect is arguably the simplest part of them all yet is also the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific <i>Flow Particle</i> that creates the expanding ripple effect. The other particles emitted are the "splash" - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction.
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Some more splish and a little more splosh.</span>
+
+<p>
+What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome!
+</P>
+
+<h2 class="section-heading">End</h2>
+<p>
+And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now.
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" style="max-width:480px" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Pool party!</span>
+
+<p>
+I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions!</P>
+
+<p> Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!
+</p>
+
+        <hr style="margin-top: 2rem">
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" data-toggle="tooltip" data-placement="top" title="Yet Another Stylised Water Shader">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+        </div>
+		  
+		  <hr>
+		  
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+		<div class="container" style="max-width: 80px">
+			<img class="img-fluid" src="https://halfpastyellow.com/blog/img/hpycircle_white.png"></>
+		</div>
+		<h5 class="text-center">Get connected!</h5>
+        <ul class="list-inline text-center">
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/halfpastyellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/HalfPastYellow">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+		  
+          <li class="list-inline-item">
+            <a href="https://halfpastyellow.itch.io/">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-itch-io fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          			  
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/GFJvqrR">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+		<div class="text-center" style="padding-top: 8px">
+			<button onclick=" window.open('https://newsletter.halfpastyellow.com/signup', '_blank'); return false;" class="button subscribe" href="https://newsletter.halfpastyellow.com/signup">Sign up to the Newsletter!</button>
+		</div>
+        <p class="copyright text-muted">Copyright &copy; Half Past Yellow 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/blog/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/blog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/blog/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/blog/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76510863-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76510863-1');
+</script>
+
+
+
+</body>
+
+</html>

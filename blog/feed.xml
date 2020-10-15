@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-02T15:03:23+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-15T16:58:09+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Flow Like Water</title><link href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html" rel="alternate" type="text/html" title="Flow Like Water" /><published>2020-10-15T17:00:00+02:00</published><updated>2020-10-15T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html">&lt;p&gt;
+Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right &lt;a href=&quot;/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html&quot;&gt;here&lt;/a&gt;.
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Splish splosh.&lt;/span&gt; 
+
+&lt;p&gt;The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Dynamic Flow&lt;/h2&gt;
+
+&lt;p&gt;
+The dynamic flow effect is created by sampling from a &lt;i&gt;Flow Map&lt;/i&gt; and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in &lt;a href=&quot;/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html&quot;&gt;part one&lt;/a&gt;. I create and update the &lt;i&gt;Flow Map&lt;/i&gt; through a combination of two methods I've found online. I've taken the method of flow UVs from the same &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot; target=&quot;_blank&quot;&gt;Catlike Coding tutorial&lt;/a&gt; I pointed to previously and combined it with &lt;a href=&quot;https://www.patreon.com/posts/24192529&quot; target=&quot;_blank&quot;&gt;this Minions Art tutorial&lt;/a&gt; about using particles to simulate a wake as an object moves through the water.
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;The most questionable of liquids.&lt;/span&gt; 
+
+&lt;p&gt;
+Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these &lt;i&gt;Flow Particles&lt;/i&gt; to the &lt;i&gt;Flow Map&lt;/i&gt; texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are &lt;i&gt;Flow Particles&lt;/i&gt; being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting &lt;i&gt;Flow Particles&lt;/i&gt; resulting in an ever-changing &lt;i&gt;Flow Map&lt;/i&gt;.
+&lt;/P&gt;
+
+&lt;p&gt;
+Since we aren't rendering the &lt;i&gt;Flow Particles&lt;/i&gt; directly, I am storing some flow information in the &lt;i&gt;Flow Particle&lt;/i&gt; texture, resulting in the strange purple-ish color you can see in the debug render above.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowParticleComposite.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;Weird.&lt;/span&gt;
+
+&lt;p&gt;
+The &lt;i&gt;Flow Particle&lt;/i&gt; texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more &quot;intense&quot; particles to the &lt;i&gt;Flow Map&lt;/i&gt; allowing me to &quot;overwrite&quot; what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. 
+&lt;/P&gt;
+
+&lt;p&gt;
+In addition to the &lt;i&gt;Flow Particles&lt;/i&gt; that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Don't pee in the pool.&lt;/span&gt;
+
+&lt;p&gt;
+Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look.
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowFoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Neat.&lt;/span&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Entry Splashing&lt;/h2&gt;
+&lt;p&gt;
+The water entry effect is arguably the simplest part of them all yet is also the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific &lt;i&gt;Flow Particle&lt;/i&gt; that creates the expanding ripple effect. The other particles emitted are the &quot;splash&quot; - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Some more splish and a little more splosh.&lt;/span&gt;
+
+&lt;p&gt;
+What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome!
+&lt;/P&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;End&lt;/h2&gt;
+&lt;p&gt;
+And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Pool party!&lt;/span&gt;
+
+&lt;p&gt;
+I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions!&lt;/P&gt;
+
+&lt;p&gt; Also please share with us other examples of &quot;stylised realism&quot; effects somewhat like this - we can't get enough of this stuff and would love to see more!
+&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html">Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right here.</summary></entry><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;p&gt;
 We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
 &lt;/P&gt;
 
