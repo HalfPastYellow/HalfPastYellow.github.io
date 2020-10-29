@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-16T16:11:14+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Flow Like Water</title><link href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html" rel="alternate" type="text/html" title="Flow Like Water" /><published>2020-10-15T17:00:00+02:00</published><updated>2020-10-15T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-29T17:55:31+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;p&gt;
+It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/sailor.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Awkward...&lt;/span&gt; 
+
+&lt;p&gt;
+While we'll still keep a lot of the narrative and background stuff under wraps at the moment (as the work is still in progress and subject to change), we'd like to showcase some of the visual aspects and early concept designs of our protagonist.
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Early Concept Art&lt;/h2&gt;
+&lt;p&gt;
+Looking at some of our first concepts for the sailor, it's clear our lead artist Casper nailed down certain key elements of the character very early on.
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/3/earlyConcepts.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+A couple iterations later, softening the edges, tweaking the proportions and losing the shoes, we ended up with the design we have today. It was important for us to convey the playfulness and tone of the game almost immediately with how the player character looked while still allowing for a range of expressiveness and personality when needed.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/3/c5.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Drawing a concept and designing a character is one thing but of course we had to translate it to 3D, which is often a lot easier said than done! Luckily for us, Casper was also the one responsible for doing that, so really he only had himself to blame here.
+
+&lt;h2 class=&quot;section-heading&quot;&gt;2D Inspirations in 3D&lt;/h2&gt;
+&lt;p&gt;
+We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as &lt;i&gt;squash and stretch&lt;/i&gt;. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time!
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jump.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Squish, squash and jiggle.&lt;/span&gt; 
+
+&lt;p&gt;
+If you scrub through these videos frame-by-frame you can see some very questionable single-frame poses as part of the character's animation. Definitely not realistic and somewhat nightmare inducing but when you play it back at normal speed it's all of a sudden playful and bouncy - magic!
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/runningman.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Not stopped by floppy socks.&lt;/span&gt; 
+
+&lt;p&gt;
+We're also making use of both scaling and simple 2D sprites to animate The Sailor's mouth and eyes. This gives us a lot of control over the key elements of The Sailor's face, allowing us to be very expressive and convey a lot of personality to an otherwise simple character.
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;The Pipe&lt;/h2&gt;
+
+&lt;p&gt;
+As an additional bonus, one morning Casper came to the rest of us and outlined specific pipe behaviour that he claims came to him in a dream. Here at Half Past Yellow we're all about achieving our pipe dreams so of course we had to implement it. The gist of it is that the pipe looks most interesting as a silhouette in profile view instead of head on in front of The Sailor's face or behind his head. As The Sailor moves around and rotates relative to the camera, the pipe tries its best to stay in profile as much as it can. It's very subtle and I'm sure it will be unnoticed by almost everyone, but now you know! It can be our shared little secret.
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Ceci n'est pas une pipe.&lt;/span&gt; 
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Moving On&lt;/h2&gt;
+&lt;p&gt;
+Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise.&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;No 'sea-legs' here.&lt;/span&gt; 
+
+&lt;p&gt;
+In any case, we're very excited and can't wait for you to all to experience it for yourselves! Stay tuned for more previews and sneak peeks, and don't forget to follow us on our socials below if you haven't already!
+&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html">It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.</summary></entry><entry><title type="html">Flow Like Water</title><link href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html" rel="alternate" type="text/html" title="Flow Like Water" /><published>2020-10-15T17:00:00+02:00</published><updated>2020-10-15T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html">&lt;p&gt;
 Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right &lt;a href=&quot;/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html&quot;&gt;here&lt;/a&gt;.
 &lt;/P&gt;
 
