@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T15:32:09+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T17:53:24+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;p&gt;
 It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.
 &lt;/P&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/sailor.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/sailor.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Awkward...&lt;/span&gt; 
 
@@ -35,7 +35,7 @@ Drawing a concept and designing a character is one thing but of course we had to
 We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as &lt;i&gt;squash and stretch&lt;/i&gt;. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time!
 &lt;/p&gt;
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jump.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jump.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Squish, squash and jiggle.&lt;/span&gt; 
 
@@ -44,7 +44,7 @@ If you scrub through these videos frame-by-frame you can see some very questiona
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/runningman.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/runningman.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Not stopped by floppy socks.&lt;/span&gt; 
 
@@ -59,7 +59,7 @@ As an additional bonus, one morning Casper came to the rest of us and outlined s
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Ceci n'est pas une pipe.&lt;/span&gt; 
 
@@ -68,7 +68,7 @@ As an additional bonus, one morning Casper came to the rest of us and outlined s
 Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise.&lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;No 'sea-legs' here.&lt;/span&gt; 
 
@@ -79,7 +79,7 @@ Welcome to the second part of our water shader overview! In this part we will be
 &lt;/P&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Splish splosh.&lt;/span&gt; 
 
@@ -92,7 +92,7 @@ The dynamic flow effect is created by sampling from a &lt;i&gt;Flow Map&lt;/i&gt
 &lt;/P&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;The most questionable of liquids.&lt;/span&gt; 
 
@@ -118,7 +118,7 @@ In addition to the &lt;i&gt;Flow Particles&lt;/i&gt; that are emitted by moving 
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Don't pee in the pool.&lt;/span&gt;
 
@@ -127,7 +127,7 @@ Lastly, I am replacing the water color with the same foam color as before when t
 &lt;/P&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowfoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowfoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Neat.&lt;/span&gt;
 
@@ -137,7 +137,7 @@ The water entry effect is arguably the simplest part of them all yet is also ver
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Some more splish and a little more splosh.&lt;/span&gt;
 
@@ -151,7 +151,7 @@ And there you have it - a brief look at what goes into creating a complete effec
 &lt;/p&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; style=&quot;max-width:480px&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
 &lt;/div&gt; 
 &lt;span class=&quot;caption text-muted&quot;&gt;Pool party!&lt;/span&gt;
 
