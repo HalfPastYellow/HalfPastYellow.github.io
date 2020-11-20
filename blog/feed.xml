@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T17:53:24+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2020-11-20T12:35:18+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Controlling the Sun</title><link href="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html" rel="alternate" type="text/html" title="Controlling the Sun" /><published>2020-11-19T16:00:00+01:00</published><updated>2020-11-19T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html">&lt;p&gt;
+Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night! 
+&lt;/p&gt;
+
+&lt;p&gt;A core feature of our game is a day/night cycle that has different gameplay opportunities depending on the time of day. Not only was it important to us to have each time of day to look and feel distinct from the others, they needed to also transition nicely from one to the next. Oh, and also you need to be able to see what you're doing when it's dark.&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/4/full_cycle.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Hello darkness my old friend...&lt;/span&gt; 
+
+&lt;p&gt;
+During normal gameplay each distinct time of day in the game lasts several minutes - so don't worry, there's plenty of time to explore and get things done while it's still light out!
+&lt;/P&gt;
+
+&lt;p&gt;
+What we're essentially doing is defining specific times of day and setting it up for the look we want. Then during gameplay we interpolate between the current phase's settings and the next one based on the time in-game. We have split the day into six phases: Morning, Noon, Afternoon, Dusk, Night, and Late Night. In our case, Late Night is indefinite and doesn't need to transition into Morning otherwise it would probably make sense to also have a Dawn phase.
+&lt;/p&gt;
+
+&lt;p&gt;
+The settings we are defining to provide the biggest visual impact between the phases are:
+&lt;ul&gt;
+  &lt;li&gt; The Sun Light
+  &lt;ul&gt;
+	&lt;li&gt;Color
+	&lt;li&gt;Direction
+  &lt;/ul&gt;
+  &lt;li&gt; Fog
+  &lt;ul&gt;
+	&lt;li&gt;Color
+	&lt;li&gt;Density
+  &lt;/ul&gt;
+  &lt;li&gt; Post Processing
+  &lt;ul&gt;
+	&lt;li&gt; Color Correction
+	&lt;li&gt; Vignette
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/4/all_tod.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;The difference is like night and day!&lt;/span&gt; 
+
+
+&lt;p&gt;
+As you can see, some settings change quite significantly from one phase to the next but it doesn't feel quite so drastic in-game since the gradual interpolation handles it all for us very nicely. Night time clearly stands out over the rest, and that's certainly intentional seeing as most of the time players will be out during the day and taking nightfall as a signal to rest and prepare for the next day.
+&lt;/p&gt;
+
+&lt;p&gt;
+That's all, folks! It's a bit of a short post this time around since there's not much more to say and the images pretty much speak for themselves. It's probably worth mentioning that configuring every setting for each phase can be very time consuming and we've spent many hours (and will probably continue spending many more!) making small adjustments here and there to ensure that everything looks right no matter the time.
+&lt;/p&gt;
+
+&lt;p&gt;As always, if you have any specific questions or comments about any of this, just pop on in to our Discord server and we'll be more than happy to oblige! With that, I'll leave you with a bonus clip of a very important night time activity. Good night!
+&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/4/firefly.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt;</content><author><name>Remy</name></author><summary type="html">Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night!</summary></entry><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;p&gt;
 It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.
 &lt;/P&gt;
 
