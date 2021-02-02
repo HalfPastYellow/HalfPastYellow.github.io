@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2021-02-02T15:52:42+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html"></content><author><name>Remy</name></author></entry><entry><title type="html">Happy holidays!</title><link href="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html" rel="alternate" type="text/html" title="Happy holidays!" /><published>2020-12-18T16:00:00+01:00</published><updated>2020-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2021-02-03T00:50:54+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html">&lt;p&gt;
+Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, &quot;normal&quot; probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! 
+ Let's start with introducing The Carpenter!
+&lt;/p&gt;
+
+&lt;p&gt;
+The Carpenter is tasked with creating and maintaining all the wooden structures on the island. Being the only real handyfrog available, he is always busy. Unfortunately, he is also constantly falling behind on his tasks by always misplacing the exact tool needed for the job. He could definitely use a helping hand to find them so you better keep an eye out as you explore the island!
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/idle2.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;He's just big-boned.&lt;/span&gt; 
+
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Why frogs, you ask? Well, we needed some island natives and asked ourselves, &quot;What if humans stemmed from frogs instead of apes and were left alone on an island all to themselves?&quot; Naturally, this is it. You're looking at the first character of many in the only possible outcome of our highly scientific research and plentiful discussions on the matter.
+&lt;/p&gt;
+
+&lt;p&gt;
+Today we are presenting The Carpenter but we'll be showcasing the other townsfolk over the next couple posts, so make sure you stay up-to-date and follow what we're up to on the &lt;a href=&quot;#social&quot;&gt; platforms below&lt;/a&gt;!
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Early Concept Art&lt;/h2&gt;
+&lt;p&gt;The Carpenter can be considered one of the simpler characters in our cast of villagers and we wanted his visual design to reflect that. Dressed in a plain vest and undersized beanie, his glassy-eyed expression almost never changes no matter the circumstance.
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/6/carpenter_concepts.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Have you seen my tool?&lt;/h2&gt;
+
+&lt;p&gt;
+Don't let his blank gaze fool you, however! He's a master craftsman that can build almost anything and will certainly prove it to you! Just.. ah...
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/searching.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Why is it always in the last place you look?&lt;/span&gt; 
+
+&lt;p&gt; Well... He's gone and lost his tool again! Maybe we can help him find it? Oh! Is that it?
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/6/what_is_it.gif&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;Woah! What's that tool?!&lt;/span&gt; 
+
+&lt;p&gt;
+It's a saw! Of course it is! Obviously you can't be a carpenter without it. Good job, everyone! Clearly, the nature of a blog means that this is almost as far from the actual gameplay as is possible but the sense of accomplishment and helpfulness is almost just as real. Trust me, though, when I say it won't always be quite so easy to find what you need strewn about the island... 
+&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/sawing.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
+&lt;/div&gt; 
+&lt;span class=&quot;caption text-muted&quot;&gt;Working hard or hardly working, am I right?!&lt;/span&gt; 
+
+&lt;p&gt;
+Now that he's got his saw back he can get to work! Let's leave him to it and check back later. Maybe some other townsfolk could use some help in the meantime? Make sure to connect with us below to be the first to find out who else is around!
+&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html">Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, &quot;normal&quot; probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! Let's start with introducing The Carpenter!</summary></entry><entry><title type="html">Happy holidays!</title><link href="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html" rel="alternate" type="text/html" title="Happy holidays!" /><published>2020-12-18T16:00:00+01:00</published><updated>2020-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html">&lt;p&gt;
 What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!
 &lt;/p&gt;
 
