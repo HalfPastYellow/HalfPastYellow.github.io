@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2021-02-03T00:50:54+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2021-02-16T15:52:59+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">HPY Virtual Office</title><link href="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html" rel="alternate" type="text/html" title="HPY Virtual Office" /><published>2021-02-17T16:00:00+01:00</published><updated>2021-02-17T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/17/Virtual-Office</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html">&lt;p&gt;
+Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.  
+&lt;/p&gt;
+
+&lt;p&gt;
+I’m hijacking the blog from Remy today! :D
+&lt;/p&gt;
+
+&lt;p&gt;
+First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! &lt;3 If it’s your first time with us here, be sure to also check out the previous blog posts! 
+&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Over the hills and far away 🏔️&lt;a href=&quot;https://twitter.com/hashtag/indiegame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiegame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dkgame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dkgame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://t.co/gUBFhMXi29&quot;&gt;pic.twitter.com/gUBFhMXi29&lt;/a&gt;&lt;/p&gt;&amp;mdash; Half Past Yellow (@halfpastyellow) &lt;a href=&quot;https://twitter.com/halfpastyellow/status/1359411786441609216?ref_src=twsrc%5Etfw&quot;&gt;February 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;
+Although I could ramble about marketing and SoMe presence, that is not the topic of today.
+&lt;/p&gt;
+
+&lt;p&gt;
+Today I want to write a little about our process in a country that is generally shut down. As you may or may not know, our studio is based in Copenhagen and that Denmark has closed most public places due to COVID-19. This means that we have been working home. I want to share a little bit about what our working process looks like these days. 
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/virtualOffice_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;Sometimes I deafen myself and nobody notices&lt;/span&gt; 
+
+&lt;p&gt;
+Essentially, our office exists on a Discord server. An open virtual office environment as we call it. The way it works is that we have a meeting every morning, so we still have some daily structure. We then move on to our tasks and work by ourselves. The perk of using Discord is that we can have a call open, which gives us the option of just unmuting when we need to address something or have something off topic to say. It helps create a close to real office environment. There are also other channels we can pop off to for private conversations or meetings.
+&lt;/P&gt;
+
+&lt;p&gt;
+In a real office environment you’ll also have small talk and banter. From what I can read from my peers online, a lot of companies face issues with not being able to recreate this in a virtual environment  This is especially challenging because it’s something you can’t really force. We chose to fight this problem by having different channels for different subjects. 
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/devChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;Super secret dev channels!&lt;/span&gt; 
+
+&lt;p&gt;
+We have #devrandom where we can post random stuff we find online, which often sparks spontaneous conversation. Of course it's not the same as being together in person, but it’s real close! 
+&lt;/P&gt;
+
+&lt;p&gt;
+These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;join us here&lt;/a&gt;! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else...
+&lt;/P&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/publicChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
+&lt;/div&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;???&lt;/span&gt; 
+
+&lt;p&gt;
+All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;tune in &lt;/a&gt; for further updates on the game!
+&lt;/P&gt;</content><author><name>Mikkel</name></author><summary type="html">Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.</summary></entry><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html">&lt;p&gt;
 Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, &quot;normal&quot; probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! 
  Let's start with introducing The Carpenter!
 &lt;/p&gt;
