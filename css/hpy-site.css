@@ -73,6 +73,9 @@ a:hover {
 .member-portrait {
 	padding: 5% 2.5% 0px;
 }
+.job-portrait {
+	padding: 2.5%;
+}
 .label-thick {
 	text-transform: uppercase;
 	font-size: 2.25em;
