@@ -170,6 +170,11 @@ a:hover {
     min-width: 192px;
   }
 }
+@media (max-width: 991px) {
+  .job-portrait {
+    display: none;
+  }
+}
 // Styling for the footer
 footer {
   padding: 10px 0 65px;
