@@ -24,6 +24,14 @@ p {
   letter-spacing: 1px;
   color: #ffffff;
 }
+
+mark.highlight
+{
+	color: #fad016;
+	background: none;
+	padding: 0;
+}
+
 a:link, a:active, a:visited {
   color: #fad016;
 }
