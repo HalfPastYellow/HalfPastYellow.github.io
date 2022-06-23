@@ -1,601 +1,629 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2021-10-02T14:15:10+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">It’s Trading Time!</title><link href="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html" rel="alternate" type="text/html" title="It's Trading Time!" /><published>2021-10-02T17:00:00+02:00</published><updated>2021-10-02T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2021/10/02/Trading-Time</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2022-06-23T17:35:27+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Time on Frog Island - Release Date Update!</title><link href="https://halfpastyellow.com/blog/2022/06/23/Time-on-Frog-Island.html" rel="alternate" type="text/html" title="Time on Frog Island - Release Date Update!" /><published>2022-06-23T17:00:00+02:00</published><updated>2022-06-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2022/06/23/Time-on-Frog-Island</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/06/23/Time-on-Frog-Island.html"><![CDATA[<h2 class="section-heading">New Name!</h2>
+
+<p>
+A lot has happened since the last post on this regularly irregular blog so there's quite a few things to go over! First up, we have a new name: <b><i>Time on Frog Island</i></b>!
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/9/NameReveal.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">New year, new me!</span> 
+
+<p>
+</p>
+
+<p>
+We updated the name to make it easier to search for the game and not get swamped by financial and sports news. It's a little bittersweet since we grew quite fond of the name <i>Trading Time</i> and are sad to see it go. Other potential contenders were: <i>'Beyond the Pond'</i>, <i>'Gaffed Mast'</i>, <i>'Barter Buddies'</i>, <i>'Hey Yo, What's That Item? Can You Get It For Me?'</i> and many others! Did we make the right choice? Only (<s>Trading</s>) time (on Frog Island) will tell!
+</P>
+
+<h2 class="section-heading">New Trailer!</h2>
+
+<p>
+Next up, we released another trailer showcasing even more of the island and the various frog folk you'll encounter set to our own spin on a catchy, familiar tune:
+</p>
+
+<div class="embed-responsive embed-responsive-16by9 rounded">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w0Ht_GsBVkE" allowfullscreen></iframe>
+</div>
+
+<p>
+Did you spot the <i>secret crabs</i> littered around the island? There's one hidden in almost every shot. How many can you find? Let us know on our <a href="https://discord.com/invite/8TkpjHHVzZ">Discord</a>!
+</p>
+
+<h2 class="section-heading">New Release Date!</h2>
+<p>
+And now for the release date reveal, get your calendar marking pen ready and peep the announcement trailer below:
+</p>
+
+<div class="embed-responsive embed-responsive-16by9 rounded">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1a55zKKtnyY" allowfullscreen></iframe>
+</div>
+
+<p>
+<i>Time on Frog Island</i> will release on <b>July 12th</b> for PC and all major consoles! Not only that - we're very excited to also have <i>ToFI</i> available as...
+</p>
+
+<h2>Physical Copies!</h2>
+
+<p>
+For the collectors amongst us, <i>Time on Frog Island</i> will also be available in physical editions for your favourite console! You might be able to find it in your local game shops but you can also preorder with our partners at Signature Edition games <a href="https://signatureeditiongames.com/search?type=product&options%5Bprefix%5D=last&q=time+on+frog+island">here</a>!
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/9/ToFIRetail.jpg" alt="Demo Image">
+</div>
+<span class="caption text-muted">So many flavours!</span>
+
+
+<h2 class="section-heading">Same Prologue!</h2>
+<p>
+For a limited time only as of this writing, we have not yet updated the title screen to <i>Time on Frog Island</i> in the Prologue on Steam! Invest in yourself and play the <b>free</b> Prologue now if you haven't already. Once it's updated, you'll be able to tell everyone "I played it when it was still called <i>Trading Time</i>!" and acrue a couple shiny <i>hipster points</i>! If you're reading this after we've updated it, then HA, you're too late! But for real we would still love it if you checked it out and also leave a review...
+</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/1717510/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">Not long left!</h2>
+
+<p>
+<i>Phew</i>, big update! It's exciting times for us over at Half Past Yellow and we can't wait to have you all play our game! If you'd like to keep a closer eye on what we're up to or just say "Hi!", come join us and other fans over on our <a href="https://discord.com/invite/8TkpjHHVzZ">Discord</a>! We're almost at 500 members and would love to see your best frog interpretive dance over on the #Fan-Art channel!
+</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">To trade with the frogs you must become a frog! 🐸<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/frog?src=hash&amp;ref_src=twsrc%5Etfw">#frog</a> <a href="https://t.co/EuOlsewjUn">pic.twitter.com/EuOlsewjUn</a></p>&mdash; Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1494952396081926147?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[New Name! A lot has happened since the last post on this regularly irregular blog so there's quite a few things to go over! First up, we have a new name: Time on Frog Island! New year, new me! We updated the name to make it easier to search for the game and not get swamped by financial and sports news. It's a little bittersweet since we grew quite fond of the name Trading Time and are sad to see it go. Other potential contenders were: 'Beyond the Pond', 'Gaffed Mast', 'Barter Buddies', 'Hey Yo, What's That Item? Can You Get It For Me?' and many others! Did we make the right choice? Only (Trading) time (on Frog Island) will tell! New Trailer! Next up, we released another trailer showcasing even more of the island and the various frog folk you'll encounter set to our own spin on a catchy, familiar tune: Did you spot the secret crabs littered around the island? There's one hidden in almost every shot. How many can you find? Let us know on our Discord! New Release Date! And now for the release date reveal, get your calendar marking pen ready and peep the announcement trailer below: Time on Frog Island will release on July 12th for PC and all major consoles! Not only that - we're very excited to also have ToFI available as... Physical Copies! For the collectors amongst us, Time on Frog Island will also be available in physical editions for your favourite console! You might be able to find it in your local game shops but you can also preorder with our partners at Signature Edition games here! So many flavours! Same Prologue! For a limited time only as of this writing, we have not yet updated the title screen to Time on Frog Island in the Prologue on Steam! Invest in yourself and play the free Prologue now if you haven't already. Once it's updated, you'll be able to tell everyone "I played it when it was still called Trading Time!" and acrue a couple shiny hipster points! If you're reading this after we've updated it, then HA, you're too late! But for real we would still love it if you checked it out and also leave a review... Not long left! Phew, big update! It's exciting times for us over at Half Past Yellow and we can't wait to have you all play our game! If you'd like to keep a closer eye on what we're up to or just say "Hi!", come join us and other fans over on our Discord! We're almost at 500 members and would love to see your best frog interpretive dance over on the #Fan-Art channel! To trade with the frogs you must become a frog! 🐸#screenshotsaturday #indiegame #madewithunity #frog pic.twitter.com/EuOlsewjUn&mdash; Half Past Yellow (@halfpastyellow) February 19, 2022]]></summary></entry><entry><title type="html">It’s Trading Time!</title><link href="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html" rel="alternate" type="text/html" title="It’s Trading Time!" /><published>2021-10-02T17:00:00+02:00</published><updated>2021-10-02T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2021/10/02/Trading-Time</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html"><![CDATA[<p>
+Half Past Yellow is proud to finally announce <s><i>Trading Time</s> Time on Frog Island</i> - the not so secret game we've been working on and posting about! Check out the announcement trailer below:
+</P>
+
+<div class="embed-responsive embed-responsive-16by9 rounded">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vGi4SCBATns" allowfullscreen></iframe>
+</div>
+
+<p>
+<s><i>Trading Time</s> Time on Frog Island</i> is being published by Merge Games and will be available on PC and all major consoles! 
+</p>
+
+<h2 class="section-heading">Free Prologue</h2>
+<p>
+As an additional bonus while you wait for the full game, we've created a <b>free</b> Prologue for you to play <b>right now</b> as part of the Steam Next Fest!
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/8/Trading%20Time%20Prologue7_EN.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">What a strange frog...</span>
+
+<p>
+Play the prologue and wishlist <s><i>Trading Time</s> Time on Frog Island</i> on Steam here!
+</p>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/1717510/" frameborder="0" width="646" height="190"></iframe></div>
+
+<p>
+As always, we'd love for you to come hang out with us and other fans on <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a>! Let us know if you find the <i>secret thing</i>... 
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Half Past Yellow is proud to finally announce Trading Time Time on Frog Island - the not so secret game we've been working on and posting about! Check out the announcement trailer below: Trading Time Time on Frog Island is being published by Merge Games and will be available on PC and all major consoles! Free Prologue As an additional bonus while you wait for the full game, we've created a free Prologue for you to play right now as part of the Steam Next Fest! What a strange frog... Play the prologue and wishlist Trading Time Time on Frog Island on Steam here! As always, we'd love for you to come hang out with us and other fans on our Discord Server! Let us know if you find the secret thing...]]></summary></entry><entry><title type="html">HPY Virtual Office</title><link href="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html" rel="alternate" type="text/html" title="HPY Virtual Office" /><published>2021-02-17T16:00:00+01:00</published><updated>2021-02-17T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/17/Virtual-Office</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html"><![CDATA[<p>
 Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.  
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 rounded&quot;&gt;
-	&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/U82T1PtoWnM&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
+<p>
 I’m hijacking the blog from Remy today! :D
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
-First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! &lt;3 If it’s your first time with us here, be sure to also check out the previous blog posts! 
-&lt;/p&gt;
+<p>
+First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! <3 If it’s your first time with us here, be sure to also check out the previous blog posts! 
+</p>
 
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Over the hills and far away 🏔️&lt;a href=&quot;https://twitter.com/hashtag/indiegame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiegame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dkgame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dkgame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://t.co/gUBFhMXi29&quot;&gt;pic.twitter.com/gUBFhMXi29&lt;/a&gt;&lt;/p&gt;&amp;mdash; Half Past Yellow (@halfpastyellow) &lt;a href=&quot;https://twitter.com/halfpastyellow/status/1359411786441609216?ref_src=twsrc%5Etfw&quot;&gt;February 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Over the hills and far away 🏔️<a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/dkgame?src=hash&amp;ref_src=twsrc%5Etfw">#dkgame</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://t.co/gUBFhMXi29">pic.twitter.com/gUBFhMXi29</a></p>&mdash; Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1359411786441609216?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-&lt;p&gt;
+<p>
 Although I could ramble about marketing and SoMe presence, that is not the topic of today.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 Today I want to write a little about our process in a country that is generally shut down. As you may or may not know, our studio is based in Copenhagen and that Denmark has closed most public places due to COVID-19. This means that we have been working home. I want to share a little bit about what our working process looks like these days. 
-&lt;/P&gt;
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/virtualOffice_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Sometimes I deafen myself and nobody notices&lt;/span&gt; 
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/virtualOffice_discord.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Sometimes I deafen myself and nobody notices</span> 
 
-&lt;p&gt;
+<p>
 Essentially, our office exists on a Discord server. An open virtual office environment as we call it. The way it works is that we have a meeting every morning, so we still have some daily structure. We then move on to our tasks and work by ourselves. The perk of using Discord is that we can have a call open, which gives us the option of just unmuting when we need to address something or have something off topic to say. It helps create a close to real office environment. There are also other channels we can pop off to for private conversations or meetings.
-&lt;/P&gt;
+</P>
 
-&lt;p&gt;
+<p>
 In a real office environment you’ll also have small talk and banter. From what I can read from my peers online, a lot of companies face issues with not being able to recreate this in a virtual environment  This is especially challenging because it’s something you can’t really force. We chose to fight this problem by having different channels for different subjects. 
-&lt;/P&gt;
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/devChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Super secret dev channels!&lt;/span&gt; 
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/devChannels_discord.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Super secret dev channels!</span> 
 
-&lt;p&gt;
+<p>
 We have #devrandom where we can post random stuff we find online, which often sparks spontaneous conversation. Of course it's not the same as being together in person, but it’s real close! 
-&lt;/P&gt;
+</P>
 
-&lt;p&gt;
-These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;join us here&lt;/a&gt;! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else...
-&lt;/P&gt;
+<p>
+These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can <a href="https://discord.com/invite/8TkpjHHVzZ">join us here</a>! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else...
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/publicChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;???&lt;/span&gt; 
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/publicChannels_discord.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">???</span> 
 
-&lt;p&gt;
-All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;tune in &lt;/a&gt; for further updates on the game!
-&lt;/P&gt;</content><author><name>Remy</name></author><summary type="html">Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.</summary></entry><entry><title type="html">HPY Virtual Office</title><link href="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html" rel="alternate" type="text/html" title="HPY Virtual Office" /><published>2021-02-17T16:00:00+01:00</published><updated>2021-02-17T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/17/Virtual-Office</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html">&lt;p&gt;
-Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.  
-&lt;/p&gt;
-
-&lt;p&gt;
-I’m hijacking the blog from Remy today! :D
-&lt;/p&gt;
-
-&lt;p&gt;
-First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! &lt;3 If it’s your first time with us here, be sure to also check out the previous blog posts! 
-&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Over the hills and far away 🏔️&lt;a href=&quot;https://twitter.com/hashtag/indiegame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiegame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dkgame?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dkgame&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://t.co/gUBFhMXi29&quot;&gt;pic.twitter.com/gUBFhMXi29&lt;/a&gt;&lt;/p&gt;&amp;mdash; Half Past Yellow (@halfpastyellow) &lt;a href=&quot;https://twitter.com/halfpastyellow/status/1359411786441609216?ref_src=twsrc%5Etfw&quot;&gt;February 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;
-Although I could ramble about marketing and SoMe presence, that is not the topic of today.
-&lt;/p&gt;
-
-&lt;p&gt;
-Today I want to write a little about our process in a country that is generally shut down. As you may or may not know, our studio is based in Copenhagen and that Denmark has closed most public places due to COVID-19. This means that we have been working home. I want to share a little bit about what our working process looks like these days. 
-&lt;/P&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/virtualOffice_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Sometimes I deafen myself and nobody notices&lt;/span&gt; 
-
-&lt;p&gt;
-Essentially, our office exists on a Discord server. An open virtual office environment as we call it. The way it works is that we have a meeting every morning, so we still have some daily structure. We then move on to our tasks and work by ourselves. The perk of using Discord is that we can have a call open, which gives us the option of just unmuting when we need to address something or have something off topic to say. It helps create a close to real office environment. There are also other channels we can pop off to for private conversations or meetings.
-&lt;/P&gt;
-
-&lt;p&gt;
-In a real office environment you’ll also have small talk and banter. From what I can read from my peers online, a lot of companies face issues with not being able to recreate this in a virtual environment  This is especially challenging because it’s something you can’t really force. We chose to fight this problem by having different channels for different subjects. 
-&lt;/P&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/devChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Super secret dev channels!&lt;/span&gt; 
-
-&lt;p&gt;
-We have #devrandom where we can post random stuff we find online, which often sparks spontaneous conversation. Of course it's not the same as being together in person, but it’s real close! 
-&lt;/P&gt;
-
-&lt;p&gt;
-These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;join us here&lt;/a&gt;! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else...
-&lt;/P&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/7/publicChannels_discord.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;???&lt;/span&gt; 
-
-&lt;p&gt;
-All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you &lt;a href=&quot;https://discord.com/invite/8TkpjHHVzZ&quot;&gt;tune in &lt;/a&gt; for further updates on the game!
-&lt;/P&gt;</content><author><name>Mikkel</name></author><summary type="html">Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.</summary></entry><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html">&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;p&gt;
-Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, &quot;normal&quot; probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! 
+<p>
+All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you <a href="https://discord.com/invite/8TkpjHHVzZ">tune in </a> for further updates on the game!
+</P>]]></content><author><name>Mikkel</name></author><summary type="html"><![CDATA[Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English. I’m hijacking the blog from Remy today! :D First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! Over the hills and far away 🏔️#indiegame #dkgame #madewithunity pic.twitter.com/gUBFhMXi29&mdash; Half Past Yellow (@halfpastyellow) February 10, 2021 Although I could ramble about marketing and SoMe presence, that is not the topic of today. Today I want to write a little about our process in a country that is generally shut down. As you may or may not know, our studio is based in Copenhagen and that Denmark has closed most public places due to COVID-19. This means that we have been working home. I want to share a little bit about what our working process looks like these days. Sometimes I deafen myself and nobody notices Essentially, our office exists on a Discord server. An open virtual office environment as we call it. The way it works is that we have a meeting every morning, so we still have some daily structure. We then move on to our tasks and work by ourselves. The perk of using Discord is that we can have a call open, which gives us the option of just unmuting when we need to address something or have something off topic to say. It helps create a close to real office environment. There are also other channels we can pop off to for private conversations or meetings. In a real office environment you’ll also have small talk and banter. From what I can read from my peers online, a lot of companies face issues with not being able to recreate this in a virtual environment This is especially challenging because it’s something you can’t really force. We chose to fight this problem by having different channels for different subjects. Super secret dev channels! We have #devrandom where we can post random stuff we find online, which often sparks spontaneous conversation. Of course it's not the same as being together in person, but it’s real close! These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can join us here! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else... ??? All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you tune in for further updates on the game!]]></summary></entry><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html"><![CDATA[<p>
+Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! 
  Let's start with introducing The Carpenter!
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 The Carpenter is tasked with creating and maintaining all the wooden structures on the island. Being the only real handyfrog available, he is always busy. Unfortunately, he is also constantly falling behind on his tasks by always misplacing the exact tool needed for the job. He could definitely use a helping hand to find them so you better keep an eye out as you explore the island!
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/idle2.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;He's just big-boned.&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/idle2.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">He's just big-boned.</span> 
 
-&lt;p&gt;
-&lt;/p&gt;
+<p>
+</p>
 
-&lt;p&gt;
-Why frogs, you ask? Well, we needed some island natives and asked ourselves, &quot;What if humans stemmed from frogs instead of apes and were left alone on an island all to themselves?&quot; Naturally, this is it. You're looking at the first character of many in the only possible outcome of our highly scientific research and plentiful discussions on the matter.
-&lt;/p&gt;
+<p>
+Why frogs, you ask? Well, we needed some island natives and asked ourselves, "What if humans stemmed from frogs instead of apes and were left alone on an island all to themselves?" Naturally, this is it. You're looking at the first character of many in the only possible outcome of our highly scientific research and plentiful discussions on the matter.
+</p>
 
-&lt;p&gt;
-Today we are presenting The Carpenter but we'll be showcasing the other townsfolk over the next couple posts, so make sure you stay up-to-date and follow what we're up to on the &lt;a href=&quot;#social&quot;&gt; platforms below&lt;/a&gt;!
-&lt;/p&gt;
+<p>
+Today we are presenting The Carpenter but we'll be showcasing the other townsfolk over the next couple posts, so make sure you stay up-to-date and follow what we're up to on the <a href="#social"> platforms below</a>!
+</p>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Early Concept Art&lt;/h2&gt;
-&lt;p&gt;The Carpenter can be considered one of the simpler characters in our cast of villagers and we wanted his visual design to reflect that. Dressed in a plain vest and undersized beanie, his glassy-eyed expression almost never changes no matter the circumstance.
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/6/carpenter_concepts.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
+<h2 class="section-heading">Early Concept Art</h2>
+<p>The Carpenter can be considered one of the simpler characters in our cast of villagers and we wanted his visual design to reflect that. Dressed in a plain vest and undersized beanie, his glassy-eyed expression almost never changes no matter the circumstance.
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/6/carpenter_concepts.png" alt="Demo Image">
+</div>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Have you seen my tool?&lt;/h2&gt;
+<h2 class="section-heading">Have you seen my tool?</h2>
 
-&lt;p&gt;
+<p>
 Don't let his blank gaze fool you, however! He's a master craftsman that can build almost anything and will certainly prove it to you! Just.. ah...
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/searching.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Why is it always in the last place you look?&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/searching.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Why is it always in the last place you look?</span> 
 
-&lt;p&gt; Well... He's gone and lost his tool again! Maybe we can help him find it? Oh! Is that it?
-&lt;/p&gt;
+<p> Well... He's gone and lost his tool again! Maybe we can help him find it? Oh! Is that it?
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/6/what_is_it.gif&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Woah! What's that tool?!&lt;/span&gt; 
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/6/what_is_it.gif" alt="Demo Image">
+</div>
+<span class="caption text-muted">Woah! What's that tool?!</span> 
 
-&lt;p&gt;
+<p>
 It's a saw! Of course it is! Obviously you can't be a carpenter without it. Good job, everyone! Clearly, the nature of a blog means that this is almost as far from the actual gameplay as is possible but the sense of accomplishment and helpfulness is almost just as real. Trust me, though, when I say it won't always be quite so easy to find what you need strewn about the island... 
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/6/sawing.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Working hard or hardly working, am I right?!&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/sawing.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Working hard or hardly working, am I right?!</span> 
 
-&lt;p&gt;
+<p>
 Now that he's got his saw back he can get to work! Let's leave him to it and check back later. Maybe some other townsfolk could use some help in the meantime? Make sure to connect with us below to be the first to find out who else is around!
-&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html"></summary></entry><entry><title type="html">Happy holidays!</title><link href="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html" rel="alternate" type="text/html" title="Happy holidays!" /><published>2020-12-18T16:00:00+01:00</published><updated>2020-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html">&lt;p&gt;
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! Let's start with introducing The Carpenter! The Carpenter is tasked with creating and maintaining all the wooden structures on the island. Being the only real handyfrog available, he is always busy. Unfortunately, he is also constantly falling behind on his tasks by always misplacing the exact tool needed for the job. He could definitely use a helping hand to find them so you better keep an eye out as you explore the island! He's just big-boned. Why frogs, you ask? Well, we needed some island natives and asked ourselves, "What if humans stemmed from frogs instead of apes and were left alone on an island all to themselves?" Naturally, this is it. You're looking at the first character of many in the only possible outcome of our highly scientific research and plentiful discussions on the matter. Today we are presenting The Carpenter but we'll be showcasing the other townsfolk over the next couple posts, so make sure you stay up-to-date and follow what we're up to on the platforms below! Early Concept Art The Carpenter can be considered one of the simpler characters in our cast of villagers and we wanted his visual design to reflect that. Dressed in a plain vest and undersized beanie, his glassy-eyed expression almost never changes no matter the circumstance. Have you seen my tool? Don't let his blank gaze fool you, however! He's a master craftsman that can build almost anything and will certainly prove it to you! Just.. ah... Why is it always in the last place you look? Well... He's gone and lost his tool again! Maybe we can help him find it? Oh! Is that it? Woah! What's that tool?! It's a saw! Of course it is! Obviously you can't be a carpenter without it. Good job, everyone! Clearly, the nature of a blog means that this is almost as far from the actual gameplay as is possible but the sense of accomplishment and helpfulness is almost just as real. Trust me, though, when I say it won't always be quite so easy to find what you need strewn about the island... Working hard or hardly working, am I right?! Now that he's got his saw back he can get to work! Let's leave him to it and check back later. Maybe some other townsfolk could use some help in the meantime? Make sure to connect with us below to be the first to find out who else is around!]]></summary></entry><entry><title type="html">Happy holidays!</title><link href="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html" rel="alternate" type="text/html" title="Happy holidays!" /><published>2020-12-18T16:00:00+01:00</published><updated>2020-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html"><![CDATA[<p>
 What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
-Until then, from everyone here at Half Past Yellow, we wish you and those you hold dear a happy and &lt;i&gt;hygellig&lt;/i&gt; holiday season! Here's to a better 2021 for all of us and we'll catch you again after the fireworks!
-&lt;/P&gt;
+<p>
+Until then, from everyone here at Half Past Yellow, we wish you and those you hold dear a happy and <i>hygellig</i> holiday season! Here's to a better 2021 for all of us and we'll catch you again after the fireworks!
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Do not try this at home&lt;/span&gt;</content><author><name>Remy</name></author><summary type="html">What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!</summary></entry><entry><title type="html">Controlling the Sun</title><link href="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html" rel="alternate" type="text/html" title="Controlling the Sun" /><published>2020-11-19T16:00:00+01:00</published><updated>2020-11-19T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html">&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;p&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Do not try this at home</span>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January! Until then, from everyone here at Half Past Yellow, we wish you and those you hold dear a happy and hygellig holiday season! Here's to a better 2021 for all of us and we'll catch you again after the fireworks! Do not try this at home]]></summary></entry><entry><title type="html">Controlling the Sun</title><link href="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html" rel="alternate" type="text/html" title="Controlling the Sun" /><published>2020-11-19T16:00:00+01:00</published><updated>2020-11-19T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html"><![CDATA[<p>
 Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night! 
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;A core feature of our game is a day/night cycle that has different gameplay opportunities depending on the time of day. Not only was it important to us to have each time of day to look and feel distinct from the others, they needed to also transition nicely from one to the next. Oh, and also you need to be able to see what you're doing when it's dark.&lt;/P&gt;
+<p>A core feature of our game is a day/night cycle that has different gameplay opportunities depending on the time of day. Not only was it important to us to have each time of day to look and feel distinct from the others, they needed to also transition nicely from one to the next. Oh, and also you need to be able to see what you're doing when it's dark.</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/4/full_cycle.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Hello darkness my old friend...&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/4/full_cycle.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Hello darkness my old friend...</span> 
 
-&lt;p&gt;
+<p>
 During normal gameplay each distinct time of day in the game lasts several minutes - so don't worry, there's plenty of time to explore and get things done while it's still light out!
-&lt;/P&gt;
+</P>
 
-&lt;p&gt;
+<p>
 What we're essentially doing is defining specific times of day and setting it up for the look we want. Then during gameplay we interpolate between the current phase's settings and the next one based on the time in-game. We have split the day into six phases: Morning, Noon, Afternoon, Dusk, Night, and Late Night. In our case, Late Night is indefinite and doesn't need to transition into Morning otherwise it would probably make sense to also have a Dawn phase.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 The settings we are defining to provide the biggest visual impact between the phases are:
-&lt;ul&gt;
-  &lt;li&gt; The Sun Light
-  &lt;ul&gt;
-	&lt;li&gt;Color
-	&lt;li&gt;Direction
-  &lt;/ul&gt;
-  &lt;li&gt; Fog
-  &lt;ul&gt;
-	&lt;li&gt;Color
-	&lt;li&gt;Density
-  &lt;/ul&gt;
-  &lt;li&gt; Post Processing
-  &lt;ul&gt;
-	&lt;li&gt; Color Correction
-	&lt;li&gt; Vignette
-  &lt;/ul&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
+<ul>
+  <li> The Sun Light
+  <ul>
+	<li>Color
+	<li>Direction
+  </ul>
+  <li> Fog
+  <ul>
+	<li>Color
+	<li>Density
+  </ul>
+  <li> Post Processing
+  <ul>
+	<li> Color Correction
+	<li> Vignette
+  </ul>
+</ul>
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/4/all_tod.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;The difference is like night and day!&lt;/span&gt; 
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/4/all_tod.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">The difference is like night and day!</span> 
 
 
-&lt;p&gt;
+<p>
 As you can see, some settings change quite significantly from one phase to the next but it doesn't feel quite so drastic in-game since the gradual interpolation handles it all for us very nicely. Night time clearly stands out over the rest, and that's certainly intentional seeing as most of the time players will be out during the day and taking nightfall as a signal to rest and prepare for the next day.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 That's all, folks! It's a bit of a short post this time around since there's not much more to say and the images pretty much speak for themselves. It's probably worth mentioning that configuring every setting for each phase can be very time consuming and we've spent many hours (and will probably continue spending many more!) making small adjustments here and there to ensure that everything looks right no matter the time.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;As always, if you have any specific questions or comments about any of this, just pop on in to our Discord server and we'll be more than happy to oblige! With that, I'll leave you with a bonus clip of a very important night time activity. Good night!
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/4/firefly.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt;</content><author><name>Remy</name></author><summary type="html"></summary></entry><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html">&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;p&gt;
+<p>As always, if you have any specific questions or comments about any of this, just pop on in to our Discord server and we'll be more than happy to oblige! With that, I'll leave you with a bonus clip of a very important night time activity. Good night!
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/4/firefly.mp4" type ="video/mp4"></>
+</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night! A core feature of our game is a day/night cycle that has different gameplay opportunities depending on the time of day. Not only was it important to us to have each time of day to look and feel distinct from the others, they needed to also transition nicely from one to the next. Oh, and also you need to be able to see what you're doing when it's dark. Hello darkness my old friend... During normal gameplay each distinct time of day in the game lasts several minutes - so don't worry, there's plenty of time to explore and get things done while it's still light out! What we're essentially doing is defining specific times of day and setting it up for the look we want. Then during gameplay we interpolate between the current phase's settings and the next one based on the time in-game. We have split the day into six phases: Morning, Noon, Afternoon, Dusk, Night, and Late Night. In our case, Late Night is indefinite and doesn't need to transition into Morning otherwise it would probably make sense to also have a Dawn phase. The settings we are defining to provide the biggest visual impact between the phases are: The Sun Light Color Direction Fog Color Density Post Processing Color Correction Vignette The difference is like night and day! As you can see, some settings change quite significantly from one phase to the next but it doesn't feel quite so drastic in-game since the gradual interpolation handles it all for us very nicely. Night time clearly stands out over the rest, and that's certainly intentional seeing as most of the time players will be out during the day and taking nightfall as a signal to rest and prepare for the next day. That's all, folks! It's a bit of a short post this time around since there's not much more to say and the images pretty much speak for themselves. It's probably worth mentioning that configuring every setting for each phase can be very time consuming and we've spent many hours (and will probably continue spending many more!) making small adjustments here and there to ensure that everything looks right no matter the time. As always, if you have any specific questions or comments about any of this, just pop on in to our Discord server and we'll be more than happy to oblige! With that, I'll leave you with a bonus clip of a very important night time activity. Good night!]]></summary></entry><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html"><![CDATA[<p>
 It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.
-&lt;/P&gt;
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/sailor.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Awkward...&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/sailor.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Awkward...</span> 
 
-&lt;p&gt;
+<p>
 While we'll still keep a lot of the narrative and background stuff under wraps at the moment (as the work is still in progress and subject to change), we'd like to showcase some of the visual aspects and early concept designs of our protagonist.
-&lt;/p&gt;
+</p>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Early Concept Art&lt;/h2&gt;
-&lt;p&gt;
+<h2 class="section-heading">Early Concept Art</h2>
+<p>
 Looking at some of our first concepts for the sailor, it's clear our lead artist Casper nailed down certain key elements of the character very early on.
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/3/earlyconcepts.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/3/earlyconcepts.png" alt="Demo Image">
+</div>
 
-&lt;p&gt;
+<p>
 A couple iterations later, softening the edges, tweaking the proportions and losing the shoes, we ended up with the design we have today. It was important for us to convey the playfulness and tone of the game almost immediately with how the player character looked while still allowing for a range of expressiveness and personality when needed.
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/3/c5.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/3/c5.png" alt="Demo Image">
+</div>
 
-&lt;p&gt;
+<p>
 Drawing a concept and designing a character is one thing but of course we had to translate it to 3D, which is often a lot easier said than done! Luckily for us, Casper was also the one responsible for doing that, so really he only had himself to blame here.
 
-&lt;h2 class=&quot;section-heading&quot;&gt;2D Inspirations in 3D&lt;/h2&gt;
-&lt;p&gt;
-We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as &lt;i&gt;squash and stretch&lt;/i&gt;. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time!
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jump.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Squish, squash and jiggle.&lt;/span&gt; 
+<h2 class="section-heading">2D Inspirations in 3D</h2>
+<p>
+We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as <i>squash and stretch</i>. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time!
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/jump.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Squish, squash and jiggle.</span> 
 
-&lt;p&gt;
+<p>
 If you scrub through these videos frame-by-frame you can see some very questionable single-frame poses as part of the character's animation. Definitely not realistic and somewhat nightmare inducing but when you play it back at normal speed it's all of a sudden playful and bouncy - magic!
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/runningman.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Not stopped by floppy socks.&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/runningman.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Not stopped by floppy socks.</span> 
 
-&lt;p&gt;
+<p>
 We're also making use of both scaling and simple 2D sprites to animate The Sailor's mouth and eyes. This gives us a lot of control over the key elements of The Sailor's face, allowing us to be very expressive and convey a lot of personality to an otherwise simple character.
-&lt;/p&gt;
+</p>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;The Pipe&lt;/h2&gt;
+<h2 class="section-heading">The Pipe</h2>
 
-&lt;p&gt;
+<p>
 As an additional bonus, one morning Casper came to the rest of us and outlined specific pipe behaviour that he claims came to him in a dream. Here at Half Past Yellow we're all about achieving our pipe dreams so of course we had to implement it. The gist of it is that the pipe looks most interesting as a silhouette in profile view instead of head on in front of The Sailor's face or behind his head. As The Sailor moves around and rotates relative to the camera, the pipe tries its best to stay in profile as much as it can. It's very subtle and I'm sure it will be unnoticed by almost everyone, but now you know! It can be our shared little secret.
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Ceci n'est pas une pipe.&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Ceci n'est pas une pipe.</span> 
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Moving On&lt;/h2&gt;
-&lt;p&gt;
-Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise.&lt;/p&gt;
+<h2 class="section-heading">Moving On</h2>
+<p>
+Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise.</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;No 'sea-legs' here.&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">No 'sea-legs' here.</span> 
 
-&lt;p&gt;
+<p>
 In any case, we're very excited and can't wait for you to all to experience it for yourselves! Stay tuned for more previews and sneak peeks, and don't forget to follow us on our socials below if you haven't already!
-&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html"></summary></entry><entry><title type="html">Flow Like Water</title><link href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html" rel="alternate" type="text/html" title="Flow Like Water" /><published>2020-10-15T17:00:00+02:00</published><updated>2020-10-15T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html">&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game. Awkward... While we'll still keep a lot of the narrative and background stuff under wraps at the moment (as the work is still in progress and subject to change), we'd like to showcase some of the visual aspects and early concept designs of our protagonist. Early Concept Art Looking at some of our first concepts for the sailor, it's clear our lead artist Casper nailed down certain key elements of the character very early on. A couple iterations later, softening the edges, tweaking the proportions and losing the shoes, we ended up with the design we have today. It was important for us to convey the playfulness and tone of the game almost immediately with how the player character looked while still allowing for a range of expressiveness and personality when needed. Drawing a concept and designing a character is one thing but of course we had to translate it to 3D, which is often a lot easier said than done! Luckily for us, Casper was also the one responsible for doing that, so really he only had himself to blame here. 2D Inspirations in 3D We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as squash and stretch. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time! Squish, squash and jiggle. If you scrub through these videos frame-by-frame you can see some very questionable single-frame poses as part of the character's animation. Definitely not realistic and somewhat nightmare inducing but when you play it back at normal speed it's all of a sudden playful and bouncy - magic! Not stopped by floppy socks. We're also making use of both scaling and simple 2D sprites to animate The Sailor's mouth and eyes. This gives us a lot of control over the key elements of The Sailor's face, allowing us to be very expressive and convey a lot of personality to an otherwise simple character. The Pipe As an additional bonus, one morning Casper came to the rest of us and outlined specific pipe behaviour that he claims came to him in a dream. Here at Half Past Yellow we're all about achieving our pipe dreams so of course we had to implement it. The gist of it is that the pipe looks most interesting as a silhouette in profile view instead of head on in front of The Sailor's face or behind his head. As The Sailor moves around and rotates relative to the camera, the pipe tries its best to stay in profile as much as it can. It's very subtle and I'm sure it will be unnoticed by almost everyone, but now you know! It can be our shared little secret. Ceci n'est pas une pipe. Moving On Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise. No 'sea-legs' here. In any case, we're very excited and can't wait for you to all to experience it for yourselves! Stay tuned for more previews and sneak peeks, and don't forget to follow us on our socials below if you haven't already!]]></summary></entry><entry><title type="html">Flow Like Water</title><link href="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html" rel="alternate" type="text/html" title="Flow Like Water" /><published>2020-10-15T17:00:00+02:00</published><updated>2020-10-15T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/15/Flow-Like-Water.html"><![CDATA[<p>
+Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right <a href="/blog/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">here</a>.
+</P>
 
-&lt;p&gt;
-Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right &lt;a href=&quot;/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html&quot;&gt;here&lt;/a&gt;.
-&lt;/P&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Splish splosh.</span> 
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/splishsplosh.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Splish splosh.&lt;/span&gt; 
+<p>The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip.</p>
 
-&lt;p&gt;The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip.&lt;/p&gt;
+<h2 class="section-heading">Dynamic Flow</h2>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Dynamic Flow&lt;/h2&gt;
+<p>
+The dynamic flow effect is created by sampling from a <i>Flow Map</i> and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in <a href="/blog/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">part one</a>. I create and update the <i>Flow Map</i> through a combination of two methods I've found online. I've taken the method of flow UVs from the same <a href="https://catlikecoding.com/unity/tutorials/flow/" target="_blank">Catlike Coding tutorial</a> I pointed to previously and combined it with <a href="https://www.patreon.com/posts/24192529" target="_blank">this Minions Art tutorial</a> about using particles to simulate a wake as an object moves through the water.
+</P>
 
-&lt;p&gt;
-The dynamic flow effect is created by sampling from a &lt;i&gt;Flow Map&lt;/i&gt; and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in &lt;a href=&quot;/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html&quot;&gt;part one&lt;/a&gt;. I create and update the &lt;i&gt;Flow Map&lt;/i&gt; through a combination of two methods I've found online. I've taken the method of flow UVs from the same &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot; target=&quot;_blank&quot;&gt;Catlike Coding tutorial&lt;/a&gt; I pointed to previously and combined it with &lt;a href=&quot;https://www.patreon.com/posts/24192529&quot; target=&quot;_blank&quot;&gt;this Minions Art tutorial&lt;/a&gt; about using particles to simulate a wake as an object moves through the water.
-&lt;/P&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">The most questionable of liquids.</span> 
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowmap.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;The most questionable of liquids.&lt;/span&gt; 
+<p>
+Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these <i>Flow Particles</i> to the <i>Flow Map</i> texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are <i>Flow Particles</i> being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting <i>Flow Particles</i> resulting in an ever-changing <i>Flow Map</i>.
+</P>
 
-&lt;p&gt;
-Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these &lt;i&gt;Flow Particles&lt;/i&gt; to the &lt;i&gt;Flow Map&lt;/i&gt; texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are &lt;i&gt;Flow Particles&lt;/i&gt; being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting &lt;i&gt;Flow Particles&lt;/i&gt; resulting in an ever-changing &lt;i&gt;Flow Map&lt;/i&gt;.
-&lt;/P&gt;
+<p>
+Since we aren't rendering the <i>Flow Particles</i> directly, I am storing some flow information in the <i>Flow Particle</i> texture, resulting in the strange purple-ish color you can see in the debug render above.
+</p>
 
-&lt;p&gt;
-Since we aren't rendering the &lt;i&gt;Flow Particles&lt;/i&gt; directly, I am storing some flow information in the &lt;i&gt;Flow Particle&lt;/i&gt; texture, resulting in the strange purple-ish color you can see in the debug render above.
-&lt;/p&gt;
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/2/flowParticleComposite.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Weird.</span>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowParticleComposite.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Weird.&lt;/span&gt;
+<p>
+The <i>Flow Particle</i> texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more "intense" particles to the <i>Flow Map</i> allowing me to "overwrite" what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. 
+</P>
 
-&lt;p&gt;
-The &lt;i&gt;Flow Particle&lt;/i&gt; texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more &quot;intense&quot; particles to the &lt;i&gt;Flow Map&lt;/i&gt; allowing me to &quot;overwrite&quot; what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. 
-&lt;/P&gt;
+<p>
+In addition to the <i>Flow Particles</i> that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations.
+</p>
 
-&lt;p&gt;
-In addition to the &lt;i&gt;Flow Particles&lt;/i&gt; that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations.
-&lt;/p&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Don't pee in the pool.</span>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/stationaryFlow.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Don't pee in the pool.&lt;/span&gt;
-
-&lt;p&gt;
+<p>
 Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look.
-&lt;/P&gt;
+</P>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/flowfoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Neat.&lt;/span&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/flowfoam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Neat.</span>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Entry Splashing&lt;/h2&gt;
-&lt;p&gt;
-The water entry effect is arguably the simplest part of them all yet is also very much the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific &lt;i&gt;Flow Particle&lt;/i&gt; that creates the expanding ripple effect. The other particles emitted are the &quot;splash&quot; - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction.
-&lt;/p&gt;
+<h2 class="section-heading">Entry Splashing</h2>
+<p>
+The water entry effect is arguably the simplest part of them all yet is also very much the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific <i>Flow Particle</i> that creates the expanding ripple effect. The other particles emitted are the "splash" - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction.
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Some more splish and a little more splosh.&lt;/span&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/entryEffect.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Some more splish and a little more splosh.</span>
 
-&lt;p&gt;
+<p>
 What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome!
-&lt;/P&gt;
+</P>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;End&lt;/h2&gt;
-&lt;p&gt;
+<h2 class="section-heading">End</h2>
+<p>
 And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now.
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Pool party!&lt;/span&gt;
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/2/starfishParty.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Pool party!</span>
 
-&lt;p&gt;
-I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions!&lt;/P&gt;
+<p>
+I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions!</P>
 
-&lt;p&gt; Also please share with us other examples of &quot;stylised realism&quot; effects somewhat like this - we can't get enough of this stuff and would love to see more!
-&lt;/p&gt;</content><author><name>Remy</name></author><summary type="html"></summary></entry><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html">&lt;div class=&quot;text-center&quot;&gt;&lt;iframe src=&quot;https://store.steampowered.com/widget/1717510/&quot; frameborder=&quot;0&quot; width=&quot;646&quot; height=&quot;190&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;p&gt;
+<p> Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right here. Splish splosh. The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip. Dynamic Flow The dynamic flow effect is created by sampling from a Flow Map and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in part one. I create and update the Flow Map through a combination of two methods I've found online. I've taken the method of flow UVs from the same Catlike Coding tutorial I pointed to previously and combined it with this Minions Art tutorial about using particles to simulate a wake as an object moves through the water. The most questionable of liquids. Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these Flow Particles to the Flow Map texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are Flow Particles being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting Flow Particles resulting in an ever-changing Flow Map. Since we aren't rendering the Flow Particles directly, I am storing some flow information in the Flow Particle texture, resulting in the strange purple-ish color you can see in the debug render above. Weird. The Flow Particle texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more "intense" particles to the Flow Map allowing me to "overwrite" what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. In addition to the Flow Particles that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations. Don't pee in the pool. Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look. Neat. Entry Splashing The water entry effect is arguably the simplest part of them all yet is also very much the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific Flow Particle that creates the expanding ripple effect. The other particles emitted are the "splash" - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction. Some more splish and a little more splosh. What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome! End And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now. Pool party! I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions! Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!]]></summary></entry><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html"><![CDATA[<p>
 We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
-&lt;/P&gt;
+</P>
 
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-theme=&quot;light&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yet another stylised water shader.&lt;a href=&quot;https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#screenshotsaturday&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/madewithunity?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#madewithunity&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gamedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gamedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/indiedev?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#indiedev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/unity3d?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#unity3d&lt;/a&gt; &lt;a href=&quot;https://t.co/WGkM2CRtIU&quot;&gt;pic.twitter.com/WGkM2CRtIU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remy Stuurwold (@R3mzo) &lt;a href=&quot;https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Yet another stylised water shader.<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/unity3d?src=hash&amp;ref_src=twsrc%5Etfw">#unity3d</a> <a href="https://t.co/WGkM2CRtIU">pic.twitter.com/WGkM2CRtIU</a></p>&mdash; Remy Stuurwold (@R3mzo) <a href="https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-&lt;p&gt;
-We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too.&lt;/p&gt;
+<p>
+We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too.</p>
 
-&lt;p&gt;
+<p>
 The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
-&lt;/P&gt;
+</P>
 
-&lt;p&gt;
+<p>
 We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! 
-&lt;/p&gt;
+</p>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Color and Light Absorption&lt;/h2&gt;
-&lt;p&gt;
-Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our &lt;i&gt;Surface Color&lt;/i&gt;.
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/albedo.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;What a fantastic start.&lt;/span&gt;
+<h2 class="section-heading">Color and Light Absorption</h2>
+<p>
+Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our <i>Surface Color</i>.
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/albedo.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">What a fantastic start.</span>
 
-&lt;p&gt;
+<p>
 Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this:
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/simpleTint2.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;More watery, but we can do a lot better.&lt;/span&gt;
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/simpleTint2.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">More watery, but we can do a lot better.</span>
 
-&lt;p&gt;
- To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is &lt;i&gt;dense&lt;/i&gt;. Let's go through it.
-&lt;/p&gt;
+<p>
+ To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is <i>dense</i>. Let's go through it.
+</p>
 
-&lt;p&gt;
-First, I take the inverse of the water color, which I'll call the &lt;i&gt;Absorption Color&lt;/i&gt;. Then, I calculate the &lt;i&gt;Absorption Value&lt;/i&gt; which controls how much color absorption there is. The &lt;i&gt;Absorption Value&lt;/i&gt; is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call &lt;i&gt;Absorption Strength&lt;/i&gt;. I then multiply the &lt;i&gt;Absorption Color&lt;/i&gt; by this calculated &lt;i&gt;Absorption Value&lt;/i&gt; to get what I call the &lt;i&gt;Subtractive Color&lt;/i&gt;.
-&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;	&lt;span class=&quot;n&quot;&gt;fixed3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;float3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionVal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;exp2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_AbsorptionStrength&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depthVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+<p>
+First, I take the inverse of the water color, which I'll call the <i>Absorption Color</i>. Then, I calculate the <i>Absorption Value</i> which controls how much color absorption there is. The <i>Absorption Value</i> is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call <i>Absorption Strength</i>. I then multiply the <i>Absorption Color</i> by this calculated <i>Absorption Value</i> to get what I call the <i>Subtractive Color</i>.
+</p>
+<figure class="highlight"><pre><code class="language-csharp" data-lang="csharp">	<span class="n">fixed3</span> <span class="n">absorptionColor</span> <span class="p">=</span> <span class="nf">float3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">)-</span><span class="n">_Color</span><span class="p">;</span>
+	<span class="kt">float</span> <span class="n">absorptionVal</span> <span class="p">=</span> <span class="m">1.0</span> <span class="p">-</span> <span class="nf">exp2</span><span class="p">(-</span><span class="n">_AbsorptionStrength</span> <span class="p">*</span> <span class="n">depthVal</span><span class="p">);</span>
 
-	&lt;span class=&quot;n&quot;&gt;float3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtractiveColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absorptionVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+	<span class="n">float3</span> <span class="n">subtractiveColor</span> <span class="p">=</span> <span class="n">absorptionColor</span> <span class="p">*</span> <span class="n">absorptionVal</span><span class="p">;</span></code></pre></figure>
 
-&lt;p&gt;
-If we were to render the &lt;i&gt;Subtractive Color&lt;/i&gt; now, this is what we get:
-&lt;/p&gt;
+<p>
+If we were to render the <i>Subtractive Color</i> now, this is what we get:
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/fantasea.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Is this the real life?&lt;/span&gt;
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/fantasea.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Is this the real life?</span>
 
-&lt;p&gt;
-It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the &lt;i&gt;Subtractive Color&lt;/i&gt; from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the &lt;i&gt;Absorption Strength&lt;/i&gt; tweak value:
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/underwater.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Now we're getting somewhere!&lt;/span&gt;
+<p>
+It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the <i>Subtractive Color</i> from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the <i>Absorption Strength</i> tweak value:
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/underwater.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Now we're getting somewhere!</span>
 
-&lt;p&gt;
+<p>
 Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
-We're almost there now. It can look pretty dark at high &lt;i&gt;Absorption Strength&lt;/i&gt; values so let's now add this underwater color to the &lt;i&gt;Surface Color&lt;/i&gt; we already have. A little bit of tweaking and &lt;b&gt;BOOM&lt;/b&gt; we finally get the look we want!
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;img class=&quot;img-fluid bordered&quot; src=&quot;https://halfpastyellow.com/blog/img/posts/1/finalcolor.png&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;/div&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Refreshing.&lt;/span&gt;
+<p>
+We're almost there now. It can look pretty dark at high <i>Absorption Strength</i> values so let's now add this underwater color to the <i>Surface Color</i> we already have. A little bit of tweaking and <b>BOOM</b> we finally get the look we want!
+</p>
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/finalcolor.png" alt="Demo Image">
+</div>
+<span class="caption text-muted">Refreshing.</span>
 
-&lt;p&gt;
+<p>
 Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like!
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Disco Juice!&lt;/span&gt;
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Disco Juice!</span>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Surface Normals and Refraction&lt;/h2&gt;
+<h2 class="section-heading">Surface Normals and Refraction</h2>
 
-&lt;p&gt;
+<p>
 Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water.
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/normals.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Smoothy/Bumpy&lt;/span&gt;
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/normals.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Smoothy/Bumpy</span>
 
-&lt;p&gt;
-For this entire section, I'm going to have to direct you to &lt;a href=&quot;https://catlikecoding.com/unity/tutorials/flow/&quot; target=&quot;_blank&quot;&gt;this tutorial collection by Catlike Coding&lt;/a&gt; that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
-&lt;/p&gt;
+<p>
+For this entire section, I'm going to have to direct you to <a href="https://catlikecoding.com/unity/tutorials/flow/" target="_blank">this tutorial collection by Catlike Coding</a> that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
+</p>
 
-&lt;p&gt;
-Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the &lt;i&gt;Underwater Color&lt;/i&gt;, we get a nicely convincing result.
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/refraction.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Sea legs.&lt;/span&gt; 
+<p>
+Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the <i>Underwater Color</i>, we get a nicely convincing result.
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/refraction.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Sea legs.</span> 
 
-&lt;p&gt;
-As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly &quot;realistic&quot; to do so - just set it up with whatever looks best!
-&lt;/p&gt;
+<p>
+As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly "realistic" to do so - just set it up with whatever looks best!
+</p>
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Depth Foam&lt;/h2&gt;
-&lt;p&gt;
+<h2 class="section-heading">Depth Foam</h2>
+<p>
 We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
+<p>
 Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask.
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/foam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;The foaming ring of water!&lt;/span&gt; 
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/foam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">The foaming ring of water!</span> 
 
-&lt;p&gt;
-For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that &quot;true realism&quot; is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all &quot;just works!&quot;
-&lt;/p&gt;
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/finalfoam.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Beach please.&lt;/span&gt; 
+<p>
+For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that "true realism" is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all "just works!"
+</p>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/finalfoam.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Beach please.</span> 
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Caustics&lt;/h2&gt;
-&lt;p&gt;
+<h2 class="section-heading">Caustics</h2>
+<p>
 Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. 
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;
-A fantastic starting point to understanding caustics and how to go about implementing it is &lt;a href=&quot;https://www.alanzucconi.com/2019/09/13/believable-caustics-reflections/&quot; target=&quot;_blank&quot;&gt;this tutorial by Alan Zucconi&lt;/a&gt;. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too.
-&lt;/p&gt;
+<p>
+A fantastic starting point to understanding caustics and how to go about implementing it is <a href="https://www.alanzucconi.com/2019/09/13/believable-caustics-reflections/" target="_blank">this tutorial by Alan Zucconi</a>. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too.
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;2spooky4me&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">2spooky4me</span> 
 
 
-&lt;p&gt;
-Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the &lt;i&gt;Underwater Color&lt;/i&gt;. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
-&lt;/p&gt;
+<p>
+Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the <i>Underwater Color</i>. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
+</p>
 
-&lt;p&gt;
+<p>
 Let's now turn back on the rest of the water and our look is complete!
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/caustics.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt; 
-&lt;span class=&quot;caption text-muted&quot;&gt;Nice.&lt;/span&gt; 
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/caustics.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Nice.</span> 
 
-&lt;br&gt;
-&lt;p&gt;
+<br>
+<p>
 Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this.
-&lt;/p&gt;
+</p>
 
-&lt;p&gt; 
+<p> 
 There's quite a bit here already so in the next part we'll explore how we made the water interactive with:
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt; Dynamic Flow
-  &lt;li&gt; Entry/Exit splashes
-&lt;/ul&gt;
+</p>
+<ul>
+  <li> Dynamic Flow
+  <li> Entry/Exit splashes
+</ul>
 
-&lt;p&gt;
+<p>
 Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;text-center&quot;&gt;
-  &lt;video class=&quot;video-fluid bordered&quot; autoplay loop controls muted src=&quot;https://halfpastyellow.com/blog/img/posts/1/final.mp4&quot; type =&quot;video/mp4&quot;&gt;&lt;/&gt;
-&lt;/div&gt;</content><author><name>Remy</name></author><summary type="html"></summary></entry></feed>
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/final.mp4" type ="video/mp4"></>
+</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done! Yet another stylised water shader.#screenshotsaturday #madewithunity #gamedev #indiedev #unity3d pic.twitter.com/WGkM2CRtIU&mdash; Remy Stuurwold (@R3mzo) April 18, 2020 We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too. The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game. We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! Color and Light Absorption Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our Surface Color. What a fantastic start. Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly. If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this: More watery, but we can do a lot better. To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is dense. Let's go through it. First, I take the inverse of the water color, which I'll call the Absorption Color. Then, I calculate the Absorption Value which controls how much color absorption there is. The Absorption Value is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call Absorption Strength. I then multiply the Absorption Color by this calculated Absorption Value to get what I call the Subtractive Color. fixed3 absorptionColor = float3(1,1,1)-_Color; float absorptionVal = 1.0 - exp2(-_AbsorptionStrength * depthVal); float3 subtractiveColor = absorptionColor * absorptionVal; If we were to render the Subtractive Color now, this is what we get: Is this the real life? It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the Subtractive Color from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the Absorption Strength tweak value: Now we're getting somewhere! Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest. We're almost there now. It can look pretty dark at high Absorption Strength values so let's now add this underwater color to the Surface Color we already have. A little bit of tweaking and BOOM we finally get the look we want! Refreshing. Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like! Disco Juice! Surface Normals and Refraction Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water. Smoothy/Bumpy For this entire section, I'm going to have to direct you to this tutorial collection by Catlike Coding that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point. Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the Underwater Color, we get a nicely convincing result. Sea legs. As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly "realistic" to do so - just set it up with whatever looks best! Depth Foam We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals. Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask. The foaming ring of water! For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that "true realism" is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all "just works!" Beach please. Caustics Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. A fantastic starting point to understanding caustics and how to go about implementing it is this tutorial by Alan Zucconi. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too. 2spooky4me Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the Underwater Color. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here. Let's now turn back on the rest of the water and our look is complete! Nice. Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this. There's quite a bit here already so in the next part we'll explore how we made the water interactive with: Dynamic Flow Entry/Exit splashes Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!]]></summary></entry></feed>
