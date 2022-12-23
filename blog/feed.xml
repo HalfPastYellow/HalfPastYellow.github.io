@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2022-07-12T16:48:43+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Time on Frog Island - Out Now!</title><link href="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html" rel="alternate" type="text/html" title="Time on Frog Island - Out Now!" /><published>2022-07-12T17:00:00+02:00</published><updated>2022-07-12T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html"><![CDATA[<h2 class="section-heading">Let's gooo!</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2022-12-23T10:32:26+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Happy Holidays 2023!</title><link href="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html" rel="alternate" type="text/html" title="Happy Holidays 2023!" /><published>2022-12-22T16:00:00+01:00</published><updated>2022-12-22T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html"><![CDATA[<h2 class="section-heading">Thank you for playing Time on Frog Island!</h2>
+
+<p>
+Games take a monumental amount of time and effort to develop, and releasing is a scary moment for any studio. The community response to the game is everything we hoped for and more, seeing players enjoy their time on Frog Island has been so rewarding for us, and hearing fun stories from friends and fans never gets old. We hope this is just the first of many Half Past Yellow adventures that fans enjoy. 
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/10/GameplayTrailer_v02.mp4" type ="video/mp4"></>
+</div> 
+
+<p>
+For those of you who haven’t picked up the game yet, Time on Frog Island is part the winter sale on all platforms so there has never been a better time to buy! 
+</p>
+
+<p>
+<i>Time on Frog Island</i> is on sale digitally on:<br>
+<ul>
+<li> <u><a href="https://www.xbox.com/en-US/games/store/time-on-frog-island/9pmvswxvp8m5" target="_blank" rel="noopener noreferrer">Xbox</a></u> until January 3rd
+  <li> <u><a href="https://store.steampowered.com/app/1717510/" target="_blank" rel="noopener noreferrer">Steam</a></u> until January 5th
+  <li> <u><a href="https://store.epicgames.com/en-US/p/trading-time-b3ad0d" target="_blank" rel="noopener noreferrer">Epic Game Store</a></u> until January 5th
+  <li> <u><a href="https://www.nintendo.com/store/products/time-on-frog-island-switch/" target="_blank" rel="noopener noreferrer">Switch</a></u> until January 10th  
+  <li> <u><a href="https://store.playstation.com/en-us/concept/10003789/" target="_blank" rel="noopener noreferrer">PlayStation</a></u> until January 18th
+</ul>
+</p>
+
+<h2 class="section-heading">To the moon!</h2>
+
+<p>
+<i>Time on Frog Island</i> has also just launched on Amazon Luna as part of the Luna+ subscription bundle. This is the 8th platform that <i>Time on Frog Island</i> has been released on, and we are so excited to see what Luna users think of the game! 
+</P>
+
+<div class="text-center">
+<a href="https://www.amazon.com/luna/detail/B0BQ8DTM9Y" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/ToTheMoon.jpg" alt="Demo Image"></a>
+</div>
+<span class="caption text-muted">Tell your friends!</span> 
+
+<h2 class="section-heading">Patched up and ready to go</h2>
+
+<p>
+As of mid-November, our first bug-fixing patch for <i>Time on Frog Island</i> was released across all platforms. It took a while to make it onto consoles due to some logistical issues on our side, but everything is up and running now with everyone on the same version of the game. 
+</P>
+
+<p>
+The patch fixes a few niggling bugs seen around the island, plus some bigger bugs associated with The Merchant and The Blacksmith schedules not being properly updated. We have also fixed a bug blocking some players from getting the Frogs Legs, Sea Legs, and Yeet trophies/achievements (sorry about that trophy hunters). 
+</P>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/PatchedUp.jpg" alt="Demo Image">
+</div>
+<span class="caption text-muted">About time!</span>
+
+<h2 class="section-heading">Time on Frog Island OST now available!</h2>
+<p>
+It is now possible to take our cosy island vibes with you wherever you go! The <i>Time on Frog Island</i> soundtrack is now available for purchase on Steam. We don’t have a timeline yet, but we would like to bring the OST to other platforms (such as Spotify) as well. Let us know which ones you use! We will keep you posted on that progress. </p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/1927320/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">What is next for Half Past Yellow?</h2>
+
+<p>
+At Half Past Yellow, we are consistently curious about different genres and technology. We will always bring the same HPY charm and style to all of our games, but each project will be different to the one that came before. We are really excited for 2023, production has already begun on our next project and we can’t wait until we get to show it off. Until then you will just have to keep your eyes peeled! 👁️
+</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/HPYHols.png" alt="A polaroid of Time on Frog Island characters">
+</div>
+
+<h2 class="section-heading">See you on the other side!</h2>
+
+<p>
+That's it for now! From all of us here at HPY, we hope you have a relaxing holiday and a great year ahead of you!
+</p>
+
+<div class="text-center">
+  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
+</div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Time on Frog Island! Games take a monumental amount of time and effort to develop, and releasing is a scary moment for any studio. The community response to the game is everything we hoped for and more, seeing players enjoy their time on Frog Island has been so rewarding for us, and hearing fun stories from friends and fans never gets old. We hope this is just the first of many Half Past Yellow adventures that fans enjoy. For those of you who haven’t picked up the game yet, Time on Frog Island is part the winter sale on all platforms so there has never been a better time to buy! Time on Frog Island is on sale digitally on: Xbox until January 3rd Steam until January 5th Epic Game Store until January 5th Switch until January 10th PlayStation until January 18th To the moon! Time on Frog Island has also just launched on Amazon Luna as part of the Luna+ subscription bundle. This is the 8th platform that Time on Frog Island has been released on, and we are so excited to see what Luna users think of the game! Tell your friends! Patched up and ready to go As of mid-November, our first bug-fixing patch for Time on Frog Island was released across all platforms. It took a while to make it onto consoles due to some logistical issues on our side, but everything is up and running now with everyone on the same version of the game. The patch fixes a few niggling bugs seen around the island, plus some bigger bugs associated with The Merchant and The Blacksmith schedules not being properly updated. We have also fixed a bug blocking some players from getting the Frogs Legs, Sea Legs, and Yeet trophies/achievements (sorry about that trophy hunters). About time! Time on Frog Island OST now available! It is now possible to take our cosy island vibes with you wherever you go! The Time on Frog Island soundtrack is now available for purchase on Steam. We don’t have a timeline yet, but we would like to bring the OST to other platforms (such as Spotify) as well. Let us know which ones you use! We will keep you posted on that progress. What is next for Half Past Yellow? At Half Past Yellow, we are consistently curious about different genres and technology. We will always bring the same HPY charm and style to all of our games, but each project will be different to the one that came before. We are really excited for 2023, production has already begun on our next project and we can’t wait until we get to show it off. Until then you will just have to keep your eyes peeled! 👁️ See you on the other side! That's it for now! From all of us here at HPY, we hope you have a relaxing holiday and a great year ahead of you!]]></summary></entry><entry><title type="html">Time on Frog Island - Out Now!</title><link href="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html" rel="alternate" type="text/html" title="Time on Frog Island - Out Now!" /><published>2022-07-12T17:00:00+02:00</published><updated>2022-07-12T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html"><![CDATA[<h2 class="section-heading">Let's gooo!</h2>
 
 <p>
 Half Past Yellow is finally proud to present <i>Time on Frog Island</i>! To celebrate, here's a catchy sing-along frog song:
@@ -23,16 +98,16 @@ After two-and-a-half years in development we're so excited to hear what everyone
 Time on Frog island is available at (at least!) all these clicks right here:<br>
 <b>Digital!</b>
 <ul>
-  <li> <u><a href="https://store.steampowered.com/app/1717510/">Steam</a></u>
-  <li> <u><a href="https://store.epicgames.com/en-US/p/trading-time-b3ad0d">Epic Game Store</a></u>
-  <li> <u><a href="https://store.playstation.com/en-us/concept/10003789/">PlayStation</a></u>
-  <li> <u><a href="https://www.xbox.com/en-US/games/store/time-on-frog-island/9pmvswxvp8m5">Xbox</a></u>
-  <li> <u><a href="https://www.nintendo.com/store/products/time-on-frog-island-switch/">Switch</a></u>
-  <li> <u><a href="https://stadia.google.com/game/time-on-frog-island">Stadia</a></u>
+  <li> <u><a href="https://store.steampowered.com/app/1717510/" target="_blank" rel="noopener noreferrer">Steam</a></u>
+  <li> <u><a href="https://store.epicgames.com/en-US/p/trading-time-b3ad0d" target="_blank" rel="noopener noreferrer">Epic Game Store</a></u>
+  <li> <u><a href="https://store.playstation.com/en-us/concept/10003789/" target="_blank" rel="noopener noreferrer">PlayStation</a></u>
+  <li> <u><a href="https://www.xbox.com/en-US/games/store/time-on-frog-island/9pmvswxvp8m5" target="_blank" rel="noopener noreferrer">Xbox</a></u>
+  <li> <u><a href="https://www.nintendo.com/store/products/time-on-frog-island-switch/" target="_blank" rel="noopener noreferrer">Switch</a></u>
+  <li> <u><a href="https://stadia.google.com/game/time-on-frog-island" target="_blank" rel="noopener noreferrer">Stadia</a></u>
 </ul>
 <b>Physical!</b>
 <ul>
-  <li> <u><a href="https://signatureeditiongames.com/search?type=product&options%5Bprefix%5D=last&q=time+on+frog+island">Signature Edition Games</a></u>
+  <li> <u><a href="https://signatureeditiongames.com/search?type=product&options%5Bprefix%5D=last&q=time+on+frog+island" target="_blank" rel="noopener noreferrer">Signature Edition Games</a></u>
   <li> Your local game store?!
 </ul>
 </p>
@@ -47,7 +122,7 @@ Time on Frog island is available at (at least!) all these clicks right here:<br>
 In case you've made it here and are not yet convinced - we do have a <b>free</b> prologue for you to check out on Steam.
 </p>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/1717510/" frameborder="0" width="646" height="190"></iframe></div>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/1755950/" frameborder="0" width="646" height="190"></iframe></div>
 
 <h2 class="section-heading">The journey begins!</h2>
 
@@ -506,187 +581,4 @@ And there you have it - a brief look at what goes into creating a complete effec
 I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions!</P>
 
 <p> Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right here. Splish splosh. The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip. Dynamic Flow The dynamic flow effect is created by sampling from a Flow Map and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in part one. I create and update the Flow Map through a combination of two methods I've found online. I've taken the method of flow UVs from the same Catlike Coding tutorial I pointed to previously and combined it with this Minions Art tutorial about using particles to simulate a wake as an object moves through the water. The most questionable of liquids. Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these Flow Particles to the Flow Map texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are Flow Particles being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting Flow Particles resulting in an ever-changing Flow Map. Since we aren't rendering the Flow Particles directly, I am storing some flow information in the Flow Particle texture, resulting in the strange purple-ish color you can see in the debug render above. Weird. The Flow Particle texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more "intense" particles to the Flow Map allowing me to "overwrite" what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. In addition to the Flow Particles that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations. Don't pee in the pool. Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look. Neat. Entry Splashing The water entry effect is arguably the simplest part of them all yet is also very much the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific Flow Particle that creates the expanding ripple effect. The other particles emitted are the "splash" - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction. Some more splish and a little more splosh. What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome! End And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now. Pool party! I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions! Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!]]></summary></entry><entry><title type="html">Yet Another Stylised Water Shader</title><link href="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html" rel="alternate" type="text/html" title="Yet Another Stylised Water Shader" /><published>2020-10-01T17:00:00+02:00</published><updated>2020-10-01T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/01/Yet-Another-Stylised-Water-Shader.html"><![CDATA[<p>
-We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done!
-</P>
-
-<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Yet another stylised water shader.<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/unity3d?src=hash&amp;ref_src=twsrc%5Etfw">#unity3d</a> <a href="https://t.co/WGkM2CRtIU">pic.twitter.com/WGkM2CRtIU</a></p>&mdash; Remy Stuurwold (@R3mzo) <a href="https://twitter.com/R3mzo/status/1251463311503360011?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>
-We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too.</p>
-
-<p>
-The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game.
-</P>
-
-<p>
-We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! 
-</p>
-
-<h2 class="section-heading">Color and Light Absorption</h2>
-<p>
-Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our <i>Surface Color</i>.
-</p>
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/albedo.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">What a fantastic start.</span>
-
-<p>
-Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly.
-</p>
-
-<p>
-If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this:
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/simpleTint2.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">More watery, but we can do a lot better.</span>
-
-<p>
- To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is <i>dense</i>. Let's go through it.
-</p>
-
-<p>
-First, I take the inverse of the water color, which I'll call the <i>Absorption Color</i>. Then, I calculate the <i>Absorption Value</i> which controls how much color absorption there is. The <i>Absorption Value</i> is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call <i>Absorption Strength</i>. I then multiply the <i>Absorption Color</i> by this calculated <i>Absorption Value</i> to get what I call the <i>Subtractive Color</i>.
-</p>
-<figure class="highlight"><pre><code class="language-csharp" data-lang="csharp">	<span class="n">fixed3</span> <span class="n">absorptionColor</span> <span class="p">=</span> <span class="nf">float3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">)-</span><span class="n">_Color</span><span class="p">;</span>
-	<span class="kt">float</span> <span class="n">absorptionVal</span> <span class="p">=</span> <span class="m">1.0</span> <span class="p">-</span> <span class="nf">exp2</span><span class="p">(-</span><span class="n">_AbsorptionStrength</span> <span class="p">*</span> <span class="n">depthVal</span><span class="p">);</span>
-
-	<span class="n">float3</span> <span class="n">subtractiveColor</span> <span class="p">=</span> <span class="n">absorptionColor</span> <span class="p">*</span> <span class="n">absorptionVal</span><span class="p">;</span></code></pre></figure>
-
-<p>
-If we were to render the <i>Subtractive Color</i> now, this is what we get:
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/fantasea.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">Is this the real life?</span>
-
-<p>
-It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the <i>Subtractive Color</i> from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the <i>Absorption Strength</i> tweak value:
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/underwater.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Now we're getting somewhere!</span>
-
-<p>
-Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest.
-</p>
-
-<p>
-We're almost there now. It can look pretty dark at high <i>Absorption Strength</i> values so let's now add this underwater color to the <i>Surface Color</i> we already have. A little bit of tweaking and <b>BOOM</b> we finally get the look we want!
-</p>
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/1/finalcolor.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">Refreshing.</span>
-
-<p>
-Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like!
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/questionablecolors.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Disco Juice!</span>
-
-<h2 class="section-heading">Surface Normals and Refraction</h2>
-
-<p>
-Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water.
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/normals.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Smoothy/Bumpy</span>
-
-<p>
-For this entire section, I'm going to have to direct you to <a href="https://catlikecoding.com/unity/tutorials/flow/" target="_blank">this tutorial collection by Catlike Coding</a> that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point.
-</p>
-
-<p>
-Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the <i>Underwater Color</i>, we get a nicely convincing result.
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/refraction.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Sea legs.</span> 
-
-<p>
-As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly "realistic" to do so - just set it up with whatever looks best!
-</p>
-
-<h2 class="section-heading">Depth Foam</h2>
-<p>
-We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals.
-</p>
-
-<p>
-Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask.
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/foam.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">The foaming ring of water!</span> 
-
-<p>
-For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that "true realism" is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all "just works!"
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/finalfoam.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Beach please.</span> 
-
-<h2 class="section-heading">Caustics</h2>
-<p>
-Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. 
-</p>
-
-<p>
-A fantastic starting point to understanding caustics and how to go about implementing it is <a href="https://www.alanzucconi.com/2019/09/13/believable-caustics-reflections/" target="_blank">this tutorial by Alan Zucconi</a>. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too.
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/causticsOnly.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">2spooky4me</span> 
-
-
-<p>
-Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the <i>Underwater Color</i>. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here.
-</p>
-
-<p>
-Let's now turn back on the rest of the water and our look is complete!
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/caustics.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Nice.</span> 
-
-<br>
-<p>
-Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this.
-</p>
-
-<p> 
-There's quite a bit here already so in the next part we'll explore how we made the water interactive with:
-</p>
-<ul>
-  <li> Dynamic Flow
-  <li> Entry/Exit splashes
-</ul>
-
-<p>
-Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/1/final.mp4" type ="video/mp4"></>
-</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[We've had some folks asking about how I put together the stylised water shader shown in this here tweet, so we thought it'd be a good idea to give a general overview of how it's done! Yet another stylised water shader.#screenshotsaturday #madewithunity #gamedev #indiedev #unity3d pic.twitter.com/WGkM2CRtIU&mdash; Remy Stuurwold (@R3mzo) April 18, 2020 We wanted something different from the common cel-shaded stylised toon water look so we developed this semi-realistic, 'in-between' water visual for our game. The aim of this post is not necessarily a tutorial but to give a conceptual overview of how you could use some or all of these techniques to accomplish something similar. I'm also not claiming to be particularly original or clever with how it's been done - there are so many others out there with amazing, in-depth resources that are crucial for me being able to put something like this together in the first place and I'll be linking to some of them too. The entire effect is comprised of several distinct features that come together to sell the look and feel of cool, refreshing water that still fits with our game's art style. Some of these features are based in reality while others are complete artistic liberty and we think the interplay between these two concepts makes for a playful, fresh and interesting visual that matches the overall tone of the game. We are using Unity as our engine of choice, and I personally prefer manually tinkering with the shader code, but the concepts outlined here should be generally applicable in any game engine or shader tool. The water object itself is simply a plane that intersects the terrain with the shader applied. It's a bit of a long post so without further ado, let's get to it! Color and Light Absorption Color seems like a good place to start. The key here is to keep it looking somewhat convincing while providing us with a lot of control. We're still using a physically-based lighting calculation with Smoothness and Metallic values to get that realistic vibe so we plug in some blue Albedo to kick us off. This will be our Surface Color. What a fantastic start. Mmmm, blue... In order to make it look a little less like plastic and a little more like water, we need to be able to see through it! To do this, I'm grabbing the screen space texture before the water is rendered as well as the depth texture which we will need very shortly. If we ignore the physically based shading and simply sample the pre-water texture and multiply it by the water color to get the underwater color we would get this: More watery, but we can do a lot better. To get it looking more realistic, we need to tint the color of everything underwater by how much water is between it and the surface. Conceptually, color in the real world exists because the object absorbs all light of other wavelengths and reflects back only the frequencies of light that we perceive as its color. We use this concept to absorb more of the inverse water color from the pre-water color the more water there is between the bottom and the surface at that point from the camera's perspective. Oof, that sentence is dense. Let's go through it. First, I take the inverse of the water color, which I'll call the Absorption Color. Then, I calculate the Absorption Value which controls how much color absorption there is. The Absorption Value is calculated from the view-space depth difference between the surface and the bottom of the pool. This depth value can be kept linear or modified to get different absorption falloffs. For some creative control, I am also multiplying the depth by a tweak value I call Absorption Strength. I then multiply the Absorption Color by this calculated Absorption Value to get what I call the Subtractive Color. fixed3 absorptionColor = float3(1,1,1)-_Color; float absorptionVal = 1.0 - exp2(-_AbsorptionStrength * depthVal); float3 subtractiveColor = absorptionColor * absorptionVal; If we were to render the Subtractive Color now, this is what we get: Is this the real life? It's orange. Surely this is the opposite of what we want - correct! Let's now take the color sampled from the screen texture and subtract the Subtractive Color from it. What we will get is the absorbed color of everthing under the surface based on how deep the water is from the camera's perspective. Here I am also playing with the Absorption Strength tweak value: Now we're getting somewhere! Note how we still get some of the brighter areas of the ground texture coming through in areas of higher absorption giving the whole thing a bit more visual depth and interest. We're almost there now. It can look pretty dark at high Absorption Strength values so let's now add this underwater color to the Surface Color we already have. A little bit of tweaking and BOOM we finally get the look we want! Refreshing. Now that we've got the base color done, this is a good foundation to add the next few features of our water. Of course we're not limited with rendering just water in this way. With different colors and tweak values we're able to represent as many questionable liquids as we'd like! Disco Juice! Surface Normals and Refraction Next up, we'll give the surface some definition with animated normals. Water is almost never completely still (and our brains know this!) so by just having the surface normals animate even a little bit can give a huge impact for the presentation of water. This will also provide the basis for refracting everything underneath the water and really sell the look. Since we don't have any refraction yet, the surface normals are mostly visible in how the specular lighting is reflected on the surface of the water. Smoothy/Bumpy For this entire section, I'm going to have to direct you to this tutorial collection by Catlike Coding that I followed and referred to extensively. They have done such a great job detailing how to go about creating a seamlessly animating texture for a liquid flow effect and also a complete water tutorial with refraction. Generally, I can't recommend Catlike Coding enough - there's so much quality and depth to the tutorials that when I'm researching something related to a particular shader effect, I'm almost always going to end up there at one point. Our surface is now animating but if you look at everything underneath the water it doesn't look quite right because it's all still very static. Once we add refraction and offset the UVs that we are using to sample for the Underwater Color, we get a nicely convincing result. Sea legs. As you can see, changing the normal tiling and refraction strength can drastically alter the look of the water. Again, we're able to tweak the the normals and the refraction strength independently for maximum control even though it wouldn't be strictly "realistic" to do so - just set it up with whatever looks best! Depth Foam We have a fairly realistic looking water shader at this point. It's time to toon it up a bit with the depth foam. The foam effect is essentially a mask that we use to either return the color we have so far, or a specific flat foam color. This technique is very commonly used in a lot of stylised toon water visuals. Our mask is made of two parts. The first part is a simple depth threshold. The second part is another depth threshold but with additional thresholded scrolling noise textures also applied to it. These two parts are combined to take the maximum value between them which is then used as the final foam mask. The foaming ring of water! For such a simple effect, it really has quite an impact to the overall tone and style of the water. It is immediately obvious that "true realism" is not the goal here despite everything else about the water leaning that way. Also note that since the foam is a depth effect, we can put anything in the water and it all "just works!" Beach please. Caustics Caustics are the light patterns visible on the ground under the water due to the refraction of light from the surface. There are a lot of different techniques online on how this effect can be accomplished, ranging in complexity and realism. I went for a very simple approach here, as we only need a lick of realism. A fantastic starting point to understanding caustics and how to go about implementing it is this tutorial by Alan Zucconi. His many tutorials are also a great resource and cover a wide range of topics in game development - definitely check this one out too. 2spooky4me Similar to how we did the foam, the caustics pattern is made by using a texture scrolling over itself to create the movement. This texture is then sampled using the world space XZ coordinates of the underwater geometry, multiplied by the light color, and added to the Underwater Color. We've essentially just projected the caustics texture straight down onto all the underwater geometry. The trickiest part here is actually correctly sampling the shadow mask so that the caustics don't appear in the shaded areas but that will certainly be engine specific and out of scope for us here. Let's now turn back on the rest of the water and our look is complete! Nice. Thanks for making all the way through! I hope this was a good general overview of how we achieved this particular look for the water. Let us know if this was informative and you'd like to see more of this in the future or if you have any other comments on how we gone done did this. There's quite a bit here already so in the next part we'll explore how we made the water interactive with: Dynamic Flow Entry/Exit splashes Be sure to hit us up on our socials or sign up to our newsletter so you don't miss out!]]></summary></entry></feed>
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Welcome to the second part of our water shader overview! In this part we will be going over how we added some interactive effects to the water, giving it a lot more life. If you haven't checked out part one yet, you can do so right here. Splish splosh. The two interactive features we'll be going over are the dynamic flow introduced by other objects and the simple splash effect when something enters the water. We can see both effects in the above starfish bullying clip. Dynamic Flow The dynamic flow effect is created by sampling from a Flow Map and consequently manipulating the UV coordinates that I'm using for the various texture samples outlined in part one. I create and update the Flow Map through a combination of two methods I've found online. I've taken the method of flow UVs from the same Catlike Coding tutorial I pointed to previously and combined it with this Minions Art tutorial about using particles to simulate a wake as an object moves through the water. The most questionable of liquids. Instead of using the particles to render a texture directly onto the water as in the Minions Art tutorial, I am additively rendering these Flow Particles to the Flow Map texture every frame and then blurring and reducing the existing flow. This allows for the water's flow to change and react over time as long as there are Flow Particles being emitted. That is essentially the key to the effect - objects that come into contact with the water will start emitting Flow Particles resulting in an ever-changing Flow Map. Since we aren't rendering the Flow Particles directly, I am storing some flow information in the Flow Particle texture, resulting in the strange purple-ish color you can see in the debug render above. Weird. The Flow Particle texture is a composite of some information needed for the flow, stored in each of the channels (there is one free/unused channel). R - U speed, G - V speed, B/A - Intensity. Besides masking the flow and giving it a shape, another trick I'm using the intensity channel for is that I can selectively add newer, more "intense" particles to the Flow Map allowing me to "overwrite" what was previously there. You can see this happen when a new object enters the water as their entry ripple moves over the existing flow. In addition to the Flow Particles that are emitted by moving objects, I am also constantly emitting some particles as long as the objects are in the water. This helps to be a little more convincing since water in real life is rarely still and would flow around the object. For both types of emission I am using the same texture on the particles. The particles are randomly rotated and scaling when added to each other so it already looks quite random and does not need any texture variations. Don't pee in the pool. Lastly, I am replacing the water color with the same foam color as before when the flow intensity reaches a certain threshold. This creates a cool trail behind the moving obejcts and gives the whole effect a bit of an organic, natural motion while still maintaining the toony look. Neat. Entry Splashing The water entry effect is arguably the simplest part of them all yet is also very much the cherry on top. Once an object enters the water, we just emit some particles where they entered. That's it! Granted, one of the particles we emit is a specific Flow Particle that creates the expanding ripple effect. The other particles emitted are the "splash" - they are unlit and the same color as the foam for consistency. While simple, it adds a lot to the physicality of the water and provides a strong visual indicator for the start of the responsive water interaction. Some more splish and a little more splosh. What's interesting to note that although not expressly intending it, there is a foam ring that develops around the entry point due to how the flow intensity changes with how we have implemented the dynamic flow and the how the entry ripple particle expands. Awesome! End And there you have it - a brief look at what goes into creating a complete effect like this. Here at Half Past Yellow we're firm believers in experimentation and pushing our own boundaries and we take a lot of pride in that extra step of polish. Although it might not always come easy or quick, once we see the results we are grateful for having put in the effort! Of course there's always more we can add to it, but we're happy leaving it here for now. Pool party! I hope this writeup provided some useful insight into the pieces that make up this specific visual and that some of you other game devs out there can take the techniques mentioned here to create similar effects of your own. As always, write us on our socials if you have any comments, questions, suggestions! Also please share with us other examples of "stylised realism" effects somewhat like this - we can't get enough of this stuff and would love to see more!]]></summary></entry></feed>
