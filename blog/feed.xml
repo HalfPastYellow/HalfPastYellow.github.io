@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-05-23T08:35:59+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-05-25T10:43:23+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
 <p>
 Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 </p>
 <p>A lot has happened in that time, and we are excited to update you with this blog post and one coming next month. </p>
@@ -37,7 +37,7 @@ You get to play the tutorial sequence, and at the end, you will get a sneak peek
 </P>
 
 <div class="text-center">
-<a href="https://www.amazon.com/luna/detail/B0BQ8DTM9Y" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/12/telerotate.gif" alt="Demo Image"></a>
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/12/TeleRotate.gif" alt="Demo Image">
 </div>
 <span class="caption text-muted">Same, same...</span> 
 
@@ -46,7 +46,7 @@ A lot has changed since then and I’m so happy to finally be sharing Spectacle 
 </P>
 
 <div class="text-center">
-<a href="https://www.amazon.com/luna/detail/B0BQ8DTM9Y" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/12/AbstractSpaces.gif" alt="Demo Image"></a>
+<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/12/AbstractSpaces.gif" alt="Demo Image">
 </div>
 <span class="caption text-muted">... but different!</span> 
 
