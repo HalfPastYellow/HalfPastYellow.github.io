@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-05-25T10:43:23+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-06-10T18:57:04+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
+<p>I want to thank everyone who took the time to check out the <i>Spectacle</i> Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord.</p>
+<p>The <i>Spectacle</i> demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see <i>Spectacle</i> reach a wider audience.</p>
+
+<p><i>Steam Next Fest</i> runs from <b>June 10th until June 17th</b> but the demo is forever!</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">The world of Trip Space</h2>
+<p>Eagle-eyed players will have seen small eyeball creatures (Peepers) running around. These creatures are visitors to Trip Space, excited to see all the strange sights. Peepers will be both a help and a hindrance during your journey.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/13/Concept.png" alt="concept image">
+</div>
+<span class="caption text-muted">A concept of the Peepers with Glo</span>
+
+<p>We designed Peepers to inject charm into the game. <i>Spectacle</i> will only include a few lizard characters and we thought it was important that the game didn't feel too lonely to explore. We carefully crafted the colour, size, sounds, and animation to create the cutest little things we could.</p>
+<p>Judging by tester feedback, I think we succeeded in our goal.</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/PeeperRun.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Don't spook the wildlife</span> 
+
+<h2>Show us your speed</h2>
+<p>If you’ve got what it takes to complete <i>Spectacle</i> in the blink of an eye, swing by <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a> and post your completion time of the demo. The fastest time we have seen so far is 3 minutes and 44 seconds 😲</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/SpectacleDemoSpeed.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Keep an eye out for your completion time</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Spectacle! I want to thank everyone who took the time to check out the Spectacle Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord. The Spectacle demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see Spectacle reach a wider audience.]]></summary></entry><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
 <p>
 Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 </p>
 <p>A lot has happened in that time, and we are excited to update you with this blog post and one coming next month. </p>
@@ -18,14 +47,14 @@ We are happy to announce that you can play a demo version of <i>Spectacle</i> TO
 The event runs from <b> May 23rd until May 30th</b>, don't miss it!
 </p>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
 
 <p>
 You get to play the tutorial sequence, and at the end, you will get a sneak peek of the ‘first proper level’ of the full game. Take control of Glo, a newly hatched lizard who learns about the world of Trip Space while you explore the surreal world of <i>Spectacle</i> and engage with its puzzles. 
 </p>
 
 <div class="text-center">
-<a href="https://www.amazon.com/luna/detail/B0BQ8DTM9Y" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/12/Glo.png" alt="Demo Image"></a>
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/12/Glo.png" alt="Demo Image">
 </div>
 <span class="caption text-muted">An early concept of the main character, Glo.</span> 
 
@@ -57,7 +86,7 @@ A lot has changed since then and I’m so happy to finally be sharing Spectacle 
 <p>
 The HPY Discord is slowly growing. If you aren’t already a member of our little community, we would love to have you join and share your experiences with the <i>Spectacle</i> Demo. We are gearing up to announce something new soon and <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a> is the best way to stay up to date. </P>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[It's been... a while... Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 A lot has happened in that time, and we are excited to update you with this blog post and one coming next month.]]></summary></entry><entry><title type="html">Happy Holidays 2023!</title><link href="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html" rel="alternate" type="text/html" title="Happy Holidays 2023!" /><published>2022-12-22T16:00:00+01:00</published><updated>2022-12-22T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html"><![CDATA[<h2 class="section-heading">Thank you for playing Time on Frog Island!</h2>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[It's been... a while... Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 A lot has happened in that time, and we are excited to update you with this blog post and one coming next month.]]></summary></entry><entry><title type="html">Happy Holidays 2023!</title><link href="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html" rel="alternate" type="text/html" title="Happy Holidays 2023!" /><published>2022-12-22T16:00:00+01:00</published><updated>2022-12-22T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html"><![CDATA[<h2 class="section-heading">Thank you for playing Time on Frog Island!</h2>
 
 <p>
 Games take a monumental amount of time and effort to develop, and releasing is a scary moment for any studio. The community response to the game is everything we hoped for and more, seeing players enjoy their time on Frog Island has been so rewarding for us, and hearing fun stories from friends and fans never gets old. We hope this is just the first of many Half Past Yellow adventures that fans enjoy. 
@@ -479,80 +508,4 @@ That's all, folks! It's a bit of a short post this time around since there's not
 </p>
 <div class="text-center">
   <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/4/firefly.mp4" type ="video/mp4"></>
-</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night!]]></summary></entry><entry><title type="html">Meet: The Sailor</title><link href="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html" rel="alternate" type="text/html" title="Meet: The Sailor" /><published>2020-10-29T16:00:00+01:00</published><updated>2020-10-29T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/10/29/Sailor-Showcase.html"><![CDATA[<p>
-It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.
-</P>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/sailor.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Awkward...</span> 
-
-<p>
-While we'll still keep a lot of the narrative and background stuff under wraps at the moment (as the work is still in progress and subject to change), we'd like to showcase some of the visual aspects and early concept designs of our protagonist.
-</p>
-
-<h2 class="section-heading">Early Concept Art</h2>
-<p>
-Looking at some of our first concepts for the sailor, it's clear our lead artist Casper nailed down certain key elements of the character very early on.
-</p>
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/3/earlyconcepts.png" alt="Demo Image">
-</div>
-
-<p>
-A couple iterations later, softening the edges, tweaking the proportions and losing the shoes, we ended up with the design we have today. It was important for us to convey the playfulness and tone of the game almost immediately with how the player character looked while still allowing for a range of expressiveness and personality when needed.
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/3/c5.png" alt="Demo Image">
-</div>
-
-<p>
-Drawing a concept and designing a character is one thing but of course we had to translate it to 3D, which is often a lot easier said than done! Luckily for us, Casper was also the one responsible for doing that, so really he only had himself to blame here.
-
-<h2 class="section-heading">2D Inspirations in 3D</h2>
-<p>
-We took a lot of inspiration from traditional 2D animation, namely playing with scaling and proportions of moving parts commonly referred to as <i>squash and stretch</i>. Not only did this help sell the motion of our character but it also once again reinforced our toony visuals. Casper had to rig and skin the character quite unconventionally to allow for this but that's a more technical post for another time!
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/jump.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Squish, squash and jiggle.</span> 
-
-<p>
-If you scrub through these videos frame-by-frame you can see some very questionable single-frame poses as part of the character's animation. Definitely not realistic and somewhat nightmare inducing but when you play it back at normal speed it's all of a sudden playful and bouncy - magic!
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/runningman.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Not stopped by floppy socks.</span> 
-
-<p>
-We're also making use of both scaling and simple 2D sprites to animate The Sailor's mouth and eyes. This gives us a lot of control over the key elements of The Sailor's face, allowing us to be very expressive and convey a lot of personality to an otherwise simple character.
-</p>
-
-<h2 class="section-heading">The Pipe</h2>
-
-<p>
-As an additional bonus, one morning Casper came to the rest of us and outlined specific pipe behaviour that he claims came to him in a dream. Here at Half Past Yellow we're all about achieving our pipe dreams so of course we had to implement it. The gist of it is that the pipe looks most interesting as a silhouette in profile view instead of head on in front of The Sailor's face or behind his head. As The Sailor moves around and rotates relative to the camera, the pipe tries its best to stay in profile as much as it can. It's very subtle and I'm sure it will be unnoticed by almost everyone, but now you know! It can be our shared little secret.
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/piperotate.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Ceci n'est pas une pipe.</span> 
-
-<h2 class="section-heading">Moving On</h2>
-<p>
-Designing a solid character visual that reacts and also controls well is truly a gift that keeps on giving and we're very happy to have put the effort in quite early in our development. Not only is it immensely satisfying to move around the world, but it is also very appealing to watch as The Sailor fluidly and without hesitation spreads mischief and creates clutter wherever they roam. On the other hand, we have definitely lost some (significant?) productivity aimlessly jumping around so the jury is still out on whether this has been the right move for us production-wise.</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/3/jumparound.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">No 'sea-legs' here.</span> 
-
-<p>
-In any case, we're very excited and can't wait for you to all to experience it for yourselves! Stay tuned for more previews and sneak peeks, and don't forget to follow us on our socials below if you haven't already!
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[It's time to meet The Sailor! The character that you will be playing as in our decreasingly secretive next game.]]></summary></entry></feed>
+</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night!]]></summary></entry></feed>
