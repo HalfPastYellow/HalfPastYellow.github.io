@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-06-10T18:57:04+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-07-08T21:24:10+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
 <p>I want to thank everyone who took the time to check out the <i>Spectacle</i> Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord.</p>
 <p>The <i>Spectacle</i> demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see <i>Spectacle</i> reach a wider audience.</p>
 
@@ -27,7 +27,41 @@
 <div class="text-center">
 <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/SpectacleDemoSpeed.mp4" type ="video/mp4"></>
 </div> 
-<span class="caption text-muted">Keep an eye out for your completion time</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Spectacle! I want to thank everyone who took the time to check out the Spectacle Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord. The Spectacle demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see Spectacle reach a wider audience.]]></summary></entry><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
+<span class="caption text-muted">Keep an eye out for your completion time</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Spectacle! I want to thank everyone who took the time to check out the Spectacle Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord. The Spectacle demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see Spectacle reach a wider audience.]]></summary></entry><entry><title type="html">A Half Past Yellow Update</title><link href="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html" rel="alternate" type="text/html" title="A Half Past Yellow Update" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/HPY-Update</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html"><![CDATA[<h2 class="section-heading">Difficult times</h2>
+<p>The game development industry has been having a hard time over the last year and a half. Studio closers, layoffs, and cancelled projects are a normal part of the news cycle now and it is difficult to tell when the bleeding will stop.</p>
+<p>Half Past Yellow had to say goodbye to 2 of our team members in May due to uncertainty with project financing. The team members of HPY are the most valuable asset the studio has, and it feels terrible to lose key parts of it.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/14/team.jpg" alt="HPY team">
+</div>
+<span class="caption text-muted">The HPY team right after saving the world from a deadly virus</span>
+
+<h2 class="section-heading">The struggle to secure development funding</h2>
+<p>Half Past Yellow started working on <i>Spectacle</i> in late 2022 and we have been showing off the game to potential publishers and investors as early as March 2023. It was already clear that the landscape for funding new projects was difficult to traverse, but we were optimistic that we would find a passionate publisher for the project by the end of the year. We persisted with the project, but as the year came to an end, it was clear that we weren’t getting the interest we hoped for. Most publishers cited similar concerns about the puzzle genre, specifically noting the ratio of ‘development cost’ to ‘playable hours’ as a difficult investment to justify in the current market.</p>
+<p>In the beginning of 2024, we decided to start prototyping new games that had a stronger focus on action and replayability (a better ratio of ‘development cost’ and ‘playable hours’). We already had a commercially viable demo as well as a showcase build with more complicated puzzles, so it was possible to work on something new while seeking investment in Spectacle. In the past 6 months, we haven’t made any breakthroughs with Spectacle, but we have seen some early interest in our new project.</p>
+<p>We believe that <i>Spectacle</i> requires an additional 12-18 months of development and this isn’t something that Half Past Yellow can commit to without the financial backing of a publisher or investment partner. Because of this, we have made the difficult decision to fully switch projects.</p>
+
+<h2 class="section-heading">What is happening with Spectacle?</h2>
+<p>We were so excited to release the <i>Spectacle</i> demo and we are ecstatic that players enjoyed the game. The demo was released to show off the game that we have been diligently working on over the course of 2023 as well as give us some concrete information about player interest in a full game.</p>
+<p>It was impossible for us to back up the demo launch with a proper marketing push, so we had to rely on word of mouth and Steam’s algorithm to be noticed. <i>Spectacle</i> saw good traction in the smaller Cerebral Puzzle Showcase but failed to get any real interest during Next Fest.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/14/wishlists.png" alt="HPY team">
+</div>
+<span class="caption text-muted">We saw a good bump in wishlists during puzzle fest, but not enough to change our fate</span>
+
+<p>The <i>Spectacle</i> demo will remain available on Steam forever and we are excited by the prospect of returning to the project one day, but the internal status is currently: delayed indefinitely.</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+
+
+<h2 class="section-heading">What does the future hold?</h2>
+<p>The team is ready to show off the project that we started prototyping at the beginning of this year. We will be sharing gameplay footage on our <a href="http://hpy.lol/discord">Discord</a>, <a href="https://x.com/halfpastyellow">Twitter</a>, <a href="https://www.facebook.com/HalfPastYellow">Facebook</a>, and <a href="https://www.instagram.com/halfpastyellow_/">Instagram</a> over the next 4-6 weeks as we build up to a proper announcement and Steam page launch. I hope you take the time to check it out and let us know what you think. In the meantime, a sneak peak will have to do.</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/14/NewfirstPost_smol.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Top down platforming action with a twist...</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Difficult times The game development industry has been having a hard time over the last year and a half. Studio closers, layoffs, and cancelled projects are a normal part of the news cycle now and it is difficult to tell when the bleeding will stop. Half Past Yellow had to say goodbye to 2 of our team members in May due to uncertainty with project financing. The team members of HPY are the most valuable asset the studio has, and it feels terrible to lose key parts of it.]]></summary></entry><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
 <p>
 Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 </p>
 <p>A lot has happened in that time, and we are excited to update you with this blog post and one coming next month. </p>
@@ -450,62 +484,4 @@ Until then, from everyone here at Half Past Yellow, we wish you and those you ho
 <div class="text-center">
   <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
 </div> 
-<span class="caption text-muted">Do not try this at home</span>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!]]></summary></entry><entry><title type="html">Controlling the Sun</title><link href="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html" rel="alternate" type="text/html" title="Controlling the Sun" /><published>2020-11-19T16:00:00+01:00</published><updated>2020-11-19T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/11/19/Day-Night-Cycle.html"><![CDATA[<p>
-Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night! 
-</p>
-
-<p>A core feature of our game is a day/night cycle that has different gameplay opportunities depending on the time of day. Not only was it important to us to have each time of day to look and feel distinct from the others, they needed to also transition nicely from one to the next. Oh, and also you need to be able to see what you're doing when it's dark.</P>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/4/full_cycle.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Hello darkness my old friend...</span> 
-
-<p>
-During normal gameplay each distinct time of day in the game lasts several minutes - so don't worry, there's plenty of time to explore and get things done while it's still light out!
-</P>
-
-<p>
-What we're essentially doing is defining specific times of day and setting it up for the look we want. Then during gameplay we interpolate between the current phase's settings and the next one based on the time in-game. We have split the day into six phases: Morning, Noon, Afternoon, Dusk, Night, and Late Night. In our case, Late Night is indefinite and doesn't need to transition into Morning otherwise it would probably make sense to also have a Dawn phase.
-</p>
-
-<p>
-The settings we are defining to provide the biggest visual impact between the phases are:
-<ul>
-  <li> The Sun Light
-  <ul>
-	<li>Color
-	<li>Direction
-  </ul>
-  <li> Fog
-  <ul>
-	<li>Color
-	<li>Density
-  </ul>
-  <li> Post Processing
-  <ul>
-	<li> Color Correction
-	<li> Vignette
-  </ul>
-</ul>
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/4/all_tod.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">The difference is like night and day!</span> 
-
-
-<p>
-As you can see, some settings change quite significantly from one phase to the next but it doesn't feel quite so drastic in-game since the gradual interpolation handles it all for us very nicely. Night time clearly stands out over the rest, and that's certainly intentional seeing as most of the time players will be out during the day and taking nightfall as a signal to rest and prepare for the next day.
-</p>
-
-<p>
-That's all, folks! It's a bit of a short post this time around since there's not much more to say and the images pretty much speak for themselves. It's probably worth mentioning that configuring every setting for each phase can be very time consuming and we've spent many hours (and will probably continue spending many more!) making small adjustments here and there to ensure that everything looks right no matter the time.
-</p>
-
-<p>As always, if you have any specific questions or comments about any of this, just pop on in to our Discord server and we'll be more than happy to oblige! With that, I'll leave you with a bonus clip of a very important night time activity. Good night!
-</p>
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/4/firefly.mp4" type ="video/mp4"></>
-</div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Up until now you've seen bright and sunny images of our island but what if we told you there was another side to it? Let there be... Night!]]></summary></entry></feed>
+<span class="caption text-muted">Do not try this at home</span>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!]]></summary></entry></feed>
