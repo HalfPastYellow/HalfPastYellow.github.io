@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-07-08T21:24:10+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-08-18T14:37:45+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Introducing: Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html" rel="alternate" type="text/html" title="Introducing: Tempest Tower" /><published>2024-08-19T17:00:00+02:00</published><updated>2024-08-19T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html"><![CDATA[<h2 class="section-heading">A New Project</h2>
+<p>As hinted at in our <a href="/blog/2024/06/10/HPY-Update.html">last post</a>, we've been quite busy this year and are excited to announce our next project, <i>Tempest Tower</i>! It is an action-packed Tower Defence game with Platforming elements. We are bringing the much-loved character feel and animation style of <i>Time on Frog Island</i> to a new type of game. You will have to dodge and weave through waves of Creepers while maintaining your defences and herding the local critters to safety.</p>
+<p>If that sounds like your kind of game, then I have good news for you! You can wishlist the game on Steam right now and get notified when the game launches.</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">A Tower Defence with Platforming elements?</h2>
+<p>The perfect mix of strategy and action. <i>Tempest Tower</i> offers traditional Tower Defense base building and wave-based gameplay with an added layer of player interaction. Push enemies around, personally activate traps, and jump on enemy heads while you save critters and collect resources.</p>
+<p>Our goal for this project is to add a new level of tension to the Tower Defence genre by placing the player right in the middle of the action. You will have unlimited time to structure your defences and plan. When you activate the wave, you must trust your defences while you dodge, push, and stomp your way through hordes of enemies to collect resources and save cute little eyeball creatures called Peepers.</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/15/PEEPR.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">These cute little guys can't defend themselves</span> 
+
+<h2 class="section-heading">Push back the horde and claim victory</h2>
+<p>My favorite mechanic is related to how we have structured the levels in <i>Tempest Tower</i>. At the start of a level, only a small portion of it will be available to explore. The rest of the level is covered in a thick fog. After successfully defending a wave, you will push back part of the fog and reveal a new section of the level.</p>
+<p>Once you dispel the last of the fog, you will have one last wave of enemies to deal with before you claim victory on that map.</p>
+<p>Pushing back the fog means pushing back enemy spawn points and gaining access to new strategic locations, but the Creepers will soon be back, and in greater numbers!</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/15/foglvl.png" alt="Fog Concept">
+</div>
+<span class="caption text-muted">A concept of the fog mechanic</span>
+
+<p>This structure makes designing levels a really interesting challenge. We have spent a lot of time figuring out the right size of level, how much to reveal per wave, what tools the player needs to make traversal exciting, and so much more. Stay tuned for an in-depth level design blog later in the year 😉</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/15/blockout.png" alt="Fog Concept">
+</div>
+<span class="caption text-muted">Colour coding is used to show level segments while blocking out the level design</span>
+
+<h2 class="section-heading">HPY is going to Gamescom!</h2>
+<p>Remy and I are in Cologne for Gamescom this week. We will be showcasing an early version of <i>Tempest Tower</i> at <a href="https://courage.events/event/courage-cologne-2024/">Courage Cologne 2024</a> on the 20th of August and we will be available at the event center during the rest of the week. If you manage to catch us at the showcase or on the show floor, you might be lucky enough to grab a <i>Tempest Tower</i> postcard.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/15/postcards.jpg" alt="Fog Concept">
+</div>
+<span class="caption text-muted">Fancy limited edition postcards?!</span>
+
+<h2 class="section-heading">Stay up to date</h2>
+<p>Going forward we will be publishing a new blog post every 4-6 weeks, mostly about the development of <i>Tempest Tower</i>. You can get more frequent updates by joining our <a href="http://hpy.lol/discord">Discord</a> or following us on Social Media (<a href="https://x.com/halfpastyellow">Twitter</a>, <a href="https://www.facebook.com/HalfPastYellow">Facebook</a>, <a href="https://www.instagram.com/halfpastyellow_/">Instagram</a>). You can also get less frequent updates by signing up for our <a href="https://newsletter.halfpastyellow.com/signup">newsletter</a>.</p>
+<p>See you next month!</p>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[A New Project As hinted at in our last post, we've been quite busy this year and are excited to announce our next project, Tempest Tower! It is an action-packed Tower Defence game with Platforming elements. We are bringing the much-loved character feel and animation style of Time on Frog Island to a new type of game. You will have to dodge and weave through waves of Creepers while maintaining your defences and herding the local critters to safety. If that sounds like your kind of game, then I have good news for you! You can wishlist the game on Steam right now and get notified when the game launches.]]></summary></entry><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
 <p>I want to thank everyone who took the time to check out the <i>Spectacle</i> Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord.</p>
 <p>The <i>Spectacle</i> demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see <i>Spectacle</i> reach a wider audience.</p>
 
@@ -36,7 +78,7 @@
 </div>
 <span class="caption text-muted">The HPY team right after saving the world from a deadly virus</span>
 
-<h2 class="section-heading">The struggle to secure development funding</h2>
+<h2 class="section-heading">The struggle to secure funding</h2>
 <p>Half Past Yellow started working on <i>Spectacle</i> in late 2022 and we have been showing off the game to potential publishers and investors as early as March 2023. It was already clear that the landscape for funding new projects was difficult to traverse, but we were optimistic that we would find a passionate publisher for the project by the end of the year. We persisted with the project, but as the year came to an end, it was clear that we weren’t getting the interest we hoped for. Most publishers cited similar concerns about the puzzle genre, specifically noting the ratio of ‘development cost’ to ‘playable hours’ as a difficult investment to justify in the current market.</p>
 <p>In the beginning of 2024, we decided to start prototyping new games that had a stronger focus on action and replayability (a better ratio of ‘development cost’ and ‘playable hours’). We already had a commercially viable demo as well as a showcase build with more complicated puzzles, so it was possible to work on something new while seeking investment in Spectacle. In the past 6 months, we haven’t made any breakthroughs with Spectacle, but we have seen some early interest in our new project.</p>
 <p>We believe that <i>Spectacle</i> requires an additional 12-18 months of development and this isn’t something that Half Past Yellow can commit to without the financial backing of a publisher or investment partner. Because of this, we have made the difficult decision to fully switch projects.</p>
@@ -473,15 +515,4 @@ It's a saw! Of course it is! Obviously you can't be a carpenter without it. Good
 
 <p>
 Now that he's got his saw back he can get to work! Let's leave him to it and check back later. Maybe some other townsfolk could use some help in the meantime? Make sure to connect with us below to be the first to find out who else is around!
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! Let's start with introducing The Carpenter!]]></summary></entry><entry><title type="html">Happy holidays!</title><link href="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html" rel="alternate" type="text/html" title="Happy holidays!" /><published>2020-12-18T16:00:00+01:00</published><updated>2020-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays</id><content type="html" xml:base="https://halfpastyellow.com/blog/2020/12/18/Happy-Holidays.html"><![CDATA[<p>
-What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!
-</p>
-
-<p>
-Until then, from everyone here at Half Past Yellow, we wish you and those you hold dear a happy and <i>hygellig</i> holiday season! Here's to a better 2021 for all of us and we'll catch you again after the fireworks!
-</P>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Do not try this at home</span>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[What a year it's been... If you're reading this, it means that, despite everything that 2020 has thrown at us, you too have made it through this uniquely challenging year. We know the blog's been a little quiet recently but worry not, we've still been very much hard at work! We will definitely have something more to show you come January!]]></summary></entry></feed>
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! Let's start with introducing The Carpenter!]]></summary></entry></feed>
