@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-08-18T14:37:45+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Introducing: Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html" rel="alternate" type="text/html" title="Introducing: Tempest Tower" /><published>2024-08-19T17:00:00+02:00</published><updated>2024-08-19T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html"><![CDATA[<h2 class="section-heading">A New Project</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-10-29T21:18:15+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Level Design in Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html" rel="alternate" type="text/html" title="Level Design in Tempest Tower" /><published>2024-10-30T16:00:00+01:00</published><updated>2024-10-30T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html"><![CDATA[<p>This blog post was originally going to be about how we create an understandable player story within the whimsical/abstract world of <i>Tempest Tower</i>. Then I started to see the #blocktober tag around Twitter and decided to write a different post instead. Specifically, about some early experimentation we did on <i>Tempest Tower</i> and how changes to the game design impacted the level design.</p>
+<p>I don’t think that the hashtag has ever been as popular as <a href="https://www.polygon.com/2017/10/3/16408922/game-development-level-design">2017 when it was first started</a>, but us indie developers must use every algorithm bump we can.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is <a href="https://twitter.com/hashtag/blocktober?src=hash&amp;ref_src=twsrc%5Etfw">#blocktober</a> still a thing? We wanted to share some footage of a movement test on our new Tempest Tower level.<br>More info coming later in this months blog! <a href="https://twitter.com/hashtag/ScreenshotSaturday?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/f8gyCksYTn">pic.twitter.com/f8gyCksYTn</a></p>&mdash; 🟡 Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1845011845339381761?ref_src=twsrc%5Etfw">October 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<h2 class="section-heading">What is a Level in <i>Tempest Tower</i>?</h2>
+<p>Let’s start by quickly outlining what a level in <i>Tempest Tower</i> actually is. Each level is a standalone floating island; the terrain, enemy spawn points, and level segments are all handcrafted by a level designer, but there are some light procedural elements that change after every attempt.</p>
+<p>At the start of a level, only a small portion of it is available to explore and build on. The rest of the level is covered in a thick fog. After successfully defending a wave, a section of the fog is pushed back, and a new segment of the level is revealed. Once the last section of the fog has been ousted, the player must defend one last wave in order to complete the level and return to the menu victorious.</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/15/foglvl.png" alt="Fog Concept">
+</div>
+<span class="caption text-muted">An early concept of how levels are revealed incrementally</span>
+<p>If the player is overwhelmed by a wave and loses their Main Tower, then they must start the level again. <i>Tempest Tower</i> rewards players who experiment with their loadout and try out different upgrades as they learn the layout of a level and how to deal with different enemies. You never know how things are going to interact.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/MapExpand.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">WIP map view showing how a level expands.</span> 
+
+<h2 class="section-heading">Learning from <i>Time on Frog Island</i></h2>
+<p>An important aspect of the <i>Tempest Tower</i> project is our ability to move quickly with ideas. Because of this, the decision was made early on to use a similar camera angle and movement style to our previous game, <i>Time on Frog Island</i>. Making this decision early allowed us to come into the project with some basic level design rules and a good understanding of how traversal should feel.</p>
+<p><i>Time on Frog Island</i> sees the player doing a lot of running around so it was important to us that the act of traversing the island was as fun as possible (even when lost and slightly frustrated).</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/ToFIExplore.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">A quick loop around Frog Island at 250% speed!</span> 
+<p>
+<b>Key level design tenets from <i>ToFI</i>:</b>
+<ul>
+  <li> The island gains height/verticality the further ‘north’ that the player travels 
+  <li> All designed/expected jumps in the game are possible with about 1 meter of leeway (the game is not built to be a hardcore platformer)
+  <li> It is always clear when the player needs to jump (exposed rock visuals) 
+  <li> The camera angle makes height differences in the geometry are difficult to parse so take off points for ‘1-way jumps’ should be marked clearly
+  <li> If the player is ever completely obscured by terrain (which was used sparingly), the ground should be completely smooth and require no jumps to pass through  
+</ul>
+</p>
+<p>If you have never played <i>Time on Frog Island</i> and I have managed to pique your interest with this blog, then I suggest you check out the <a href="https://store.steampowered.com/app/1755950/Time_on_Frog_Island__Prologue/">Free Prologue Adventure</a> and see if it is a game for you!</p>
+
+<h2 class="section-heading">Blockouting a level for <i>Tempest Tower</i></h2>
+<p>While we are lucky to be starting with so much knowledge from <i>Time on Frog Island</i>, it was still necessary to find the fun within <i>Tempest Tower</i>. The rules above gave us a good place to start, but we had to be fast at creating new levels so we could properly test different gameplay features. Blockouting a level always went through three stages of focus; player movement, enemy paths, gameplay objects/items.</p>
+<p>The base terrain is built up by connecting and overlapping pre-built platform pieces in order to create flat open areas, terraced hillsides, and connecting slopes. Pre-built rock shapes are used to plug holes, block jumps, and add visual variety to the space. We are using a world space triplanar shader for both the ground material as well as the exposed rock material so that we can guarantee that the terrain textures always line up. This does generate quite a bit of overlapping geometry, which we might need to revisit at a later date, but it isn’t currently a performance problem.</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/LevelPieces.png" alt="Level Pieces">
+</div>
+<span class="caption text-muted">Some of the many standardised level pieces we have for making levels.</span>
+<p>Enemies cannot jump or drop off ledges, so platforming areas act as shortcuts between different sections of the level. We always build levels with a player movement focus first as it has the largest impact on the fun factor of a level. Levels can often feel a little bare at this point (see: the embedded tweet at the top of this post), but understanding how the player moves around a level is important to understand before moving onto the next step.</p>
+<p>Once we have a good first pass on the overall level, the focus shifts to building enemy paths. A level in <i>Tempest Tower</i> needs to feel amazing (and ideally different) to traverse while empty as well as when it is filled with enemies. The route(s) that enemies take through the level can greatly affect the flow of the space, tight corridors become impassable while high cliffs can be more easily reached. Because of this, we are still making big changes to the base terrain while we decide how to weave enemy paths through it.</p>
+<p>The final piece of the blockouting puzzle is the setup of game objects and items. These are gameplay relevant elements that the player can interact with and use during the level, (things like resource spawners, bombs, destructible blockers, etc.). Once added, the level is properly playable, and the designer can start to evaluate, refine and balance (which is where the real fun begins).</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/LevelBlockout.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Level blockout timelapse.</span> 
+
+<h2 class="section-heading">Early experimentation</h2>
+<p>An action-packed Tower Defence with Platforming elements. This was the key one-liner that drove our early experimentation. We wanted to reward movement efficiency, smart planning, and the ability to react quickly when things go wrong.</p>
+<p>The first iteration of <i>Tempest Tower</i> focused too much on movement. After setting up some defences and starting the wave, the player was expected to effectively ignore enemies in their mad dash for resource collection. This allowed us to create levels that were more vertical and maze like, but it felt counter intuitive to testers (they wanted to engage more with the enemies).</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/EarlyLevelBlockout.png" alt="Early Blockout">
+</div>
+<span class="caption text-muted">Our first full level blockout for pitching at GDC.</span>
+<p>In this early stage of development, the player collected the gold/ore/currency for building new defences by clearing away gunk from specific spawner locations. Because of this, the design of early levels used a lot more verticality, included more jumps, and had more gaps in the terrain. The game design also placed the most emphasis on route planning and execution so levels had more of a racetrack feel, packed with side paths, slopes, and shortcuts that were devoid of enemies/threats.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/MarchBlockoutFootage.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Running around an early level blockout.</span> 
+<p>
+<b>While testing this version of the game, 3 key things were clear:</b>
+<ul>
+  <li> Players didn’t have an overview of how their defences were working 
+  <li> The resource collection was so vastly different from the genre norms of Tower Defence games that players often just forgot to seek resource spawners out
+  <li> It was a lot of fun to interact with enemies and players generally gravitated towards pushing them around and stomping on them
+</ul>
+</p>
+<p>We are still making progress on the first point. UI and map updates are helping with player overview, but there is still more to be done. We decided to focus on bringing resource collection more in line with genre norms as that would impact points two and three.</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/OreConcept.png" alt="Currency Collection Concept">
+</div>
+<span class="caption text-muted">Concept art showing how currency was originally collected by the player.</span>
+
+<h2 class="section-heading">Big feature changes</h2>
+<p>We knew that the right way to reward the player with currency was by having them eliminate enemies. This is too much of a genre staple to mess around with (anymore). However, it was important that we still reward movement efficiency as well as give the player a reason to interact with enemies as much as possible (turning what’s fun into what must be done)!</p>
+<p>We tried a few different ideas for this; gaining currency by clearing enemy corpses, gaining currency by last hitting enemies, etc. In the end we ended up with a new game object that would be placed around the level, the Shrine.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/ShrineAbsorb.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Shrines absorb enemy souls.</span> 
+<p>Any enemies killed within range of a Shrine will have its soul absorbed. The Shrine holds enemy souls like a piggy bank, and when the player needs to build more defences they must break the piggy bank to acquire the souls. A broken Shrine will no longer absorb enemy souls, so players are forced to build new nests of turrets further away from the Main Tower.</p>
+<p>We are still figuring out how to properly tutorialise the feature, but players have reacted positively to the change so far. They are excited to engage with enemies as well as venture out further into the map to build at advantageous points. Min-maxing a Shrine’s soul collection, making strategic decisions about when to acquire the souls, and pushing/zoning enemies to keep them in range have all made the game more fun and replayable.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/ShrineCollect.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Obtaining the collected souls means destroying the Shrine.</span> 
+<p>On top of this, enemies killed outside the range of a Shrine spawn a soul that lingers on the map for a short amount of time. Players can grab these souls out of the air as they move around the level rewarding player movement efficiency with additional currency.</p>
+<p>This was a bonus feature that ‘just made sense’ to add alongside the shrine functionality. It aligned perfectly with how we wanted players to engage with the game and understanding the idea of ‘lingering souls’ came quickly.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/LingeringSouls.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Jumping to catch the 'lingering souls' of enemies killed outside Shrine range.</span> 
+
+<h2 class="section-heading">Impacts to level design</h2>
+<p>The introduction of Shrines has caused the levels we are designing to flatten out. Enemy paths weave and curve more so that players have an easier time taking advantage of Shrine range. Levels have more flat open space and a lot less gaps in the terrain to give players more building options with their turrets. Ultimately, the levels have started to look a lot more like a traditional Tower Defence when you look at the entire map from above (seems like a good direction).</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/PostShrineLevel.png" alt="WIP level post Shrines">
+</div>
+<span class="caption text-muted">An exmaple of a level designed after we implemented the Shrine feature.</span>
+<p>We are still experimenting with level design procedures at the moment. It is important for us to understand what makes a level of <i>Tempest Tower</i> fun so that we can reliably produce great levels at a reasonable pace. There is probably another blog post in here about ‘character movement test level(s)’ and how they inform our design rules... But that's for another time.</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/16/OctLevelFootage.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Gathering Peepers in a level designed 'post-Shrines'.</span> 
+
+<h2 class="section-heading">Stay up to date!</h2>
+<p>The best way to stay informed about <i>Tempest Tower</i> is to wishlist the game on Steam and follow our community updates! Beyond that you can get more frequent updates by joining our <a href="http://hpy.lol/discord">Discord</a> or following us on Social Media (<a href="https://x.com/halfpastyellow">Twitter</a>, <a href="https://www.facebook.com/HalfPastYellow">Facebook</a>, <a href="https://www.instagram.com/halfpastyellow_/">Instagram</a>). You can also get less frequent updates by signing up for our <a href="https://newsletter.halfpastyellow.com/signup">newsletter</a>.</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[This blog post was originally going to be about how we create an understandable player story within the whimsical/abstract world of Tempest Tower. Then I started to see the #blocktober tag around Twitter and decided to write a different post instead. Specifically, about some early experimentation we did on Tempest Tower and how changes to the game design impacted the level design. I don’t think that the hashtag has ever been as popular as 2017 when it was first started, but us indie developers must use every algorithm bump we can.]]></summary></entry><entry><title type="html">Introducing: Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html" rel="alternate" type="text/html" title="Introducing: Tempest Tower" /><published>2024-08-19T17:00:00+02:00</published><updated>2024-08-19T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html"><![CDATA[<h2 class="section-heading">A New Project</h2>
 <p>As hinted at in our <a href="/blog/2024/06/10/HPY-Update.html">last post</a>, we've been quite busy this year and are excited to announce our next project, <i>Tempest Tower</i>! It is an action-packed Tower Defence game with Platforming elements. We are bringing the much-loved character feel and animation style of <i>Time on Frog Island</i> to a new type of game. You will have to dodge and weave through waves of Creepers while maintaining your defences and herding the local critters to safety.</p>
 <p>If that sounds like your kind of game, then I have good news for you! You can wishlist the game on Steam right now and get notified when the game launches.</p>
 
@@ -454,65 +567,4 @@ These channels are private to us Developers, but our Discord server is public fo
 
 <p>
 All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you <a href="https://discord.com/invite/8TkpjHHVzZ">tune in </a> for further updates on the game!
-</P>]]></content><author><name>Mikkel</name></author><summary type="html"><![CDATA[Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.]]></summary></entry><entry><title type="html">Meet: The Carpenter</title><link href="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html" rel="alternate" type="text/html" title="Meet: The Carpenter" /><published>2021-02-03T16:00:00+01:00</published><updated>2021-02-03T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/03/Meet-the-Carpenter.html"><![CDATA[<p>
-Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! 
- Let's start with introducing The Carpenter!
-</p>
-
-<p>
-The Carpenter is tasked with creating and maintaining all the wooden structures on the island. Being the only real handyfrog available, he is always busy. Unfortunately, he is also constantly falling behind on his tasks by always misplacing the exact tool needed for the job. He could definitely use a helping hand to find them so you better keep an eye out as you explore the island!
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/idle2.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">He's just big-boned.</span> 
-
-<p>
-</p>
-
-<p>
-Why frogs, you ask? Well, we needed some island natives and asked ourselves, "What if humans stemmed from frogs instead of apes and were left alone on an island all to themselves?" Naturally, this is it. You're looking at the first character of many in the only possible outcome of our highly scientific research and plentiful discussions on the matter.
-</p>
-
-<p>
-Today we are presenting The Carpenter but we'll be showcasing the other townsfolk over the next couple posts, so make sure you stay up-to-date and follow what we're up to on the <a href="#social"> platforms below</a>!
-</p>
-
-<h2 class="section-heading">Early Concept Art</h2>
-<p>The Carpenter can be considered one of the simpler characters in our cast of villagers and we wanted his visual design to reflect that. Dressed in a plain vest and undersized beanie, his glassy-eyed expression almost never changes no matter the circumstance.
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/6/carpenter_concepts.png" alt="Demo Image">
-</div>
-
-<h2 class="section-heading">Have you seen my tool?</h2>
-
-<p>
-Don't let his blank gaze fool you, however! He's a master craftsman that can build almost anything and will certainly prove it to you! Just.. ah...
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/searching.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Why is it always in the last place you look?</span> 
-
-<p> Well... He's gone and lost his tool again! Maybe we can help him find it? Oh! Is that it?
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/6/what_is_it.gif" alt="Demo Image">
-</div>
-<span class="caption text-muted">Woah! What's that tool?!</span> 
-
-<p>
-It's a saw! Of course it is! Obviously you can't be a carpenter without it. Good job, everyone! Clearly, the nature of a blog means that this is almost as far from the actual gameplay as is possible but the sense of accomplishment and helpfulness is almost just as real. Trust me, though, when I say it won't always be quite so easy to find what you need strewn about the island... 
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/6/sawing.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Working hard or hardly working, am I right?!</span> 
-
-<p>
-Now that he's got his saw back he can get to work! Let's leave him to it and check back later. Maybe some other townsfolk could use some help in the meantime? Make sure to connect with us below to be the first to find out who else is around!
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Strap in, everybody - we're very excited to finally start revealing more about the totally-normal native islander society of our game! Yeah no, "normal" probably isn't the right word... Regardless, as it so happens, the island that our Sailor has shipwrecked on is inhabited by a small town of large humanoid frogs! 🧍🐸! Let's start with introducing The Carpenter!]]></summary></entry></feed>
+</P>]]></content><author><name>Mikkel</name></author><summary type="html"><![CDATA[Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.]]></summary></entry></feed>
