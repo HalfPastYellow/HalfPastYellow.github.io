@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-10-29T21:18:15+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Level Design in Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html" rel="alternate" type="text/html" title="Level Design in Tempest Tower" /><published>2024-10-30T16:00:00+01:00</published><updated>2024-10-30T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html"><![CDATA[<p>This blog post was originally going to be about how we create an understandable player story within the whimsical/abstract world of <i>Tempest Tower</i>. Then I started to see the #blocktober tag around Twitter and decided to write a different post instead. Specifically, about some early experimentation we did on <i>Tempest Tower</i> and how changes to the game design impacted the level design.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-12-17T23:21:06+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Early Access</title><link href="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html" rel="alternate" type="text/html" title="Early Access" /><published>2024-12-18T16:00:00+01:00</published><updated>2024-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html"><![CDATA[<p>We have a much shorter “game news” style blog post this time, mainly aimed at catching everyone up on our plans with <i>Tempest Tower</i>.</p>
+<p>We are excited to announce that <i>Tempest Tower</i> will be our first self-published game. We plan to launch the game into Steam Early Access during the first half of 2025 and work closely with our community to build a game we are all proud of.</p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Time for <a href="https://twitter.com/hashtag/PitchYaGame?src=hash&amp;ref_src=twsrc%5Etfw">#PitchYaGame</a>!<br><br>Tempest Tower is an action-packed Tower Defence game with Platforming elements.<br><br>Protect your tower from hordes of enemies using crazy contraptions, powerful upgrades, or by simply jumping on their heads.<br><br>Find out more via Steam: <a href="https://t.co/TgRWSv1lUZ">https://t.co/TgRWSv1lUZ</a> <a href="https://t.co/1Z5s1j6TZR">pic.twitter.com/1Z5s1j6TZR</a></p>&mdash; 🟡 Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1852376038463979864?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<h2 class="section-heading">Why Early Access?</h2>
+<p>For <i>Tempest Tower</i>, we plan to fully embrace the open development style. We want to develop a strong community around the game, and we feel that the best way to do this is by getting players involved early and allowing them to shape the project with us.</p>
+<p>We don’t yet know what the future holds, but we expect <i>Tempest Tower</i> to remain in Early Access for around 9 months. We will use that time to add content, quality of life features, and new game modes. The game will launch on Early Access as a tight experience with all core mechanics present, we aim to have 2-3 hours of base gameplay with endless extra hours of experimenting with loadouts and highscore hunting on top.</p>
+<p>If you are interested in getting involved right now, I suggest joining our <a href="https://hpy.lol/discord">Discord server</a>. It has been fairly quiet over the last 18 months, but that will be changing as we move into next year!</p>
+<div class="text-center">
+<a href="https://hpy.lol/discord" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/17/DiscordImg.png" alt="Discord Image"></a>
+</div>
+<span class="caption text-muted">Join us on Discord!</span> 
+
+<h2 class="section-heading">New Art, Who Dis?</h2>
+<p>We are making this announcement alongside a big face lift to our Steam page. We have updated our capsule art, logo, and screenshots as well as finalised our store text so it can be translated in the new year. We have worked alongside another game development studio called <a href="https://bitegginc.com/">BitEgg</a> to update our Capsule Art and we couldn't be happier with the results, they have perfectly captured the vibe of <i>Tempest Tower</i> and we think that the new art really stands out in the Steam store.</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/17/VerticalCap.jpg" alt="steam vertical capsule art">
+</div>
+<span class="caption text-muted">Sometimes it's hard to pick favorites... But we can't get over how great the Vertical Capsule is!</span>
+
+<h2 class="section-heading">More news coming soon!</h2>
+<p>We will be properly showing <i>Tempest Tower</i> in motion for the first time when we reveal our first look trailer in early January. This will be our first big marketing push for the game and it will coincide with more news about what to expect from us in the run up to the games launch. Until then, we hope you have a relaxing holiday and a good new year!</p>
+<p>That is all for now. If you want to learn more about <i>Tempest Tower</i>, you can check out the <a href="https://store.steampowered.com/widget/3123800/">Steam Page</a> or our <a href="https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html">previous</a> <a href="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html">two</a> blog posts, and if you like the look of the game consider giving it a wishlist and following along with the community updates.</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[We have a much shorter “game news” style blog post this time, mainly aimed at catching everyone up on our plans with Tempest Tower. We are excited to announce that Tempest Tower will be our first self-published game. We plan to launch the game into Steam Early Access during the first half of 2025 and work closely with our community to build a game we are all proud of.]]></summary></entry><entry><title type="html">Level Design in Tempest Tower</title><link href="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html" rel="alternate" type="text/html" title="Level Design in Tempest Tower" /><published>2024-10-30T16:00:00+01:00</published><updated>2024-10-30T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/10/30/Level-Design-in-Tempest-Tower.html"><![CDATA[<p>This blog post was originally going to be about how we create an understandable player story within the whimsical/abstract world of <i>Tempest Tower</i>. Then I started to see the #blocktober tag around Twitter and decided to write a different post instead. Specifically, about some early experimentation we did on <i>Tempest Tower</i> and how changes to the game design impacted the level design.</p>
 <p>I don’t think that the hashtag has ever been as popular as <a href="https://www.polygon.com/2017/10/3/16408922/game-development-level-design">2017 when it was first started</a>, but us indie developers must use every algorithm bump we can.</p>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is <a href="https://twitter.com/hashtag/blocktober?src=hash&amp;ref_src=twsrc%5Etfw">#blocktober</a> still a thing? We wanted to share some footage of a movement test on our new Tempest Tower level.<br>More info coming later in this months blog! <a href="https://twitter.com/hashtag/ScreenshotSaturday?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/f8gyCksYTn">pic.twitter.com/f8gyCksYTn</a></p>&mdash; 🟡 Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1845011845339381761?ref_src=twsrc%5Etfw">October 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -54,7 +79,7 @@
 <p>An action-packed Tower Defence with Platforming elements. This was the key one-liner that drove our early experimentation. We wanted to reward movement efficiency, smart planning, and the ability to react quickly when things go wrong.</p>
 <p>The first iteration of <i>Tempest Tower</i> focused too much on movement. After setting up some defences and starting the wave, the player was expected to effectively ignore enemies in their mad dash for resource collection. This allowed us to create levels that were more vertical and maze like, but it felt counter intuitive to testers (they wanted to engage more with the enemies).</p>
 <div class="text-center">
-<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/EarlyLevelBlockout.png" alt="Early Blockout">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/16/EarlyLevelBlockout2.png" alt="Early Blockout">
 </div>
 <span class="caption text-muted">Our first full level blockout for pitching at GDC.</span>
 <p>In this early stage of development, the player collected the gold/ore/currency for building new defences by clearing away gunk from specific spawner locations. Because of this, the design of early levels used a lot more verticality, included more jumps, and had more gaps in the terrain. The game design also placed the most emphasis on route planning and execution so levels had more of a racetrack feel, packed with side paths, slopes, and shortcuts that were devoid of enemies/threats.</p>
@@ -512,59 +537,4 @@ Play the prologue and wishlist <s><i>Trading Time</s> Time on Frog Island</i> on
 
 <p>
 As always, we'd love for you to come hang out with us and other fans on <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a>! Let us know if you find the <i>secret thing</i>... 
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Half Past Yellow is proud to finally announce Trading Time Time on Frog Island - the not so secret game we've been working on and posting about! Check out the announcement trailer below:]]></summary></entry><entry><title type="html">HPY Virtual Office</title><link href="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html" rel="alternate" type="text/html" title="HPY Virtual Office" /><published>2021-02-17T16:00:00+01:00</published><updated>2021-02-17T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2021/02/17/Virtual-Office</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/02/17/Virtual-Office.html"><![CDATA[<p>
-Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.  
-</p>
-
-<p>
-I’m hijacking the blog from Remy today! :D
-</p>
-
-<p>
-First of all, welcome to all our new followers! We had a bit of a viral post last Wednesday and that sure does warm my little marketing heart! <3 If it’s your first time with us here, be sure to also check out the previous blog posts! 
-</p>
-
-<blockquote class="twitter-tweet tw-align-center" data-theme="light"><p lang="en" dir="ltr">Over the hills and far away 🏔️<a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/dkgame?src=hash&amp;ref_src=twsrc%5Etfw">#dkgame</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://t.co/gUBFhMXi29">pic.twitter.com/gUBFhMXi29</a></p>&mdash; Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1359411786441609216?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>
-Although I could ramble about marketing and SoMe presence, that is not the topic of today.
-</p>
-
-<p>
-Today I want to write a little about our process in a country that is generally shut down. As you may or may not know, our studio is based in Copenhagen and that Denmark has closed most public places due to COVID-19. This means that we have been working home. I want to share a little bit about what our working process looks like these days. 
-</P>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/virtualOffice_discord.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">Sometimes I deafen myself and nobody notices</span> 
-
-<p>
-Essentially, our office exists on a Discord server. An open virtual office environment as we call it. The way it works is that we have a meeting every morning, so we still have some daily structure. We then move on to our tasks and work by ourselves. The perk of using Discord is that we can have a call open, which gives us the option of just unmuting when we need to address something or have something off topic to say. It helps create a close to real office environment. There are also other channels we can pop off to for private conversations or meetings.
-</P>
-
-<p>
-In a real office environment you’ll also have small talk and banter. From what I can read from my peers online, a lot of companies face issues with not being able to recreate this in a virtual environment  This is especially challenging because it’s something you can’t really force. We chose to fight this problem by having different channels for different subjects. 
-</P>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/devChannels_discord.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">Super secret dev channels!</span> 
-
-<p>
-We have #devrandom where we can post random stuff we find online, which often sparks spontaneous conversation. Of course it's not the same as being together in person, but it’s real close! 
-</P>
-
-<p>
-These channels are private to us Developers, but our Discord server is public for anyone who wants to be part of our community! You can <a href="https://discord.com/invite/8TkpjHHVzZ">join us here</a>! We really enjoy hearing about any feedback and thoughts you might have about us or our games, so don’t be shy! You’ll also know about the occasional scoop that we don’t post anywhere else...
-</P>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/7/publicChannels_discord.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">???</span> 
-
-<p>
-All in all, it is a weird time to work, which we are sure you all know. In any case we do wish you all the best and stay safe! Make sure you <a href="https://discord.com/invite/8TkpjHHVzZ">tune in </a> for further updates on the game!
-</P>]]></content><author><name>Mikkel</name></author><summary type="html"><![CDATA[Hi! My name is Mikkel! I’m a Marketing Intern here at Half Past Yellow on behalf of Copenhagen Business Academy in Denmark. I’m here until April! I’m natively Danish but speak fluent English.]]></summary></entry></feed>
+</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Half Past Yellow is proud to finally announce Trading Time Time on Frog Island - the not so secret game we've been working on and posting about! Check out the announcement trailer below:]]></summary></entry></feed>
