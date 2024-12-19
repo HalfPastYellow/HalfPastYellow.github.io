@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+
+<title>Tempest Tower</title>
+<website>-</website>
+  
+<release-dates>
+	<release-date>TBA</release-date>
+</release-dates>
+
+<platforms>
+    <platform>
+		<name>Steam</name>
+		<link>https://store.steampowered.com/app/3123800/Tempest_Tower/</link>
+    </platform>
+</platforms>
+
+<description>
+Protect your tower from invading Creepers using wild contraptions, powerful upgrades, or maybe just... jump on their heads! Tempest Tower reinvents Tower Defense with a thrilling mix of strategic base-building and engaging player-driven combat!
+An ominous dark fog has engulfed the world of Trip Space, unleashing endless hordes of Creepers from the shadows! Only you can stand against the tide. Build powerful contraptions, save cute creatures, and stomp on Creeper heads, whatever it takes to claim Victory.
+Explore, plan, and meticulously construct your base during the Build Phase. Execute, adapt, and ruthlessly brawl with hordes of Creepers during the Action Phase. Every level is a thrilling test of strategy and skill.
+</description>
+  
+<history>
+Tempest Tower has been in production since January 2024. The game will be released via Early Access as Half Past Yellow's first self-published title in the first half of 2025. Tempest Tower aims to bring the much loved game feel and bouncy animation style found in Time on Frog Island to a completely new genre.
+After Half Past Yellow's struggles to find a publisher for their First-Person Puzzler, Spectacle, they decided to make a radical shift in direction. The studio directed their resources to a totally new project that they could self-publish in a reasonable time frame. Half Past Yellow have focused in on what they do best, a genre mash-up with a charming art style and great game feel.
+</history>
+  
+<features>
+    <feature>
+		A unique twist on the Tower Defense genre that adds an extra layer of tension to each and every wave!
+    </feature>
+    <feature>
+		Crazy contraptions and game-changing items that enhance player movement and alter enemy behaviours as well as dealing damage.
+    </feature>
+    <feature>
+		Vertical, maze-like maps that are incrementally revealed to the player after each wave.
+    </feature>
+    <feature>
+		Draftable contraptions, upgrades, and bonuses, to keep levels fresh.
+    </feature>
+</features>
+  
+<widgets>
+    <steam>3123800</steam>
+</widgets>
+  
+<additionals>
+    <additional>
+		<title>Tempest Tower Announcement</title>
+		<description>Initial announcement of the game and launch of the Steam page</description>
+		<link>https://halfpastyellow.com/blog/2024/08/19/Introducing-Tempest-Tower.html</link>
+    </additional>
+	<additional>
+		<title>Early Access Announcement</title>
+		<description>Steam page face lift and studio plans for launch</description>
+		<link>https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html</link>
+    </additional>
+</additionals>
+  
+<abouts>
+    <about>
+		<title>Half Past Yellow</title>
+		<description>Half Past Yellow is an independent game development studio, based in Copenhagen, Denmark, founded and run by a group of close friends over their shared love of the high-pressure experimental environment of game jams. As a team, Half Past Yellow has released 2 commercial titles and are working on their third. With many years of combined experience in the industry, the members of Half Past Yellow have worked extensively with other studios on contemporary titles across several different platforms such as Affordable Space Adventures (WiiU, 2015), Frantics (PS4, 2018), and Mutazione (Cross-Platform, 2019) among others.</description>
+		<link>https://halfpastyellow.com/press/</link>
+    </about>
+</abouts>
+
+<credits>
+    <credit>
+		<person>Max Wrighton</person>
+		<role>Game Director</role>
+    </credit>
+    <credit>
+		<person>Remy Stuurwold</person>
+		<role>Tech Director</role>
+    </credit>
+    <credit>
+		<person>Casper Petersen</person>
+		<role>Art Director</role>
+    </credit>
+	<credit>
+		<person>Gianfranco Dbeis</person>
+		<role>Senior Artist</role>
+    </credit>
+	<credit>
+		<person>Nikola Vaskov</person>
+		<role>Composer</role>
+    </credit>
+	<credit>
+		<person>Goran Petrovski</person>
+		<role>Sound Designer</role>
+    </credit>
+	<credit>
+		<person>Simon Nielsen</person>
+		<role>Tech Artist</role>
+    </credit>
+	<credit>
+		<person>Teresina Ho</person>
+		<role>Game Designer</role>
+    </credit>
+	<credit>
+		<person>Teresina Ho</person>
+		<role>Game Designer</role>
+    </credit>
+	<credit>
+		<person>Paw Oktober</person>
+		<role>Programmer</role>
+    </credit>
+	<credit>
+		<person>Louise Andersen</person>
+		<role>Character Animator</role>
+    </credit>
+	<credit>
+		<person>Angela Manna</person>
+		<role>Producer</role>
+    </credit>
+	<credit>
+		<person>Frida Backman</person>
+		<role>Art Intern</role>
+    </credit>
+	
+</credits>
+  
+<contacts>
+    <contact>
+		<name>Inquiries</name>
+		<mail>info@halfpastyellow.com</mail>
+    </contact>
+	<contact>
+		<name>Discord</name>
+		<link>
+			https://discord.gg/halfpastyellow
+		</link>
+    </contact>
+    <contact>
+		<name>Twitter</name>
+		<link>
+			https://twitter.com/halfpastyellow
+		</link>
+    </contact>
+	<contact>
+		<name>BlueSky</name>
+		<link>
+			https://bsky.app/profile/halfpastyellow.bsky.social
+		</link>
+    </contact>
+	<contact>
+		<name>TikTok</name>
+		<link>
+			https://www.tiktok.com/@halfpastyellow
+		</link>
+    </contact>
+	<contact>
+		<name>Instagram</name>
+		<link>
+			https://www.instagram.com/halfpastyellow_/
+		</link>
+    </contact>
+	<contact>
+		<name>Threads</name>
+		<link>
+			https://www.threads.net/@halfpastyellow
+		</link>
+    </contact>
+    <contact>
+		<name>Facebook</name>
+		<link>
+			https://facebook.com/pizzaburgerstudio
+		</link>
+    </contact>
+	<contact>
+		<name>YouTube</name>
+		<link>
+			https://www.youtube.com/@halfpastyellow
+		</link>
+    </contact>
+    <contact>
+		<name>Web</name>
+		<link>
+			https://halfpastyellow.com/
+		</link>
+    </contact>
+</contacts>
+
+</product>
