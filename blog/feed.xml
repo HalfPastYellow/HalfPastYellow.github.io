@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2024-12-17T23:21:06+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Early Access</title><link href="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html" rel="alternate" type="text/html" title="Early Access" /><published>2024-12-18T16:00:00+01:00</published><updated>2024-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html"><![CDATA[<p>We have a much shorter “game news” style blog post this time, mainly aimed at catching everyone up on our plans with <i>Tempest Tower</i>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2025-01-11T01:04:23+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Tempest Tower Trailer - a first look!</title><link href="https://halfpastyellow.com/blog/2025/01/11/Tempest-Tower-First-Look.html" rel="alternate" type="text/html" title="Tempest Tower Trailer - a first look!" /><published>2025-01-11T16:00:00+01:00</published><updated>2025-01-11T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2025/01/11/Tempest-Tower-First-Look</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/01/11/Tempest-Tower-First-Look.html"><![CDATA[<p>Happy New Year from the whole team at Half Past Yellow! We hope you had a good holiday break and that you’re ready for all the great games coming out in 2025 🎉</p>
+<p>Speaking of great games coming out in 2025, check out the First Look Trailer for <i>Tempest Tower</i>! Coming soon to early access.</p>
+
+<div class="embed-responsive embed-responsive-16by9 rounded">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ik1uElp59Y0" allowfullscreen></iframe>
+</div>
+
+<p><i>Tempest Tower</i> redefines Tower Defense with a dynamic blend of classic base-building and electrifying player-driven combat. Explore, plan, and meticulously construct your base during the Build Phase. Execute, adapt, and ruthlessly brawl with hordes of Creepers during the Action Phase. Every level is a thrilling test of strategy and skill!</p>
+<p>If that sounds like your kind of game, then consider giving <i>Tempest Tower</i> a wishlist on Steam so you don’t miss out when the game releases in the near future 👀</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">Get Involved!</h2>
+<p>We will continue to post news and dev-blogs here whenever we have anything big to share and we will be making better use of the Steam Community Hub when we get closer to launch. Until then, the best way to stay informed about all things <i>Tempest Tower</i> is to join us on Discord! We have a few big things coming in the next 2 months and we can’t wait to hear what you think.</p>
+
+<div class="text-center">
+<a href="https://hpy.lol/discord" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/17/DiscordImg.png" alt="Discord Image"></a>
+</div>
+<span class="caption text-muted">Join us on Discord!</span> 
+
+<h2 class="section-heading">Making the Trailer</h2>
+<p>For all those who are interested, I thought I would pull back the curtain a bit on how the trailer was made.</p>
+<p>The first look trailer for <i>Tempest Tower</i> was made by James Mcgregor (corfiz.com). We worked with James on most of the <i>Time on Frog Island</i> trailers and really enjoyed the process, so we were ecstatic to find out that he was available to help on <i>Tempest Tower</i> as well.</p>
+<p>Having worked with James before, it was pretty easy to get started. I made a trailer brief that outlined the deadline, expected length, links to music from the game, what to show, and what to avoid showing. The brief also included some reference trailers that I thought captured the expected vibe and pace. After that, I created a Trailer Branch that James could work from so that he could easily set up shots and create sets inside the Unity project.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/18/branches.PNG" alt="showcase of git branches">
+</div>
+<span class="caption text-muted">Having a trailer branch allowed us to quickly update his working version with bug fixes and new art.</span>
+
+<p>Once James had access to the game, he could spend some time playing and generating ideas before the two of us sat down for a proper meeting about how to best show off the game. James could then get to work on a quick blockout (descriptive text explaining each shot to show the overall timings of the trailer) for the time to give any first notes on.</p>
+<p>Most of our notes and discussions were done through Discord or using frame.io, which we could use to give specific feedback on the current version of the trailer. The earliest iteration of the trailer took a bit too long to get to the action, but other than that, the skeleton of the initial blockout held strong through the whole process.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/18/frameIO.PNG" alt="screenshot from Frame IO">
+</div>
+<span class="caption text-muted">Notes could be made directly on the timeline, it is also possible to draw on the frame with arrows and circles.</span>
+
+<p>After seeing the first proper cut of the trailer, it was quite clear to the team that our current music selection didn’t really have anything that matched the trailer’s energy. The trailer needed to be fast moving (and the game can be hectic too), but nothing we had on hand really fit.</p>
+<p>We are lucky enough to have both a full-time composer and a full-time sound designer at Half Past Yellow, so Nino (our composer) made the decision to make something bespoke. It took around 4 days for him to put together a track that properly fit the trailer pace and the experiments have bled back into game music.</p>
+<p>Nino's thoughts at that time "<i>Seeing the draft of the trailer made me question the whole musical direction of the game. So, the only reasonable thing to do was to let go the current direction and just vibe with what I have on the screen in front of me. Shortly after, it clicked, and everything started making sense again. The music direction and overall experience of the game had been changed for me. Since then, I have been revisiting the previous tracks I made for the game, sometimes re-doing them from scratch. Whatever it takes for the best experience.</i>"</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/18/Nino_Pic.jpg" alt="Picture of Nino the composer">
+</div>
+<span class="caption text-muted">Nino during a post music video photoshoot.</span>
+
+<p>Once we had a final trailer edit and music track, it was time to add SFX and balance the audio. Goran (our sound designer) previously worked in film and TV, which is a godsend in situations like this. For the purposes of highlighting specific sounds and properly balancing the SFX and music, it was easier for him to dub over the trailer than worry about using the existing sounds in the clips that James recorded.</p>
+<p>I asked Goran to write up some of his thoughts: "<i>The video was action-packed, so finding the right balance between composition and sound design was crucial. The trailer began with a gameplay-driven scene to give a brief glimpse of the world, followed by a gradual buildup into a high-energy trailer sequence. This transition emphasized the core gameplay mechanics while maintaining a strong focus on the sound effects that complemented the music. Since the music was percussive, the percussive elements of the sound design naturally blended in, almost as if they were part of the music itself.</i>"</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/18/Goran_Pic.jpg" alt="Picture of Goran the composer">
+</div>
+<span class="caption text-muted">Goran inside his home studio.</span>
+
+<p>Balancing the audio is always a friendly fight between Nino and Goran. They both live in the same city, so they met up in person to produce the final audio mix and celebrate the completed trailer.</p>
+<p>Eventually, the trailer was complete. We handed off the final audio mix to James along with the art for the end slate and layout mock-ups. From start to finish, I took just under 3 weeks to put everything together and we couldn’t be happier with the results. I hope that you enjoy this first look at <i>Tempest Tower</i> and that you will keep an eye out for more news about the game and its production!</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>
+
+<div class="text-center">
+<a href="https://hpy.lol/discord" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/17/DiscordImg.png" alt="Discord Image"></a>
+</div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Happy New Year from the whole team at Half Past Yellow! We hope you had a good holiday break and that you’re ready for all the great games coming out in 2025 🎉 Speaking of great games coming out in 2025, check out the First Look Trailer for Tempest Tower! Coming soon to early access.]]></summary></entry><entry><title type="html">Tempest Tower is coming to Early Access</title><link href="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html" rel="alternate" type="text/html" title="Tempest Tower is coming to Early Access" /><published>2024-12-18T16:00:00+01:00</published><updated>2024-12-18T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/12/18/Early-Access-Announcement.html"><![CDATA[<p>We have a much shorter “game news” style blog post this time, mainly aimed at catching everyone up on our plans with <i>Tempest Tower</i>.</p>
 <p>We are excited to announce that <i>Tempest Tower</i> will be our first self-published game. We plan to launch the game into Steam Early Access during the first half of 2025 and work closely with our community to build a game we are all proud of.</p>
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Time for <a href="https://twitter.com/hashtag/PitchYaGame?src=hash&amp;ref_src=twsrc%5Etfw">#PitchYaGame</a>!<br><br>Tempest Tower is an action-packed Tower Defence game with Platforming elements.<br><br>Protect your tower from hordes of enemies using crazy contraptions, powerful upgrades, or by simply jumping on their heads.<br><br>Find out more via Steam: <a href="https://t.co/TgRWSv1lUZ">https://t.co/TgRWSv1lUZ</a> <a href="https://t.co/1Z5s1j6TZR">pic.twitter.com/1Z5s1j6TZR</a></p>&mdash; 🟡 Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1852376038463979864?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -178,36 +240,7 @@
 
 <h2 class="section-heading">Stay up to date</h2>
 <p>Going forward we will be publishing a new blog post every 4-6 weeks, mostly about the development of <i>Tempest Tower</i>. You can get more frequent updates by joining our <a href="http://hpy.lol/discord">Discord</a> or following us on Social Media (<a href="https://x.com/halfpastyellow">Twitter</a>, <a href="https://www.facebook.com/HalfPastYellow">Facebook</a>, <a href="https://www.instagram.com/halfpastyellow_/">Instagram</a>). You can also get less frequent updates by signing up for our <a href="https://newsletter.halfpastyellow.com/signup">newsletter</a>.</p>
-<p>See you next month!</p>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[A New Project As hinted at in our last post, we've been quite busy this year and are excited to announce our next project, Tempest Tower! It is an action-packed Tower Defence game with Platforming elements. We are bringing the much-loved character feel and animation style of Time on Frog Island to a new type of game. You will have to dodge and weave through waves of Creepers while maintaining your defences and herding the local critters to safety. If that sounds like your kind of game, then I have good news for you! You can wishlist the game on Steam right now and get notified when the game launches.]]></summary></entry><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
-<p>I want to thank everyone who took the time to check out the <i>Spectacle</i> Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord.</p>
-<p>The <i>Spectacle</i> demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see <i>Spectacle</i> reach a wider audience.</p>
-
-<p><i>Steam Next Fest</i> runs from <b>June 10th until June 17th</b> but the demo is forever!</p>
-
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
-
-<h2 class="section-heading">The world of Trip Space</h2>
-<p>Eagle-eyed players will have seen small eyeball creatures (Peepers) running around. These creatures are visitors to Trip Space, excited to see all the strange sights. Peepers will be both a help and a hindrance during your journey.</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/13/Concept.png" alt="concept image">
-</div>
-<span class="caption text-muted">A concept of the Peepers with Glo</span>
-
-<p>We designed Peepers to inject charm into the game. <i>Spectacle</i> will only include a few lizard characters and we thought it was important that the game didn't feel too lonely to explore. We carefully crafted the colour, size, sounds, and animation to create the cutest little things we could.</p>
-<p>Judging by tester feedback, I think we succeeded in our goal.</p>
-
-<div class="text-center">
-<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/PeeperRun.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Don't spook the wildlife</span> 
-
-<h2>Show us your speed</h2>
-<p>If you’ve got what it takes to complete <i>Spectacle</i> in the blink of an eye, swing by <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a> and post your completion time of the demo. The fastest time we have seen so far is 3 minutes and 44 seconds 😲</p>
-<div class="text-center">
-<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/SpectacleDemoSpeed.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Keep an eye out for your completion time</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Spectacle! I want to thank everyone who took the time to check out the Spectacle Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord. The Spectacle demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see Spectacle reach a wider audience.]]></summary></entry><entry><title type="html">A Half Past Yellow Update</title><link href="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html" rel="alternate" type="text/html" title="A Half Past Yellow Update" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/HPY-Update</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html"><![CDATA[<h2 class="section-heading">Difficult times</h2>
+<p>See you next month!</p>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[A New Project As hinted at in our last post, we've been quite busy this year and are excited to announce our next project, Tempest Tower! It is an action-packed Tower Defence game with Platforming elements. We are bringing the much-loved character feel and animation style of Time on Frog Island to a new type of game. You will have to dodge and weave through waves of Creepers while maintaining your defences and herding the local critters to safety. If that sounds like your kind of game, then I have good news for you! You can wishlist the game on Steam right now and get notified when the game launches.]]></summary></entry><entry><title type="html">A Half Past Yellow Update</title><link href="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html" rel="alternate" type="text/html" title="A Half Past Yellow Update" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/HPY-Update</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html"><![CDATA[<h2 class="section-heading">Difficult times</h2>
 <p>The game development industry has been having a hard time over the last year and a half. Studio closers, layoffs, and cancelled projects are a normal part of the news cycle now and it is difficult to tell when the bleeding will stop.</p>
 <p>Half Past Yellow had to say goodbye to 2 of our team members in May due to uncertainty with project financing. The team members of HPY are the most valuable asset the studio has, and it feels terrible to lose key parts of it.</p>
 
@@ -241,7 +274,36 @@
 <div class="text-center">
 <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/14/NewfirstPost_smol.mp4" type ="video/mp4"></>
 </div> 
-<span class="caption text-muted">Top down platforming action with a twist...</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Difficult times The game development industry has been having a hard time over the last year and a half. Studio closers, layoffs, and cancelled projects are a normal part of the news cycle now and it is difficult to tell when the bleeding will stop. Half Past Yellow had to say goodbye to 2 of our team members in May due to uncertainty with project financing. The team members of HPY are the most valuable asset the studio has, and it feels terrible to lose key parts of it.]]></summary></entry><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
+<span class="caption text-muted">Top down platforming action with a twist...</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Difficult times The game development industry has been having a hard time over the last year and a half. Studio closers, layoffs, and cancelled projects are a normal part of the news cycle now and it is difficult to tell when the bleeding will stop. Half Past Yellow had to say goodbye to 2 of our team members in May due to uncertainty with project financing. The team members of HPY are the most valuable asset the studio has, and it feels terrible to lose key parts of it.]]></summary></entry><entry><title type="html">Spectacle is part of Steam Next Fest</title><link href="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html" rel="alternate" type="text/html" title="Spectacle is part of Steam Next Fest" /><published>2024-06-10T17:00:00+02:00</published><updated>2024-06-10T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/06/10/Spectacle-Next-Fest.html"><![CDATA[<h2 class="section-heading">Thank you for playing <i>Spectacle</i>!</h2>
+<p>I want to thank everyone who took the time to check out the <i>Spectacle</i> Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord.</p>
+<p>The <i>Spectacle</i> demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see <i>Spectacle</i> reach a wider audience.</p>
+
+<p><i>Steam Next Fest</i> runs from <b>June 10th until June 17th</b> but the demo is forever!</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+
+<h2 class="section-heading">The world of Trip Space</h2>
+<p>Eagle-eyed players will have seen small eyeball creatures (Peepers) running around. These creatures are visitors to Trip Space, excited to see all the strange sights. Peepers will be both a help and a hindrance during your journey.</p>
+
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/13/Concept.png" alt="concept image">
+</div>
+<span class="caption text-muted">A concept of the Peepers with Glo</span>
+
+<p>We designed Peepers to inject charm into the game. <i>Spectacle</i> will only include a few lizard characters and we thought it was important that the game didn't feel too lonely to explore. We carefully crafted the colour, size, sounds, and animation to create the cutest little things we could.</p>
+<p>Judging by tester feedback, I think we succeeded in our goal.</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/PeeperRun.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Don't spook the wildlife</span> 
+
+<h2>Show us your speed</h2>
+<p>If you’ve got what it takes to complete <i>Spectacle</i> in the blink of an eye, swing by <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a> and post your completion time of the demo. The fastest time we have seen so far is 3 minutes and 44 seconds 😲</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/13/SpectacleDemoSpeed.mp4" type ="video/mp4"></>
+</div> 
+<span class="caption text-muted">Keep an eye out for your completion time</span>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Spectacle! I want to thank everyone who took the time to check out the Spectacle Demo during the Cerebral Puzzle Fest. We received some great feedback via the Steam community hub and our Discord. The Spectacle demo will be available again today as part of Steam Next Fest. After the event, we will keep the demo available forever. We are so excited to see Spectacle reach a wider audience.]]></summary></entry><entry><title type="html">Play the Spectacle Demo!</title><link href="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html" rel="alternate" type="text/html" title="Play the Spectacle Demo!" /><published>2024-05-23T17:00:00+02:00</published><updated>2024-05-23T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo</id><content type="html" xml:base="https://halfpastyellow.com/blog/2024/05/23/Spectacle-Demo.html"><![CDATA[<h2 class="section-heading">It's been... a while...</h2>
 <p>
 Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 </p>
 <p>A lot has happened in that time, and we are excited to update you with this blog post and one coming next month. </p>
@@ -508,33 +570,4 @@ For a limited time only as of this writing, we have not yet updated the title sc
 <i>Phew</i>, big update! It's exciting times for us over at Half Past Yellow and we can't wait to have you all play our game! If you'd like to keep a closer eye on what we're up to or just say "Hi!", come join us and other fans over on our <a href="https://discord.com/invite/8TkpjHHVzZ">Discord</a>! We're almost at 500 members and would love to see your best frog interpretive dance over on the #Fan-Art channel!
 </p>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">To trade with the frogs you must become a frog! 🐸<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/frog?src=hash&amp;ref_src=twsrc%5Etfw">#frog</a> <a href="https://t.co/EuOlsewjUn">pic.twitter.com/EuOlsewjUn</a></p>&mdash; Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1494952396081926147?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[New Name!]]></summary></entry><entry><title type="html">It’s Trading Time!</title><link href="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html" rel="alternate" type="text/html" title="It’s Trading Time!" /><published>2021-10-02T17:00:00+02:00</published><updated>2021-10-02T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2021/10/02/Trading-Time</id><content type="html" xml:base="https://halfpastyellow.com/blog/2021/10/02/Trading-Time.html"><![CDATA[<p>
-Half Past Yellow is proud to finally announce <s><i>Trading Time</s> Time on Frog Island</i> - the not so secret game we've been working on and posting about! Check out the announcement trailer below:
-</P>
-
-<div class="embed-responsive embed-responsive-16by9 rounded">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vGi4SCBATns" allowfullscreen></iframe>
-</div>
-
-<p>
-<s><i>Trading Time</s> Time on Frog Island</i> is being published by Merge Games and will be available on PC and all major consoles! 
-</p>
-
-<h2 class="section-heading">Free Prologue</h2>
-<p>
-As an additional bonus while you wait for the full game, we've created a <b>free</b> Prologue for you to play <b>right now</b> as part of the Steam Next Fest!
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/8/Trading%20Time%20Prologue7_EN.png" alt="Demo Image">
-</div>
-<span class="caption text-muted">What a strange frog...</span>
-
-<p>
-Play the prologue and wishlist <s><i>Trading Time</s> Time on Frog Island</i> on Steam here!
-</p>
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/1717510/" frameborder="0" width="646" height="190"></iframe></div>
-
-<p>
-As always, we'd love for you to come hang out with us and other fans on <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a>! Let us know if you find the <i>secret thing</i>... 
-</p>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Half Past Yellow is proud to finally announce Trading Time Time on Frog Island - the not so secret game we've been working on and posting about! Check out the announcement trailer below:]]></summary></entry></feed>
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">To trade with the frogs you must become a frog! 🐸<a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/frog?src=hash&amp;ref_src=twsrc%5Etfw">#frog</a> <a href="https://t.co/EuOlsewjUn">pic.twitter.com/EuOlsewjUn</a></p>&mdash; Half Past Yellow (@halfpastyellow) <a href="https://twitter.com/halfpastyellow/status/1494952396081926147?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[New Name!]]></summary></entry></feed>
