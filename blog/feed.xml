@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2025-02-05T07:37:17+01:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Introducing Fai</title><link href="https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai.html" rel="alternate" type="text/html" title="Introducing Fai" /><published>2025-02-05T16:00:00+01:00</published><updated>2025-02-05T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai.html"><![CDATA[<p>We had a few questions come up on our Discord about the main character of <i>Tempest Tower</i> and their role in the world of Trip Space. It’s time to properly meet Fai.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2025-06-27T13:33:05+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Summer News!</title><link href="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html" rel="alternate" type="text/html" title="Summer News!" /><published>2025-06-27T17:00:00+02:00</published><updated>2025-06-27T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2025/06/27/Summer-News</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html"><![CDATA[<p>It's been a minute since our last blog post so here's a quick list of what's going on to keep you all in the loop! We've got news across our whole catalog so do scroll on down so you don't miss anything! 👇⏬ </p>
+
+<h2 class="section-heading">A whole new world: Touch Grass Update for <i>Tempest Tower</i></h2>
+
+<p>
+I hope you are ready to touch some grass, because this update brings you to a brand new world: The Garden! The Garden world features a new enemy type to deal with as well as new hazards and items.
+</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/20/gameplay.mp4" type ="video/mp4"></>
+</div>
+
+<p>
+This update also contains a new and improved level selection hub. This new world space adds a boatload of charm to the game and we will be expanding on this space as we go. The keen-eyed among you will recognise some familiar objects from our previous titles.
+</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>
+<p>As of posting, <i>Tempest Tower</i> is on a Steam Summer Sale discount! Tell your friends!</p>
+
+
+<h2 class="section-heading"><i>Time on Frog Island</i> - Steam Summer Sale</h2>
+<p> Let's not forget our amphibian friends! Our fresh, froggy title, <i>Time on Frog Island</i> is also on sale this summer! <i>Grabbit</i> now!</p>
+
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/20/EggHitPost.mp4" type ="video/mp4" style="max-width: 65%"></>
+</div>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/1717510/" frameborder="0" width="646" height="190"></iframe></div>
+
+
+
+<h2 class="section-heading">We Released <i>Spectacle: Worlds Unseen!</i></h2>
+
+<p> In other news, we've done gone and released everything we have on <i> Spectacle</i> so that it wasn't just sitting on a dusty old hard drive until the end of time!</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/20/spectacle_islands.mp4" type ="video/mp4" style="max-width: 65%"></>
+</div>
+
+
+<p><i>Spectacle: Worlds Unseen</i> is a cancelled Half Past Yellow project from 2023. We outlined why we had to cancel it in a previous blog post <a href="https://halfpastyellow.com/blog/2024/06/10/HPY-Update.html">here</a>. </p>
+
+<p> We hope that you give it a spin for a peek at the full-game we were setting out to build. If you liked what you saw, come let us know on our Discord!</p>
+
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/20/Glo.png" alt="Early concept of the Tutorial Bat">
+</div>
+<span class="caption text-muted">You'd look great in these!</span>
+
+<div class="text-center"><p> That's all for now! </p></div>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[It's been a minute since our last blog post so here's a quick list of what's going on to keep you all in the loop! We've got news across our whole catalog so do scroll on down so you don't miss anything! 👇⏬]]></summary></entry><entry><title type="html">Introducing Fai</title><link href="https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai.html" rel="alternate" type="text/html" title="Introducing Fai" /><published>2025-02-05T16:00:00+01:00</published><updated>2025-02-05T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/02/05/Introducing-Fai.html"><![CDATA[<p>We had a few questions come up on our Discord about the main character of <i>Tempest Tower</i> and their role in the world of Trip Space. It’s time to properly meet Fai.</p>
 
 <div class="text-center">
 <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/19/BlogJump.mp4" type ="video/mp4"></>
@@ -328,7 +378,8 @@
 
 <p><i>Steam Next Fest</i> runs from <b>June 10th until June 17th</b> but the demo is forever!</p>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+<p>27/06/2025 Edit: We've now released our unfinished levels along with the demo as <i>Spectacle: Worlds Unseen</i> which you can play here on Steam!</p>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>
 
 <h2 class="section-heading">The world of Trip Space</h2>
 <p>Eagle-eyed players will have seen small eyeball creatures (Peepers) running around. These creatures are visitors to Trip Space, excited to see all the strange sights. Peepers will be both a help and a hindrance during your journey.</p>
@@ -376,7 +427,8 @@
 
 <p>The <i>Spectacle</i> demo will remain available on Steam forever and we are excited by the prospect of returning to the project one day, but the internal status is currently: delayed indefinitely.</p>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+<p>27/06/2025 Edit: We've now released our unfinished levels along with the demo as <i>Spectacle: Worlds Unseen</i> which you can play here on Steam!</p>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>
 
 
 <h2 class="section-heading">What does the future hold?</h2>
@@ -405,7 +457,8 @@ We are happy to announce that you can play a demo version of <i>Spectacle</i> TO
 The event runs from <b> May 23rd until May 30th</b>, don't miss it!
 </p>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>
+<p>27/06/2025 Edit: We've now released our unfinished levels along with the demo as <i>Spectacle: Worlds Unseen</i> which you can play here on Steam!</p>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2700150/" frameborder="0" width="646" height="190"></iframe></div>
 
 <p>
 You get to play the tutorial sequence, and at the end, you will get a sneak peek of the ‘first proper level’ of the full game. Take control of Glo, a newly hatched lizard who learns about the world of Trip Space while you explore the surreal world of <i>Spectacle</i> and engage with its puzzles. 
@@ -519,67 +572,4 @@ That's it for now! From all of us here at HPY, we hope you have a relaxing holid
 
 <div class="text-center">
   <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
-</div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Time on Frog Island!]]></summary></entry><entry><title type="html">Time on Frog Island - Out Now!</title><link href="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html" rel="alternate" type="text/html" title="Time on Frog Island - Out Now!" /><published>2022-07-12T17:00:00+02:00</published><updated>2022-07-12T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/07/12/ToFI-Launch.html"><![CDATA[<h2 class="section-heading">Let's gooo!</h2>
-
-<p>
-Half Past Yellow is finally proud to present <i>Time on Frog Island</i>! To celebrate, here's a catchy sing-along frog song:
-</p>
-
-<div class="embed-responsive embed-responsive-16by9 rounded">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K06BAU1WfSY" allowfullscreen></iframe>
-</div>
-
-<p>
-After two-and-a-half years in development we're so excited to hear what everyone thinks! We can't wait to see what kind of shenanigans everyone gets up to! </P>
-
-<p>As always, the best place to connect with us and other fans is <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord!</a></P>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/10/GameplayTrailer_v02.mp4" type ="video/mp4"></>
-</div> 
-<span class="caption text-muted">Hop, skip, jump!</span> 
-
-<h2 class="section-heading">Out where?!</h2>
-<p>
-Time on Frog island is available at (at least!) all these clicks right here:<br>
-<b>Digital!</b>
-<ul>
-  <li> <u><a href="https://store.steampowered.com/app/1717510/" target="_blank" rel="noopener noreferrer">Steam</a></u>
-  <li> <u><a href="https://store.epicgames.com/en-US/p/trading-time-b3ad0d" target="_blank" rel="noopener noreferrer">Epic Game Store</a></u>
-  <li> <u><a href="https://store.playstation.com/en-us/concept/10003789/" target="_blank" rel="noopener noreferrer">PlayStation</a></u>
-  <li> <u><a href="https://www.xbox.com/en-US/games/store/time-on-frog-island/9pmvswxvp8m5" target="_blank" rel="noopener noreferrer">Xbox</a></u>
-  <li> <u><a href="https://www.nintendo.com/store/products/time-on-frog-island-switch/" target="_blank" rel="noopener noreferrer">Switch</a></u>
-  <li> <u><a href="https://stadia.google.com/game/time-on-frog-island" target="_blank" rel="noopener noreferrer">Stadia</a></u>
-</ul>
-<b>Physical!</b>
-<ul>
-  <li> <u><a href="https://signatureeditiongames.com/search?type=product&options%5Bprefix%5D=last&q=time+on+frog+island" target="_blank" rel="noopener noreferrer">Signature Edition Games</a></u>
-  <li> Your local game store?!
-</ul>
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/9/ToFIRetail.jpg" alt="Demo Image">
-</div>
-<span class="caption text-muted">So many flavours!</span>
-
-<h2 class="section-heading">Not yet conviced? Try the Prologue!</h2>
-<p>
-In case you've made it here and are not yet convinced - we do have a <b>free</b> prologue for you to check out on Steam.
-</p>
-
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/1755950/" frameborder="0" width="646" height="190"></iframe></div>
-
-<h2 class="section-heading">The journey begins!</h2>
-
-<p>
-Thanks for following us on this chapter of our journey!</P>
-
-<p>
-From everyone here at Half Past Yellow, we're very pleased to share our creation with you and we sincerely hope you enjoy your <i>Time on Frog Island</i>! 💛
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/10/PolaroidLong.png" alt="A polaroid of Time on Frog Island characters">
-</div>
-<span class="caption text-muted">Wish you were here!</span>]]></content><author><name>Remy</name></author><summary type="html"><![CDATA[Let's gooo!]]></summary></entry></feed>
+</div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Time on Frog Island!]]></summary></entry></feed>

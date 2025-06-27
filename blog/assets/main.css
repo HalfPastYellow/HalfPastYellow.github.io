@@ -165,7 +165,7 @@ img::-moz-selection {
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(254.8725, 254.8725, 254.8725);
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
@@ -399,8 +399,8 @@ footer .copyright {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: rgb(0, 101.402173913, 122.75) !important;
+  border-color: rgb(0, 101.402173913, 122.75) !important;
 }
 
 .btn-lg {
