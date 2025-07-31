@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2025-06-27T13:33:05+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Summer News!</title><link href="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html" rel="alternate" type="text/html" title="Summer News!" /><published>2025-06-27T17:00:00+02:00</published><updated>2025-06-27T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2025/06/27/Summer-News</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html"><![CDATA[<p>It's been a minute since our last blog post so here's a quick list of what's going on to keep you all in the loop! We've got news across our whole catalog so do scroll on down so you don't miss anything! 👇⏬ </p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://halfpastyellow.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://halfpastyellow.com/blog/" rel="alternate" type="text/html" /><updated>2025-07-31T11:00:04+02:00</updated><id>https://halfpastyellow.com/blog/feed.xml</id><title type="html">Half Past Yellow | Blog</title><subtitle>Game Development and other HPY Happenings</subtitle><author><name>Half Past Yellow</name></author><entry><title type="html">Tempest Tower Launch News</title><link href="https://halfpastyellow.com/blog/2025/07/22/Tempest-Tower-Release-News.html" rel="alternate" type="text/html" title="Tempest Tower Launch News" /><published>2025-07-22T17:00:00+02:00</published><updated>2025-07-22T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2025/07/22/Tempest-Tower-Release-News</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/07/22/Tempest-Tower-Release-News.html"><![CDATA[<p>Strap yourself in because we have a truckload of news to drop on you this week. We have dropped the second Major Update for Tempest Tower, and it comes with news of a 1.0 launch date.</p>
+
+<h2 class="section-heading">Major Update 02</h2>
+<p>We have 3 big additions this update; Level Challenges, Stat Tracking, and a bunch of new Upgrades. If you ever wanted to recover health by stomping on enemies or transform your Dynamo Switch into an AOE lightning machine, then this is the update for you!</p>
+<p>Each level now has 3 challenges associated with it. These challenges can be completed in isolation, ticking them off one by one, or you can try and take out multiple in one go. Each challenge you clear will upgrade the Trophy displayed by that level portal. Can you get the elusive Platinum Trophy on every level of the game?!</p>
+<div class="text-center">
+<video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/21/TrophiesMov.mp4" type ="video/mp4"></>
+</div>
+
+<h2 class="section-heading">Releasing v1.0</h2>
+<p>It’s Happening, Tempest Tower will leave Early Access on the 19th of August, just ahead of Gamescom 😨</p>
+<p>The 1.0 update will bring new levels, enemies, buildings, and more. We are so excited to fully release Tempest Tower, check out the updated roadmap for more info.</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/21/Roadmap_03.png" alt="Tempest Tower Roadmap for 1.0">
+</div>
+
+<h2 class="section-heading">Join us at Gamescom</h2>
+<p>We will be showcasing Tempest Tower 1.0 at Gamescom in the Indie Arena Booth (located in Hall 10.2). If you are attending Gamescom, swing by and say hi! We are planning to have a high score competition so you shouldn’t miss out on flexing your skills for prizes. </p>
+<p>We are so excited to be showcasing Tempest Tower next to so many other awesome indie games. It will be our first time showcasing at such a large event and we can't wait to see what that is like 🎉</p>
+<div class="text-center">
+<img class="img-fluid bordered" style="max-width:60%" src="https://halfpastyellow.com/blog/img/posts/21/TemTow_IAB.jpg" alt="Tempest Tower Key Art">
+</div>
+<span class="caption text-muted">Gamescom here we come!</span>
+
+<h2 class="section-heading">Wishlist Tempest Tower</h2>
+<p>You can grab Tempest Tower right now via Steam Early Access or give it a wishlist so you are notified when it fully releases in August.</p>
+
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/3123800/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Strap yourself in because we have a truckload of news to drop on you this week. We have dropped the second Major Update for Tempest Tower, and it comes with news of a 1.0 launch date.]]></summary></entry><entry><title type="html">Summer News!</title><link href="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html" rel="alternate" type="text/html" title="Summer News!" /><published>2025-06-27T17:00:00+02:00</published><updated>2025-06-27T17:00:00+02:00</updated><id>https://halfpastyellow.com/blog/2025/06/27/Summer-News</id><content type="html" xml:base="https://halfpastyellow.com/blog/2025/06/27/Summer-News.html"><![CDATA[<p>It's been a minute since our last blog post so here's a quick list of what's going on to keep you all in the loop! We've got news across our whole catalog so do scroll on down so you don't miss anything! 👇⏬ </p>
 
 <h2 class="section-heading">A whole new world: Touch Grass Update for <i>Tempest Tower</i></h2>
 
@@ -497,79 +524,4 @@ A lot has changed since then and I’m so happy to finally be sharing Spectacle 
 <p>
 The HPY Discord is slowly growing. If you aren’t already a member of our little community, we would love to have you join and share your experiences with the <i>Spectacle</i> Demo. We are gearing up to announce something new soon and <a href="https://discord.com/invite/8TkpjHHVzZ">our Discord Server</a> is the best way to stay up to date. </P>
 
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[It's been... a while... Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 A lot has happened in that time, and we are excited to update you with this blog post and one coming next month.]]></summary></entry><entry><title type="html">Happy Holidays 2023!</title><link href="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html" rel="alternate" type="text/html" title="Happy Holidays 2023!" /><published>2022-12-22T16:00:00+01:00</published><updated>2022-12-22T16:00:00+01:00</updated><id>https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023</id><content type="html" xml:base="https://halfpastyellow.com/blog/2022/12/22/Happy-Holidays-2023.html"><![CDATA[<h2 class="section-heading">Thank you for playing Time on Frog Island!</h2>
-
-<p>
-Games take a monumental amount of time and effort to develop, and releasing is a scary moment for any studio. The community response to the game is everything we hoped for and more, seeing players enjoy their time on Frog Island has been so rewarding for us, and hearing fun stories from friends and fans never gets old. We hope this is just the first of many Half Past Yellow adventures that fans enjoy. 
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/10/GameplayTrailer_v02.mp4" type ="video/mp4"></>
-</div> 
-
-<p>
-For those of you who haven’t picked up the game yet, Time on Frog Island is part the winter sale on all platforms so there has never been a better time to buy! 
-</p>
-
-<p>
-<i>Time on Frog Island</i> is on sale digitally on:<br>
-<ul>
-<li> <u><a href="https://www.xbox.com/en-US/games/store/time-on-frog-island/9pmvswxvp8m5" target="_blank" rel="noopener noreferrer">Xbox</a></u> until January 3rd
-  <li> <u><a href="https://store.steampowered.com/app/1717510/" target="_blank" rel="noopener noreferrer">Steam</a></u> until January 5th
-  <li> <u><a href="https://store.epicgames.com/en-US/p/trading-time-b3ad0d" target="_blank" rel="noopener noreferrer">Epic Game Store</a></u> until January 5th
-  <li> <u><a href="https://www.nintendo.com/store/products/time-on-frog-island-switch/" target="_blank" rel="noopener noreferrer">Switch</a></u> until January 10th  
-  <li> <u><a href="https://store.playstation.com/en-us/concept/10003789/" target="_blank" rel="noopener noreferrer">PlayStation</a></u> until January 18th
-</ul>
-</p>
-
-<h2 class="section-heading">To the moon!</h2>
-
-<p>
-<i>Time on Frog Island</i> has also just launched on Amazon Luna as part of the Luna+ subscription bundle. This is the 8th platform that <i>Time on Frog Island</i> has been released on, and we are so excited to see what Luna users think of the game! 
-</P>
-
-<div class="text-center">
-<a href="https://www.amazon.com/luna/detail/B0BQ8DTM9Y" target="_blank" rel="noopener noreferrer"><img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/ToTheMoon.jpg" alt="Demo Image"></a>
-</div>
-<span class="caption text-muted">Tell your friends!</span> 
-
-<h2 class="section-heading">Patched up and ready to go</h2>
-
-<p>
-As of mid-November, our first bug-fixing patch for <i>Time on Frog Island</i> was released across all platforms. It took a while to make it onto consoles due to some logistical issues on our side, but everything is up and running now with everyone on the same version of the game. 
-</P>
-
-<p>
-The patch fixes a few niggling bugs seen around the island, plus some bigger bugs associated with The Merchant and The Blacksmith schedules not being properly updated. We have also fixed a bug blocking some players from getting the Frogs Legs, Sea Legs, and Yeet trophies/achievements (sorry about that trophy hunters). 
-</P>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/PatchedUp.jpg" alt="Demo Image">
-</div>
-<span class="caption text-muted">About time!</span>
-
-<h2 class="section-heading">Time on Frog Island OST now available!</h2>
-<p>
-It is now possible to take our cosy island vibes with you wherever you go! The <i>Time on Frog Island</i> soundtrack is now available for purchase on Steam. We don’t have a timeline yet, but we would like to bring the OST to other platforms (such as Spotify) as well. Let us know which ones you use! We will keep you posted on that progress. </p>
-
-<div class="text-center"><iframe src="https://store.steampowered.com/widget/1927320/" frameborder="0" width="646" height="190"></iframe></div>
-
-<h2 class="section-heading">What is next for Half Past Yellow?</h2>
-
-<p>
-At Half Past Yellow, we are consistently curious about different genres and technology. We will always bring the same HPY charm and style to all of our games, but each project will be different to the one that came before. We are really excited for 2023, production has already begun on our next project and we can’t wait until we get to show it off. Until then you will just have to keep your eyes peeled! 👁️
-</p>
-
-<div class="text-center">
-<img class="img-fluid bordered" src="https://halfpastyellow.com/blog/img/posts/11/HPYHols.png" alt="A polaroid of Time on Frog Island characters">
-</div>
-
-<h2 class="section-heading">See you on the other side!</h2>
-
-<p>
-That's it for now! From all of us here at HPY, we hope you have a relaxing holiday and a great year ahead of you!
-</p>
-
-<div class="text-center">
-  <video class="video-fluid bordered" autoplay loop controls muted src="https://halfpastyellow.com/blog/img/posts/5/Tree_Light.mp4" type ="video/mp4"></>
-</div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[Thank you for playing Time on Frog Island!]]></summary></entry></feed>
+<div class="text-center"><iframe src="https://store.steampowered.com/widget/2996710/" frameborder="0" width="646" height="190"></iframe></div>]]></content><author><name>Max</name></author><summary type="html"><![CDATA[It's been... a while... Wow, it has been a year and a half since our last blog post. Our biggest gap yet 🛹 A lot has happened in that time, and we are excited to update you with this blog post and one coming next month.]]></summary></entry></feed>
